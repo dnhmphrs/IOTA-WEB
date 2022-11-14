@@ -3,8 +3,8 @@
 
 /* APP */
 :root {
-	--background: #fafafa;
-	--primary: #232323;
+	--background: #232323;
+	--primary: #fafafa;
 	--primary-10: #2323231a;
 	--primary-30: #2323234d;
 	--primary-50: #23232380;
@@ -105,16 +105,16 @@
 
 /* END CUSTOM SCROLLBAR */
 
+body,
 html {
-	width: 100%;
-	height: 100%;
+	box-sizing: border-box;
 }
 
 body {
 	font-family: untitled-sans;
 	text-transform: uppercase;
-	background: var(--background);
 	color: var(--primary);
+	background: var(--background);
 }
 
 /* HEADING */
@@ -124,7 +124,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: untitled-sans;
+	font-family: nb-architekt;
 }
 h1 {
 	font-size: 120px;
