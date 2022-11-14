@@ -109,11 +109,5 @@
 	}
 
 	@media only screen and (max-width: 768px) {
-		main {
-			padding: 20px;
-		}
-		form {
-			padding-bottom: 0;
-		}
 	}
 </style>
