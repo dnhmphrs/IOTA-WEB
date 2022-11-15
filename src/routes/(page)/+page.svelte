@@ -1,13 +1,6 @@
 <script>
-	import { onMount } from 'svelte';
 	import FormField from '$lib/components/common/formField.svelte';
 	import Button from '$lib/components/common/button.svelte';
-	let Geometry;
-
-	onMount(async () => {
-		const module = await import('$lib/components/geometry/geometry.svelte');
-		Geometry = module.default;
-	});
 </script>
 
 <main>
@@ -30,7 +23,6 @@
 
 	<div class="shadow" />
 </main>
-<svelte:component this={Geometry} />
 
 <style>
 	main {
@@ -45,7 +37,7 @@
 		background: var(--background);
 
 		border: solid 1px var(--primary-50);
-		padding: 20px 30px;
+		padding: 20px;
 	}
 
 	.shadow {

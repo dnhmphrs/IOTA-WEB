@@ -30,13 +30,15 @@
 <style>
 	header,
 	footer {
-		primary: var(--primary);
 		border: solid 1px var(--primary);
 		padding: 20px;
 	}
 
 	main {
-		position: relative;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(calc(-50%), -50%);
 
 		padding: 20px;
 
@@ -101,26 +103,6 @@
 		padding: 20px;
 
 		overflow: hidden;
-	}
-
-	.bg {
-		width: 600%;
-		height: 600%;
-		background: linear-gradient(0.33turn, #f6a192, #ffd9df, #f6c492, #f6a192);
-		background-size: 200% 200%;
-		animation: Gradientprimary 50s ease infinite;
-	}
-
-	@keyframes Gradientprimary {
-		0% {
-			transform: translate(0, -50%);
-		}
-		50% {
-			transform: translate(-75%, 0);
-		}
-		100% {
-			transform: translate(0, -50%);
-		}
 	}
 
 	footer {
