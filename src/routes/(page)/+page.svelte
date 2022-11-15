@@ -12,8 +12,9 @@
 			<h4 class="title">IOTA</h4>
 		</div>
 
+		<div class="row accent">/ noun /</div>
 		<div class="row">
-			/ noun /<br /><br /> 1. the ninth letter of the Greek alphabet.
+			<br /> 1. the ninth letter of the Greek alphabet.
 			<br /><br />2. an extremely small amount.
 			<br /><br />3. A mental state tracking application.
 		</div>
@@ -34,10 +35,10 @@
 		width: 480px;
 		max-width: calc(100vw - 40px);
 
-		transform: translate(calc(-50% + 5px), -50%);
+		transform: translate(calc(-50% + 6px), -50%);
 		background: var(--background);
 
-		border: solid 1px var(--primary-50);
+		border: solid 1px var(--accent);
 		padding: 40px;
 		padding-bottom: 48px;
 	}
@@ -50,13 +51,13 @@
 
 		height: 100%;
 		width: 100%;
-		transform: translate(calc(-50% - 10px), calc(-50% - 10px));
+		transform: translate(calc(-50% - 13px), calc(-50% - 13px));
 		background: var(--background);
 		border: solid 1px var(--primary-50);
 	}
 
 	.shift {
-		transform: translate(-5px, 0px);
+		transform: translate(-6px, 0px);
 	}
 
 	input {
@@ -82,6 +83,10 @@
 		width: 100%;
 		display: flex;
 		align-items: center;
+	}
+
+	.accent {
+		color: var(--accent);
 	}
 
 	.row.right {
