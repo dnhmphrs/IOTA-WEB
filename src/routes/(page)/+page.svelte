@@ -2,12 +2,12 @@
 	import { onMount } from 'svelte';
 	import FormField from '$lib/components/common/formField.svelte';
 	import Button from '$lib/components/common/button.svelte';
-	// let Geometry;
+	let Geometry;
 
-	// onMount(async () => {
-	// 	const module = await import('$lib/components/geometry/geometry.svelte');
-	// 	Geometry = module.default;
-	// });
+	onMount(async () => {
+		const module = await import('$lib/components/geometry/geometry.svelte');
+		Geometry = module.default;
+	});
 </script>
 
 <main>
@@ -27,9 +27,10 @@
 		</div>
 		<br />
 	</div>
-	<!-- <svelte:component this={Geometry} /> -->
+
 	<div class="shadow" />
 </main>
+<svelte:component this={Geometry} />
 
 <style>
 	main {
@@ -43,7 +44,7 @@
 		transform: translate(calc(-50% + 5px), -50%);
 		background: var(--background);
 
-		border: solid 1px var(--primary);
+		border: solid 1px var(--primary-50);
 		padding: 20px 30px;
 	}
 
@@ -57,7 +58,7 @@
 		width: 100%;
 		transform: translate(calc(-50% - 10px), calc(-50% - 10px));
 		background: var(--background);
-		border: solid 1px var(--primary);
+		border: solid 1px var(--primary-50);
 	}
 
 	.shift {
