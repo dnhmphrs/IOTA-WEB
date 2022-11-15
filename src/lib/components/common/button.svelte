@@ -6,10 +6,10 @@
 
 	let classString = 'btn';
 	if (disabled) {
-		classString = size.concat(' ', 'disabled');
+		classString = size.concat(' ', 'btn disabled');
 	} else {
 		if (active) {
-			classString = size.concat(' ', 'active');
+			classString = size.concat(' ', 'btn active');
 		} else {
 			classString = 'btn ' + size;
 		}
@@ -32,7 +32,7 @@
 
 	.disabled,
 	.disabled:hover {
-		opacity: 0.5;
+		opacity: 0.2;
 		cursor: default;
 		color: var(--primary);
 	}

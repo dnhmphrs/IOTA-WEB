@@ -272,11 +272,17 @@ a.sml {
 	}
 
 	/* BUTTON */
-
-	a.lrg {
-		font-size: 16px;
+	p.btn,
+	a {
+		letter-spacing: 0.05em;
 	}
 
+	p.btn.lrg,
+	a.lrg {
+		font-size: 17px;
+	}
+
+	p.btn.sml,
 	a.sml {
 		font-size: 14px;
 	}

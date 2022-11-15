@@ -21,7 +21,12 @@
 		<div class="row ">3. A mental state tracking application.</div>
 		<br />
 
-		<div class="row right muted"><Button text="enter" size="lrg" /></div>
+		<div class="row center muted">
+			<Button text="learn more" size="lrg" disabled="true" />
+			<a class="lrg" href="https://app.iota.health" target="_blank"
+				><Button text="app beta" size="lrg" /></a
+			>
+		</div>
 	</div>
 
 	<div class="shadow" />
@@ -59,7 +64,7 @@
 	}
 
 	.shift {
-		transform: translate(-6px, 0px);
+		transform: translate(-12px, 0px);
 	}
 
 	input {
@@ -91,8 +96,10 @@
 		color: var(--primary-50);
 	}
 
-	.row.right {
+	.row.center {
 		justify-content: center;
+
+		gap: 32px;
 		margin-top: 10px;
 	}
 
@@ -114,6 +121,10 @@
 		main {
 			padding: 32px;
 			padding-bottom: 48px;
+		}
+
+		.row.center {
+			gap: 24px;
 		}
 	}
 </style>
