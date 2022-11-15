@@ -34,7 +34,7 @@
 		left: 50%;
 
 		width: 480px;
-		max-width: calc(100vw - 80px);
+		max-width: calc(100vw - 62px);
 
 		transform: translate(calc(-50% + 6px), -50%);
 		background: var(--background);
