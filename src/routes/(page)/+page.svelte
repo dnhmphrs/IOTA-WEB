@@ -8,11 +8,11 @@
 		<div class="row">
 			<p class="field" />
 		</div>
-		<div class="row">
-			<h4 class="title">IOTA</h4>
+		<div class="row ">
+			<h4 class="title accent">IOTA</h4>
 		</div>
 
-		<div class="row accent">/ noun /</div>
+		<div class="row ">/ noun /</div>
 		<br />
 		<div class="row ">1. the ninth letter of the Greek alphabet.</div>
 		<br />
@@ -34,7 +34,7 @@
 		left: 50%;
 
 		width: 480px;
-		max-width: calc(100vw - 40px);
+		max-width: calc(100vw - 80px);
 
 		transform: translate(calc(-50% + 6px), -50%);
 		background: var(--background);
