@@ -13,11 +13,12 @@
 		</div>
 
 		<div class="row accent">/ noun /</div>
-		<div class="row">
-			<br /> 1. the ninth letter of the Greek alphabet.
-			<br /><br />2. an extremely small amount.
-			<br /><br />3. A mental state tracking application.
-		</div>
+		<br />
+		<div class="row ">1. the ninth letter of the Greek alphabet.</div>
+		<br />
+		<div class="row ">2. an extremely small amount.</div>
+		<br />
+		<div class="row ">3. A mental state tracking application.</div>
 		<br />
 
 		<div class="row right"><Button text="enter" size="lrg" /></div>
