@@ -9,7 +9,7 @@
 			<p class="field" />
 		</div>
 		<div class="row ">
-			<h4 class="title">IOTA</h4>
+			<h4 class="title accent">IOTA</h4>
 		</div>
 
 		<div class="row ">/ noun /</div>
