@@ -12,7 +12,7 @@
 			<h4 class="title">IOTA</h4>
 		</div>
 
-		<div class="row ">/ noun /</div>
+		<div class="row muted">/ noun /</div>
 		<br />
 		<div class="row ">1. the ninth letter of the Greek alphabet.</div>
 		<br />
@@ -21,7 +21,7 @@
 		<div class="row ">3. A mental state tracking application.</div>
 		<br />
 
-		<div class="row right"><Button text="enter" size="lrg" /></div>
+		<div class="row right muted"><Button text="enter" size="lrg" /></div>
 	</div>
 
 	<div class="shadow" />
@@ -87,8 +87,8 @@
 		align-items: center;
 	}
 
-	.accent {
-		color: var(--accent);
+	.muted {
+		color: var(--primary-50);
 	}
 
 	.row.right {
@@ -107,12 +107,13 @@
 	}
 
 	form {
-		padding-bottom: 10px;
+		padding-bottom: 8px;
 	}
 
 	@media only screen and (max-width: 768px) {
 		main {
 			padding: 32px;
+			padding-bottom: 48px;
 		}
 	}
 </style>
