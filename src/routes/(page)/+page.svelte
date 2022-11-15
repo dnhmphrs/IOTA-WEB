@@ -39,7 +39,7 @@
 
 		border: solid 1px var(--primary-50);
 		padding: 40px;
-		padding-bottom: 40px;
+		padding-bottom: 48px;
 	}
 
 	.shadow {
