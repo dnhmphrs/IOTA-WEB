@@ -11,7 +11,7 @@
 		if (active) {
 			classString = size.concat(' ', 'active');
 		} else {
-			classString = size;
+			classString = 'btn ' + size;
 		}
 	}
 </script>
