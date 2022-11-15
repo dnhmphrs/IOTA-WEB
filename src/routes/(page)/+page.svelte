@@ -10,15 +10,16 @@
 		</div>
 		<div class="row">
 			<h4 class="title">IOTA</h4>
-			<div>
-				<p>mental state tracking</p>
-				<Button text="→ enter" />
-			</div>
 		</div>
+
 		<div class="row">
-			<p class="field" />
+			/ noun /<br /><br /> 1. the ninth letter of the Greek alphabet.
+			<br /><br />2. an extremely small amount.
+			<br /><br />3. A mental state tracking application.
 		</div>
 		<br />
+
+		<div class="row right"><Button text="enter" size="lrg" /></div>
 	</div>
 
 	<div class="shadow" />
@@ -30,14 +31,15 @@
 		top: 50%;
 		left: 50%;
 
-		width: 400px;
+		width: 480px;
 		max-width: calc(100vw - 40px);
 
 		transform: translate(calc(-50% + 5px), -50%);
 		background: var(--background);
 
 		border: solid 1px var(--primary-50);
-		padding: 20px;
+		padding: 40px;
+		padding-bottom: 40px;
 	}
 
 	.shadow {
@@ -83,7 +85,7 @@
 	}
 
 	.row.right {
-		justify-content: end;
+		justify-content: center;
 		margin-top: 10px;
 	}
 
