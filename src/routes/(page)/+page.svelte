@@ -9,7 +9,7 @@
 			<p class="field" />
 		</div>
 		<div class="row ">
-			<h4 class="title accent">IOTA</h4>
+			<h4 class="title">IOTA</h4>
 		</div>
 
 		<div class="row ">/ noun /</div>
@@ -42,6 +42,7 @@
 		border: solid 1px var(--accent);
 		padding: 40px;
 		padding-bottom: 48px;
+		color: var(--accent);
 	}
 
 	.shadow {
@@ -54,7 +55,7 @@
 		width: 100%;
 		transform: translate(calc(-50% - 13px), calc(-50% - 13px));
 		background: var(--background);
-		border: solid 1px var(--primary-50);
+		border: solid 1px var(--accent);
 	}
 
 	.shift {
