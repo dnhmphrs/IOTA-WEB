@@ -1,7 +1,7 @@
 <script>
 	import '../../app.css';
 	import { onMount } from 'svelte';
-	import Header from '$lib/components/header/header.svelte';
+	// import Header from '$lib/components/header/header.svelte';
 	let Geometry;
 
 	onMount(async () => {
@@ -15,7 +15,7 @@
 </svelte:head>
 
 <!-- <Header /> -->
-<svelte:component this={Geometry} class="tmp" />
+<svelte:component this={Geometry} class="geometry" />
 <main>
 	<slot />
 </main>
@@ -29,7 +29,7 @@
 		justify-content: center;
 	}
 
-	.tmp {
+	.geometry {
 		position: absolute;
 		top: 0;
 		left: 0;
