@@ -84,6 +84,8 @@
 
 	h4 {
 		font-family: nb-architekt;
+		font-weight: 400;
+		/* letter-spacing: 1px; */
 	}
 
 	.row {
