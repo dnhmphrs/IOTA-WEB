@@ -116,6 +116,7 @@ body {
 	text-transform: uppercase;
 	color: var(--primary);
 	background: var(--background);
+	font-weight: 300;
 }
 
 /* HEADING */

@@ -35,14 +35,14 @@
 		display: flex;
 		justify-content: left;
 		color: var(--accent);
-		border-bottom: solid 1px var(--accent);
+		border-bottom: solid 1px var(--primary);
 	}
 
 	section {
 		width: 100%;
 		height: 100%;
 
-		border-bottom: solid 1px var(--accent);
+		border-bottom: solid 1px var(--primary);
 
 		display: flex;
 		justify-content: left;

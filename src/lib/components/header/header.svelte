@@ -47,7 +47,7 @@
 		height: 70px;
 		/* border-bottom: solid 1px var(--accent); */
 		user-select: none;
-		color: var(--accent);
+		color: var(--primary);
 	}
 
 	.darkMode {
