@@ -13,6 +13,17 @@
 	--error: #be4040;
 }
 
+:root.light-mode {
+	--background: #006eb3;
+	--background-50: #dcdcdc80;
+	--primary: #f0f0f0;
+	--primary-10: #f0f0f01a;
+	--primary-30: #f0f0f04d;
+	--primary-50: #f0f0f080;
+	--accent: #f0f0f0;
+	--error: #be4040;
+}
+
 /*
 // dark
 :root {
@@ -29,7 +40,7 @@
 /*
 // light
 :root {
-	--background: #f0f0f0;
+	--background: #ececec;
 	--primary: #232323;
 	--primary-10: #2323231a;
 	--primary-30: #2323234d;
@@ -60,6 +71,13 @@
 @font-face {
 	font-family: untitled-sans;
 	src: url(/fonts/test-untitled-sans-light.woff2) format('woff2');
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: untitled-sans;
+	src: url(/fonts/test-untitled-sans-regular.woff2) format('woff2');
+	font-weight: 400;
 }
 
 @font-face {
