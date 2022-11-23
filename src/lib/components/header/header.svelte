@@ -44,7 +44,7 @@
 		justify-content: space-between;
 		align-items: center;
 		padding: 0 20px;
-		height: 50px;
+		height: 70px;
 		/* border-bottom: solid 1px var(--accent); */
 		user-select: none;
 		color: var(--accent);
