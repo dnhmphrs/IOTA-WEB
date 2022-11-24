@@ -5,7 +5,7 @@
 :root {
 	--background: #232323;
 	--background-50: #23232380;
-	--primary: #e0e0e0;
+	--primary: #00958a;
 	--primary-10: #e0e0e01a;
 	--primary-30: #e0e0e04d;
 	--primary-50: #e0e0e080;
@@ -17,7 +17,7 @@
 :root.light-mode {
 	--background: #f0f0f0;
 	--background-50: #f0f0f080;
-	--primary: #232323;
+	--primary: #00958a;
 	--primary-10: #2323231a;
 	--primary-30: #2323234d;
 	--primary-50: #23232380;
@@ -25,32 +25,6 @@
 	--error: #be4040;
 	font-weight: 400;
 }
-
-/*
-// dark
-:root {
-	--background: #171717;
-	--primary: #f4f4f4;
-	--primary-10: #f4f4f41a;
-	--primary-30: #f4f4f44d;
-	--primary-50: #f4f4f480;
-	--accent: #5ca755;
-	--error: #be4040;
-}
-*/
-
-/*
-// light
-:root {
-	--background: #ececec;
-	--primary: #232323;
-	--primary-10: #2323231a;
-	--primary-30: #2323234d;
-	--primary-50: #23232380;
-	--accent: #a055a7;
-	--error: #be4040;
-}
-*/
 
 @font-face {
 	font-family: nb-architekt;
