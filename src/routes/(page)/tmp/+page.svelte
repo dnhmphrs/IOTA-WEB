@@ -14,7 +14,7 @@
 		<div class="nav__tab"><h6>TIMELINE</h6></div>
 		<div class="nav__tab end"><h6>APP</h6></div>
 	</nav> -->
-	<section class="opaque alt">
+	<section class="opaque alt top">
 		<About />
 	</section>
 
@@ -111,7 +111,15 @@
 
 	@media only screen and (max-width: 768px) {
 		header {
-			height: 200px;
+			height: 240px;
+			padding-left: 40px;
+			background: var(--background);
+			border-bottom: none;
+			align-items: flex-start;
+		}
+
+		.top {
+			padding-top: 40px;
 		}
 
 		header h6 {
