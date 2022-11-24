@@ -12,7 +12,9 @@
 		<div class="nav__tab end"><h6>APP</h6></div>
 	</nav> -->
 	<section class="opaque" />
+
 	<section />
+	<section class="opaque alt" />
 </main>
 
 <style>
@@ -47,7 +49,7 @@
 
 	section {
 		width: 100%;
-		height: 100%;
+		height: 80%;
 
 		border-bottom: solid 1px var(--primary);
 
@@ -58,6 +60,11 @@
 
 	section.opaque {
 		background: var(--background);
+	}
+
+	section.opaque.alt {
+		background: var(--accent);
+		height: 400px;
 	}
 
 	h5 {

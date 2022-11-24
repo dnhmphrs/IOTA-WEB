@@ -32,9 +32,9 @@
 	nav a,
 	nav p {
 		line-height: 110%;
-		font-weight: 500;
+
 		letter-spacing: 0.05em;
-		padding: 10px;
+		padding: 16px;
 		cursor: pointer;
 	}
 

@@ -4,7 +4,7 @@
 	// stub data out
 	const navItems = [
 		{
-			name: 'IOTA',
+			name: 'iOTA',
 			href: ''
 		},
 		{
