@@ -2,7 +2,7 @@
 /* putting custom CSS before `@tailwind utilities;` so utilities can override it */
 
 /* APP */
-:root {
+/* :root {
 	--background: linear-gradient(90deg, rgba(217, 230, 159, 1) 0%, rgba(244, 244, 244, 1) 100%);
 	--background-50: #ede7d980;
 	--background-alt: linear-gradient(90deg, #232323, #171717);
@@ -13,11 +13,12 @@
 	--accent: #232323;
 	--error: #be4040;
 	font-weight: 300;
-}
+} */
 
 :root.dark-mode {
+	--black: #202020;
 	--background: linear-gradient(90deg, #232323, #171717);
-	--background-50: #23232380;
+	--background-50: linear-gradient(90deg, #23232380, #17171780);
 	--background-alt: linear-gradient(90deg, #232323, #171717);
 	--primary: #ede7d9;
 	--primary-10: #00958a1a;
@@ -100,14 +101,13 @@
 body,
 html {
 	box-sizing: border-box;
-	background: #202020;
+	background: var(--black);
 }
 
 body {
 	font-family: untitled-sans;
 	text-transform: uppercase;
 	color: var(--primary);
-
 	background: var(--background);
 }
 
