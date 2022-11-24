@@ -91,7 +91,7 @@
 
 	section.opaque.alt {
 		background: var(--accent);
-		height: 320px;
+		height: 50%;
 	}
 
 	h5 {
@@ -101,9 +101,6 @@
 	@media only screen and (max-width: 768px) {
 		header {
 			height: 70%;
-		}
-
-		header h1 {
 		}
 
 		header p {
