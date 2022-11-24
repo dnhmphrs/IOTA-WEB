@@ -100,7 +100,7 @@
 
 	@media only screen and (max-width: 768px) {
 		header {
-			height: 70%;
+			height: 90%;
 		}
 
 		header p {
