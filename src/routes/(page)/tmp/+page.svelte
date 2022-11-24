@@ -110,7 +110,7 @@
 
 	@media only screen and (max-width: 768px) {
 		header {
-			height: 75%;
+			height: calc(100% - 60px);
 		}
 
 		header h6 {
