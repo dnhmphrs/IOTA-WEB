@@ -16,10 +16,10 @@
 } */
 
 :root.dark-mode {
-	--black: #202020;
-	--background: linear-gradient(90deg, #232323, #171717);
-	--background-50: linear-gradient(90deg, #23232380, #17171780);
-	--background-alt: linear-gradient(90deg, #232323, #171717);
+	--black: #191919;
+	--background: linear-gradient(90deg, #1b1b1b, #171717);
+	--background-50: linear-gradient(90deg, #1b1b1b80, #17171780);
+	--background-alt: linear-gradient(90deg, #1b1b1b, #171717);
 	--primary: #ede7d9;
 	--primary-10: #00958a1a;
 	--primary-30: #00958a4d;
@@ -217,9 +217,6 @@ a.sml {
 
 /* MOBILE SCREENS */
 @media only screen and (max-width: 768px) {
-	body {
-		background: var(--black);
-	}
 	/* HEADING */
 	h1 {
 		font-size: 96px;
