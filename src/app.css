@@ -15,8 +15,8 @@
 }
 
 :root.light-mode {
-	--background: #dadada;
-	--background-50: #dadada80;
+	--background: #d0d0d0;
+	--background-50: #d0d0d080;
 	--primary: #2b2b2b;
 	--primary-10: #2b2b2b1a;
 	--primary-30: #2b2b2b4d;
