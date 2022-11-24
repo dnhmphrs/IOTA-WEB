@@ -54,8 +54,6 @@
 	}
 
 	header h1 {
-		color: var(--background);
-		-webkit-text-stroke: 1px var(--accent);
 		margin-right: 6px;
 	}
 
