@@ -12,6 +12,10 @@
 			href: '#whitepaper'
 		},
 		{
+			name: 'APP',
+			href: '#app'
+		},
+		{
 			name: 'SYSTEM',
 			href: '#system'
 		},
