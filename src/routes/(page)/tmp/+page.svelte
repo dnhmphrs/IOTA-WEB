@@ -44,7 +44,7 @@
 	header {
 		width: 100%;
 
-		height: calc(100% - 60px);
+		height: 76%;
 
 		display: flex;
 		flex-flow: column nowrap;
@@ -110,7 +110,7 @@
 
 	@media only screen and (max-width: 768px) {
 		header {
-			/* height: calc(100% - 60px); */
+			height: calc(100% - 60px);
 		}
 
 		header h6 {
