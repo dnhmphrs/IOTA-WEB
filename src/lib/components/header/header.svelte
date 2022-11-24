@@ -51,7 +51,7 @@
 		z-index: 20;
 
 		display: flex;
-		justify-content: space-between;
+		justify-content: space-around;
 		align-items: center;
 		padding: 0 20px;
 		height: 70px;
@@ -64,6 +64,8 @@
 
 	.darkMode {
 		display: flex;
+		position: absolute;
+		right: 20px;
 	}
 
 	.darkMode p {

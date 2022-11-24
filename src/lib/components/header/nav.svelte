@@ -16,7 +16,9 @@
 
 <nav>
 	{#each navItems as navItem}
-		<a href={navItem.href} class:active={navItem.href === $page.url.pathname}>{navItem.name}</a>
+		<a href={navItem.href} class="lrg" class:active={navItem.href === $page.url.pathname}
+			>{navItem.name}</a
+		>
 	{/each}
 
 	<!-- <a href="https://aufbau.io" target="_blank">EIN AUFBAU DING</a> -->
@@ -30,7 +32,7 @@
 	nav a,
 	nav p {
 		line-height: 110%;
-
+		font-weight: 500;
 		letter-spacing: 0.05em;
 		padding: 10px;
 		cursor: pointer;
