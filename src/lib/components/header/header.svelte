@@ -58,12 +58,12 @@
 		justify-content: space-around;
 		align-items: center;
 		padding: 0 20px;
-		height: 70px;
-		/* border-bottom: solid 1px var(--accent); */
+		height: 60px;
+
 		user-select: none;
 		color: var(--primary);
-		border-bottom: solid 1px var(--primary);
-		background: var(--background);
+		/* border-bottom: solid 1px var(--primary); */
+		background: var(--background-50);
 	}
 
 	.darkMode {
