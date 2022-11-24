@@ -13,7 +13,7 @@
 		width: 200px;
 
 		transform: translate(-50%, -50%);
-		background: var(--background-alt);
+		background: var(--black);
 
 		border: solid 1px var(--accent);
 		padding: 20px 40px;
