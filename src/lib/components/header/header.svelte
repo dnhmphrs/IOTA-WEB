@@ -74,7 +74,7 @@
 
 	.darkMode p {
 		line-height: 110%;
-		font-weight: 400;
+
 		letter-spacing: 0.05em;
 		padding: 10px;
 		cursor: pointer;
