@@ -1,8 +1,8 @@
 <script>
 	import '../app.css';
 	import { onMount } from 'svelte';
+	import { screenType } from '$lib/store/store';
 
-	let screenType;
 	onMount(async () => {
 		// ---------------------------------------------------------------------------
 		// HEIGHT
@@ -25,17 +25,17 @@
 		const ua = navigator.userAgent;
 		if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
 			// tablet
-			screenType = 1;
+			screenType.set(2);
 		} else if (
 			/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(
 				ua
 			)
 		) {
 			// phone
-			screenType = 2;
+			screenType.set(3);
 		} else {
 			//laptop
-			screenType = 3;
+			screenType.set(1);
 		}
 	});
 </script>

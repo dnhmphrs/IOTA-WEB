@@ -1,5 +1,4 @@
 <script>
-	import { user } from '$lib/store/store';
 	import { page } from '$app/stores';
 
 	let loggedIn = false;

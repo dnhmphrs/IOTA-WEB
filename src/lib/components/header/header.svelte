@@ -1,6 +1,6 @@
 <script>
 	import Nav from './nav.svelte';
-	import { darkMode } from '$lib/store/store';
+	import { darkMode, screenType } from '$lib/store/store';
 	// stub data out
 	const navItems = [
 		{
@@ -37,12 +37,14 @@
 </script>
 
 <header>
-	<Nav {navItems} />
-	<!-- <div on:click={() => toggleDarkMode()} class="darkMode">
+	{#if $screenType == 1}
+		<Nav {navItems} />
+		<!-- <div on:click={() => toggleDarkMode()} class="darkMode">
 		<p class:selected={$darkMode == false}>day</p>
 		<p class="selected">/</p>
 		<p class:selected={$darkMode == true}>night</p>
 	</div> -->
+	{/if}
 </header>
 
 <style>
