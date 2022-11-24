@@ -57,11 +57,11 @@
 	}
 
 	header p {
+		margin-left: 14px;
 		letter-spacing: 7.5px;
 	}
 
 	header h1 {
-		margin-right: 14px;
 		color: var(--accent);
 		/* -webkit-text-stroke: 1px var(--primary); */
 	}
@@ -104,11 +104,11 @@
 		}
 
 		header h1 {
-			margin-right: 0;
 		}
 
 		header p {
 			letter-spacing: 0px;
+			margin-left: 0;
 		}
 	}
 </style>
