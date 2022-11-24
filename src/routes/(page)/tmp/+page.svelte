@@ -17,6 +17,10 @@
 		<About />
 	</section>
 
+	<section class="opaque eighty" />
+	<section class="eighty" />
+
+	<section class="opaque eighty" />
 	<section class="eighty" />
 	<section class="opaque alt" />
 </main>
@@ -39,12 +43,13 @@
 	header {
 		width: 100%;
 
-		height: 67%;
+		height: calc(67%);
 
 		display: flex;
 		flex-flow: column nowrap;
 
 		border-bottom: solid 1px var(--accent);
+		background: var(--background-50);
 
 		display: flex;
 		align-items: center;
@@ -86,7 +91,7 @@
 
 	section.opaque.alt {
 		background: var(--accent);
-		height: 400px;
+		height: 320px;
 	}
 
 	h5 {
