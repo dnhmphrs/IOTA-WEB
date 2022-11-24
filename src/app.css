@@ -5,7 +5,7 @@
 :root {
 	--background: linear-gradient(90deg, rgba(217, 230, 159, 1) 0%, rgba(244, 244, 244, 1) 100%);
 	--background-50: #ede7d980;
-	--background-alt: #232323;
+	--background-alt: linear-gradient(90deg, #232323, #171717);
 	--primary: #ede7d9;
 	--primary-10: #2323231a;
 	--primary-30: #2323234d;
@@ -16,9 +16,9 @@
 }
 
 :root.dark-mode {
-	--background: #232323;
+	--background: linear-gradient(90deg, #232323, #171717);
 	--background-50: #23232380;
-	--background-alt: #232323;
+	--background-alt: linear-gradient(90deg, #232323, #171717);
 	--primary: #ede7d9;
 	--primary-10: #00958a1a;
 	--primary-30: #00958a4d;
@@ -100,12 +100,14 @@
 body,
 html {
 	box-sizing: border-box;
+	background: #202020;
 }
 
 body {
 	font-family: untitled-sans;
 	text-transform: uppercase;
 	color: var(--primary);
+
 	background: var(--background);
 }
 

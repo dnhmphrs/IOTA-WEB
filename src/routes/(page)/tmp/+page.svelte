@@ -101,7 +101,7 @@
 
 	footer {
 		background: var(--background);
-		border-bottom: none;
+		border-bottom: solid 100% var(--background);
 	}
 
 	h5 {
