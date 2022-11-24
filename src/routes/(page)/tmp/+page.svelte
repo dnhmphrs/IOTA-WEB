@@ -4,12 +4,10 @@
 </script>
 
 <main>
-	{#if $screenType == 1}
-		<header>
-			<h1>iOTA</h1>
-			<h6>MENTAL STATE TRACKING</h6>
-		</header>
-	{/if}
+	<header>
+		<h1>iOTA</h1>
+		<h6>MENTAL STATE TRACKING</h6>
+	</header>
 	<!-- <nav>
 		<div class="nav__tab active"><h6>ABOUT</h6></div>
 		<div class="nav__tab"><h6>WHITE PAPER</h6></div>
@@ -113,7 +111,7 @@
 
 	@media only screen and (max-width: 768px) {
 		header {
-			height: calc(100% - 60px);
+			height: 200px;
 		}
 
 		header h6 {

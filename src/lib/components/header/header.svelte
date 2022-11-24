@@ -42,10 +42,6 @@
 		<div class="app_link">
 			<p>GO TO APP</p>
 		</div>
-	{:else}
-		<div class="logo">
-			<h4>iOTA</h4>
-		</div>
 	{/if}
 
 	<!-- <div on:click={() => toggleDarkMode()} class="darkMode">
@@ -109,8 +105,5 @@
 	}
 
 	@media only screen and (max-width: 768px) {
-		header {
-			height: 72px;
-		}
 	}
 </style>
