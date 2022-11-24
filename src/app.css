@@ -3,8 +3,8 @@
 
 /* APP */
 :root {
-	--background: #171717;
-	--background-50: #17171780;
+	--background: #181818;
+	--background-50: #18181880;
 	--primary: #9fe2bf;
 	--primary-10: #00958a1a;
 	--primary-30: #00958a4d;
@@ -17,11 +17,11 @@
 :root.light-mode {
 	--background: #9fe2bf;
 	--background-50: #9fe2bf80;
-	--primary: #2b2b2b;
+	--primary: #181818;
 	--primary-10: #2b2b2b1a;
 	--primary-30: #2b2b2b4d;
 	--primary-50: #2b2b2b80;
-	--accent: #2b2b2b;
+	--accent: #181818;
 	--error: #be4040;
 	font-weight: 400;
 }
@@ -114,7 +114,6 @@ h3,
 h4,
 h5,
 h6 {
-	color: var(--primary);
 	text-transform: none;
 }
 h1 {

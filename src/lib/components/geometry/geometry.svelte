@@ -151,7 +151,7 @@
 <style>
 	.geometry {
 		overflow: hidden;
-
+		opacity: 0.5;
 		z-index: -10;
 	}
 </style>

@@ -13,7 +13,7 @@
 		<div class="nav__tab"><h6>TIMELINE</h6></div>
 		<div class="nav__tab end"><h6>APP</h6></div>
 	</nav> -->
-	<section class="opaque">
+	<section class="opaque alt">
 		<About />
 	</section>
 
@@ -22,7 +22,7 @@
 
 	<section class="opaque eighty" />
 	<section class="eighty" />
-	<section class="opaque alt" />
+	<section class="opaque alt fifty" />
 </main>
 
 <style>
@@ -31,7 +31,6 @@
 		top: 0;
 		left: 50%;
 		transform: translate(-50%, 0);
-		background: var(--background-50);
 
 		height: 100%;
 		width: 100%;
@@ -44,7 +43,7 @@
 	header {
 		width: 100%;
 
-		height: calc(67%);
+		height: 75%;
 
 		display: flex;
 		flex-flow: column nowrap;
@@ -88,9 +87,13 @@
 		height: 80%;
 	}
 
+	section.fifty {
+		height: 50%;
+	}
+
 	section.opaque.alt {
 		background: var(--accent);
-		height: 50%;
+		color: var(--background);
 	}
 
 	h5 {
