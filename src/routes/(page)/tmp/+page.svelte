@@ -1,12 +1,15 @@
 <script>
 	import About from '$lib/components/sections/about.svelte';
+	import { screenType } from '$lib/store/store';
 </script>
 
 <main>
-	<header>
-		<h1>iOTA</h1>
-		<h6>MENTAL STATE TRACKING</h6>
-	</header>
+	{#if $screenType == 1}
+		<header>
+			<h1>iOTA</h1>
+			<h6>MENTAL STATE TRACKING</h6>
+		</header>
+	{/if}
 	<!-- <nav>
 		<div class="nav__tab active"><h6>ABOUT</h6></div>
 		<div class="nav__tab"><h6>WHITE PAPER</h6></div>

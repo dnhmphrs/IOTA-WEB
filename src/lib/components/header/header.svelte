@@ -37,19 +37,22 @@
 </script>
 
 <header>
-	{#if $screenType}
-		{#if $screenType == 1}
-			<Nav {navItems} />
-		{/if}
+	{#if $screenType == 1}
+		<Nav {navItems} />
 		<div class="app_link">
 			<p>GO TO APP</p>
 		</div>
-		<!-- <div on:click={() => toggleDarkMode()} class="darkMode">
+	{:else}
+		<div class="logo">
+			<h4>iOTA</h4>
+		</div>
+	{/if}
+
+	<!-- <div on:click={() => toggleDarkMode()} class="darkMode">
 			<p class:selected={$darkMode == false}>day</p>
 			<p class="selected">/</p>
 			<p class:selected={$darkMode == true}>night</p>
 		</div> -->
-	{/if}
 </header>
 
 <style>
@@ -82,6 +85,16 @@
 		opacity: 0.3;
 	}
 
+	.logo {
+		padding: 20px 16px;
+		font-family: untittled-serif;
+		text-transform: none;
+	}
+
+	.tag {
+		padding: 20px 16px;
+	}
+
 	.darkMode p {
 		line-height: 110%;
 
@@ -93,5 +106,11 @@
 
 	.darkMode p.selected {
 		opacity: 1;
+	}
+
+	@media only screen and (max-width: 768px) {
+		header {
+			height: 72px;
+		}
 	}
 </style>

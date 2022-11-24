@@ -63,7 +63,7 @@
 <!-- {#if screenType == 1 || screenType == 2} -->
 {#if false}
 	<div id="phoneBlock"><p class="sml">wip, use desktop</p></div>
-{:else}
+{:else if $screenType}
 	<main><slot /></main>
 {/if}
 
