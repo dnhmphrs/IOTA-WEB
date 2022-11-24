@@ -47,6 +47,11 @@
 		justify-content: center;
 	}
 
+	h1 {
+		color: var(--background);
+		-webkit-text-stroke: 1px var(--accent);
+	}
+
 	section {
 		width: 100%;
 		height: 80%;
