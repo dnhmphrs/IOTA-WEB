@@ -42,7 +42,7 @@
 	let pcMat = new THREE.PointsMaterial();
 	pcMat.color = new THREE.Color(0x00958a);
 	pcMat.transparent = true;
-	pcMat.size = 0.04;
+	pcMat.size = 0.05;
 	// pcMat.blending = THREE.AdditiveBlending;
 	pc = new THREE.Points(geometry, pcMat);
 	pc.sizeAttenuation = true;

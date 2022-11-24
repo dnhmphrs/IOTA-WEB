@@ -49,7 +49,7 @@
 		flex-flow: column nowrap;
 
 		border-bottom: solid 1px var(--accent);
-		/* background: var(--background-50); */
+		background: var(--background-50);
 
 		display: flex;
 		align-items: center;
@@ -72,7 +72,7 @@
 		height: auto;
 
 		padding: 160px;
-
+		background: var(--background-50);
 		border-bottom: solid 1px var(--accent);
 
 		display: flex;
