@@ -48,4 +48,10 @@
 		text-transform: none;
 		font-size: 22px;
 	}
+
+	@media only screen and (max-width: 768px) {
+		main {
+			flex-direction: column;
+		}
+	}
 </style>
