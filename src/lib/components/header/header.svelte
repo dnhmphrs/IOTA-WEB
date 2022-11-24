@@ -38,11 +38,11 @@
 
 <header>
 	<Nav {navItems} />
-	<div on:click={() => toggleDarkMode()} class="darkMode">
+	<!-- <div on:click={() => toggleDarkMode()} class="darkMode">
 		<p class:selected={$darkMode == false}>day</p>
 		<p class="selected">/</p>
 		<p class:selected={$darkMode == true}>night</p>
-	</div>
+	</div> -->
 </header>
 
 <style>
@@ -55,7 +55,7 @@
 		z-index: 20;
 
 		display: flex;
-		justify-content: space-between;
+		justify-content: space-around;
 		align-items: center;
 		padding: 0 20px;
 		height: 70px;
