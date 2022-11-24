@@ -5,23 +5,25 @@
 :root {
 	--background: #232323;
 	--background-50: #23232380;
-	--primary: #fafafa;
-	--primary-10: #fafafa1a;
-	--primary-30: #fafafa4d;
-	--primary-50: #fafafa80;
-	--accent: #f6a192;
+	--primary: #e0e0e0;
+	--primary-10: #e0e0e01a;
+	--primary-30: #e0e0e04d;
+	--primary-50: #e0e0e080;
+	--accent: #00958a;
 	--error: #be4040;
+	font-weight: 300;
 }
 
 :root.light-mode {
-	--background: #006eb3;
-	--background-50: #dcdcdc80;
-	--primary: #f0f0f0;
-	--primary-10: #f0f0f01a;
-	--primary-30: #f0f0f04d;
-	--primary-50: #f0f0f080;
-	--accent: #f0f0f0;
+	--background: #f0f0f0;
+	--background-50: #f0f0f080;
+	--primary: #232323;
+	--primary-10: #2323231a;
+	--primary-30: #2323234d;
+	--primary-50: #23232380;
+	--accent: #00958a;
 	--error: #be4040;
+	font-weight: 400;
 }
 
 /*
@@ -116,7 +118,6 @@ body {
 	text-transform: uppercase;
 	color: var(--primary);
 	background: var(--background);
-	font-weight: 300;
 }
 
 /* HEADING */
@@ -127,6 +128,7 @@ h4,
 h5,
 h6 {
 	font-family: nb-architekt;
+	color: var(--primary);
 }
 h1 {
 	font-size: 120px;
@@ -160,13 +162,11 @@ h5 {
 
 h6 {
 	font-size: 20px;
-	font-weight: 300;
 }
 
 /* BODY */
 span,
 p {
-	font-weight: 300;
 	font-size: 16px;
 	line-height: 150%;
 }
@@ -207,6 +207,7 @@ p.sml.mono {
 p.btn,
 a {
 	letter-spacing: 0.05em;
+	font-weight: 300;
 }
 
 p.btn.lrg,

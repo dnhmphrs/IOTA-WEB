@@ -2,7 +2,9 @@
 </script>
 
 <main>
-	<header />
+	<header>
+		<h1>IOTA</h1>
+	</header>
 	<!-- <nav>
 		<div class="nav__tab active"><h6>ABOUT</h6></div>
 		<div class="nav__tab"><h6>WHITE PAPER</h6></div>
@@ -36,6 +38,10 @@
 		justify-content: left;
 		color: var(--accent);
 		border-bottom: solid 1px var(--primary);
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 
 	section {
@@ -46,7 +52,7 @@
 
 		display: flex;
 		justify-content: left;
-		color: var(--accent);
+		color: var(--primary);
 	}
 
 	section.opaque {
