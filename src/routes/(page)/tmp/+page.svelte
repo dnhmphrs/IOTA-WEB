@@ -22,7 +22,7 @@
 
 	<section class="opaque eighty" />
 	<section class="eighty" />
-	<section class="opaque alt fifty" />
+	<footer />
 </main>
 
 <style>
@@ -68,7 +68,8 @@
 		/* -webkit-text-stroke: 1px var(--primary); */
 	}
 
-	section {
+	section,
+	footer {
 		position: relative;
 		width: 100%;
 		height: auto;
@@ -90,12 +91,17 @@
 		height: 80%;
 	}
 
-	section.fifty {
+	section.end {
 		height: 50%;
 	}
 
 	section.opaque.alt {
 		background: var(--background-alt);
+	}
+
+	footer {
+		background: var(--background);
+		border-bottom: none;
 	}
 
 	h5 {
