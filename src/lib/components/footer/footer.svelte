@@ -16,7 +16,7 @@
 		bottom: 0;
 		width: 100vw;
 		padding: 0 20px;
-		background: #121212bb;
+		background: #00958abb;
 		border-bottom: solid 1px var(--primary-50);
 		color: var(--primary);
 	}

@@ -3,20 +3,20 @@
 
 /* APP */
 :root {
-	--background: #191919;
-	--background-50: #19191980;
-	--primary: #00958a;
-	--primary-10: #d0d0d01a;
-	--primary-30: #d0d0d04d;
-	--primary-50: #d0d0d080;
-	--accent: #00958a;
+	--background: #171717;
+	--background-50: #17171780;
+	--primary: #9fe2bf;
+	--primary-10: #00958a1a;
+	--primary-30: #00958a4d;
+	--primary-50: #00958a80;
+	--accent: #9fe2bf;
 	--error: #be4040;
 	font-weight: 300;
 }
 
 :root.light-mode {
-	--background: #d0d0d0;
-	--background-50: #d0d0d080;
+	--background: #9fe2bf;
+	--background-50: #9fe2bf80;
 	--primary: #2b2b2b;
 	--primary-10: #2b2b2b1a;
 	--primary-30: #2b2b2b4d;

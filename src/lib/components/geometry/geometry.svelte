@@ -1,5 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
+	import { darkMode } from '$lib/store/store';
 	import * as THREE from 'three';
 
 	let container, pc;
@@ -40,7 +41,11 @@
 
 	// Generating a cloud of point
 	let pcMat = new THREE.PointsMaterial();
-	pcMat.color = new THREE.Color(0x00958a);
+
+	let green = new THREE.Color(0x9fe2bf);
+	let black = new THREE.Color(0x2b2b2b);
+	$: pcMat.color = $darkMode ? green : black;
+
 	pcMat.transparent = true;
 	pcMat.size = 0.05;
 	// pcMat.blending = THREE.AdditiveBlending;
