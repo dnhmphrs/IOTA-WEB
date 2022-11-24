@@ -1,7 +1,6 @@
 <script>
 	import '../../app.css';
 	import { onMount } from 'svelte';
-	import Header from '$lib/components/header/header.svelte';
 	let Geometry;
 
 	onMount(async () => {
@@ -10,7 +9,6 @@
 	});
 </script>
 
-<Header />
 {#key Geometry}
 	<svelte:component this={Geometry} class="geometry" />
 {/key}
