@@ -37,13 +37,15 @@
 </script>
 
 <header>
-	{#if $screenType == 1}
-		<Nav {navItems} />
-		<!-- <div on:click={() => toggleDarkMode()} class="darkMode">
-		<p class:selected={$darkMode == false}>day</p>
-		<p class="selected">/</p>
-		<p class:selected={$darkMode == true}>night</p>
-	</div> -->
+	{#if $screenType}
+		{#if $screenType == 1}
+			<Nav {navItems} />
+		{/if}
+		<div on:click={() => toggleDarkMode()} class="darkMode">
+			<p class:selected={$darkMode == false}>day</p>
+			<p class="selected">/</p>
+			<p class:selected={$darkMode == true}>night</p>
+		</div>
 	{/if}
 </header>
 
@@ -57,7 +59,7 @@
 		z-index: 20;
 
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
 		align-items: center;
 		padding: 0 20px;
 		height: 60px;

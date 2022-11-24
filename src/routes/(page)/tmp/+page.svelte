@@ -1,4 +1,5 @@
 <script>
+	import About from '$lib/components/sections/about.svelte';
 </script>
 
 <main>
@@ -12,9 +13,11 @@
 		<div class="nav__tab"><h6>TIMELINE</h6></div>
 		<div class="nav__tab end"><h6>APP</h6></div>
 	</nav> -->
-	<section class="opaque" />
+	<section class="opaque">
+		<About />
+	</section>
 
-	<section />
+	<section class="eighty" />
 	<section class="opaque alt" />
 </main>
 
@@ -41,8 +44,7 @@
 		display: flex;
 		flex-flow: column nowrap;
 
-		color: var(--accent);
-		border-bottom: solid 1px var(--primary);
+		border-bottom: solid 1px var(--accent);
 
 		display: flex;
 		align-items: center;
@@ -55,21 +57,31 @@
 
 	header h1 {
 		margin-right: 6px;
+		color: var(--background);
+		-webkit-text-stroke: 1px var(--primary);
 	}
 
 	section {
+		position: relative;
 		width: 100%;
-		height: 80%;
+		height: auto;
 
-		border-bottom: solid 1px var(--primary);
+		padding: 160px;
+
+		border-bottom: solid 1px var(--accent);
 
 		display: flex;
-		justify-content: left;
+		align-items: center;
+		justify-content: center;
 		color: var(--primary);
 	}
 
 	section.opaque {
 		background: var(--background);
+	}
+
+	section.eighty {
+		height: 80%;
 	}
 
 	section.opaque.alt {

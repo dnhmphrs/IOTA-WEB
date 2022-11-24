@@ -27,6 +27,7 @@
 	nav {
 		display: flex;
 		flex-flow: comumn nowrap;
+		color: var(--accent);
 	}
 	nav a,
 	nav p {
