@@ -18,7 +18,7 @@
 :root.dark-mode {
 	--background: #232323;
 	--background-50: #23232380;
-	--background-alt: linear-gradient(90deg, rgba(217, 230, 159, 1) 0%, rgba(244, 244, 244, 1) 100%);
+	--background-alt: #ede7d9;
 	--primary: #ede7d9;
 	--primary-10: #00958a1a;
 	--primary-30: #00958a4d;
