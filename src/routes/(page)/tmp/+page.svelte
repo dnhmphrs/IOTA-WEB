@@ -31,7 +31,7 @@
 		top: 0;
 		left: 50%;
 		transform: translate(-50%, 0);
-		background: var(--background-50);
+		/* background: var(--background-50); */
 
 		height: 100%;
 		width: 100%;
