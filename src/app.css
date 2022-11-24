@@ -3,25 +3,27 @@
 
 /* APP */
 :root {
-	--background: #232323;
-	--background-50: #23232380;
-	--primary: #ede7d9;
-	--primary-10: #00958a1a;
-	--primary-30: #00958a4d;
-	--primary-50: #00958a80;
-	--accent: linear-gradient(90deg, rgba(217, 230, 159, 1) 0%, rgba(244, 244, 244, 1) 100%);
-	--error: #be4040;
-	font-weight: 300;
-}
-
-:root.light-mode {
 	--background: linear-gradient(90deg, rgba(217, 230, 159, 1) 0%, rgba(244, 244, 244, 1) 100%);
 	--background-50: #ede7d980;
+	--background-alt: #232323;
 	--primary: #f4f4f4;
 	--primary-10: #2323231a;
 	--primary-30: #2323234d;
 	--primary-50: #23232380;
 	--accent: #232323;
+	--error: #be4040;
+	font-weight: 300;
+}
+
+:root.dark-mode {
+	--background: #232323;
+	--background-50: #23232380;
+	--background-alt: linear-gradient(90deg, rgba(217, 230, 159, 1) 0%, rgba(244, 244, 244, 1) 100%);
+	--primary: #ede7d9;
+	--primary-10: #00958a1a;
+	--primary-30: #00958a4d;
+	--primary-50: #00958a80;
+	--accent: #ede7d9;
 	--error: #be4040;
 	font-weight: 300;
 }

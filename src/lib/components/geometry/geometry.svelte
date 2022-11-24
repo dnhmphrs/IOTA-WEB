@@ -22,7 +22,7 @@
 	let renderer = new THREE.WebGLRenderer({ antialias: true });
 	renderer.setPixelRatio(window.devicePixelRatio);
 	renderer.setSize(width, height);
-	renderer.setClearColor(0x00958a, 0);
+	renderer.setClearColor(0xf4f4f4, 0);
 	onMount(() => {
 		container.appendChild(renderer.domElement);
 	});
@@ -48,7 +48,7 @@
 	$: pcMat.color = $darkMode ? green : black;
 
 	pcMat.transparent = true;
-	pcMat.size = 0.05;
+	pcMat.size = 0.02;
 	// pcMat.blending = THREE.AdditiveBlending;
 	pc = new THREE.Points(geometry, pcMat);
 	pc.sizeAttenuation = true;
@@ -152,7 +152,7 @@
 <style>
 	.geometry {
 		overflow: hidden;
-		opacity: 0.6;
+		opacity: 1;
 		z-index: -10;
 	}
 </style>

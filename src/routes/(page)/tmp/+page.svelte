@@ -95,7 +95,7 @@
 	}
 
 	section.opaque.alt {
-		background: var(--accent);
+		background: var(--background-alt);
 		color: var(--background);
 	}
 

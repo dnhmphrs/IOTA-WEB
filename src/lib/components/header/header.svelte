@@ -32,7 +32,7 @@
 
 	let toggleDarkMode = () => {
 		darkMode.set(!$darkMode);
-		document.querySelector(':root').classList.toggle('light-mode');
+		document.querySelector(':root').classList.toggle('dark-mode');
 	};
 </script>
 
