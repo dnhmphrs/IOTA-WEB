@@ -4,6 +4,7 @@
 <main>
 	<header>
 		<h1>iOTA</h1>
+		<p>MENTAL STATE TRACKING</p>
 	</header>
 	<!-- <nav>
 		<div class="nav__tab active"><h6>ABOUT</h6></div>
@@ -38,7 +39,8 @@
 		height: 67%;
 
 		display: flex;
-		justify-content: left;
+		flex-flow: column nowrap;
+
 		color: var(--accent);
 		border-bottom: solid 1px var(--primary);
 
@@ -47,9 +49,14 @@
 		justify-content: center;
 	}
 
-	h1 {
+	header p {
+		letter-spacing: 7.5px;
+	}
+
+	header h1 {
 		color: var(--background);
 		-webkit-text-stroke: 1px var(--accent);
+		margin-right: 6px;
 	}
 
 	section {
@@ -79,6 +86,14 @@
 	@media only screen and (max-width: 768px) {
 		header {
 			height: 100%;
+		}
+
+		header h1 {
+			margin-right: 0;
+		}
+
+		header p {
+			letter-spacing: 0px;
 		}
 	}
 </style>
