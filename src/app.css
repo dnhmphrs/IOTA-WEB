@@ -101,7 +101,7 @@
 body,
 html {
 	background: var(--black);
-	border: solid 1px (--black);
+	margin: -2px;
 }
 
 body {
