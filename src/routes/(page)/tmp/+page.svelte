@@ -112,14 +112,14 @@
 	@media only screen and (max-width: 768px) {
 		header {
 			height: 240px;
-			padding-left: 40px;
+
 			background: var(--background);
 			border-bottom: none;
-			align-items: flex-start;
+			align-items: center;
 		}
 
 		.top {
-			padding-top: 40px;
+			padding-top: 20px;
 		}
 
 		header h6 {
