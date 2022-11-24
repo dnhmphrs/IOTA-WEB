@@ -44,7 +44,7 @@
 	header {
 		width: 100%;
 
-		height: calc(100% - 20px);
+		height: calc(100% - 60px);
 
 		display: flex;
 		flex-flow: column nowrap;
