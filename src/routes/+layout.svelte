@@ -54,8 +54,8 @@
 	<link
 		rel="preload"
 		as="font"
-		href="/fonts/NB-Architekt-Pro-Light.woff"
-		type="font/woff"
+		href="/fonts/test-untitled-serif-regular.woff2"
+		type="font/woff2"
 		crossorigin="anonymous"
 	/>
 </svelte:head>

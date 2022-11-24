@@ -34,8 +34,8 @@
 
 	header {
 		width: 100%;
-		margin-top: 70px;
-		height: 50%;
+
+		height: 67%;
 
 		display: flex;
 		justify-content: left;
