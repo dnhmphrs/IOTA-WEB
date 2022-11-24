@@ -4,12 +4,25 @@
 	// stub data out
 	const navItems = [
 		{
-			name: 'DATA',
-			href: '/'
+			name: 'IOTA',
+			href: ''
 		},
 		{
-			name: 'ACCOUNT',
-			href: '/account'
+			name: 'WHITEPAPER',
+			href: '#whitepaper'
+		},
+		{
+			name: 'SYSTEM',
+			href: '#system'
+		},
+		{
+			name: 'MILESTONES',
+			href: '#milestones'
+		},
+
+		{
+			name: 'CONTACT',
+			href: '#contact'
 		}
 	];
 
@@ -20,15 +33,12 @@
 </script>
 
 <header>
-	<div />
-	<!-- <a href="/"><h6>iota</h6> </a> -->
+	<Nav {navItems} />
 	<div on:click={() => toggleDarkMode()} class="darkMode">
 		<p class:selected={$darkMode == false}>day</p>
 		<p class="selected">/</p>
 		<p class:selected={$darkMode == true}>night</p>
 	</div>
-
-	<!-- <Nav {navItems} /> -->
 </header>
 
 <style>
@@ -48,6 +58,8 @@
 		/* border-bottom: solid 1px var(--accent); */
 		user-select: none;
 		color: var(--primary);
+		border-bottom: solid 1px var(--primary);
+		background: var(--background);
 	}
 
 	.darkMode {

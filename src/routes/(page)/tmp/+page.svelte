@@ -3,7 +3,7 @@
 
 <main>
 	<header>
-		<h1>IOTA</h1>
+		<h1>iOTA</h1>
 	</header>
 	<!-- <nav>
 		<div class="nav__tab active"><h6>ABOUT</h6></div>
@@ -32,7 +32,8 @@
 
 	header {
 		width: 100%;
-		height: 40%;
+		margin-top: 70px;
+		height: 50%;
 
 		display: flex;
 		justify-content: left;

@@ -9,10 +9,10 @@
 			<p class="field" />
 		</div>
 		<div class="row ">
-			<h4 class="title">IOTA</h4>
+			<h4 class="title">iOTA</h4>
 		</div>
 
-		<div class="row muted">/ noun /</div>
+		<div class="row muted">- noun</div>
 		<br />
 		<div class="row ">1. the ninth letter of the Greek alphabet.</div>
 		<br />
@@ -83,8 +83,6 @@
 	}
 
 	h4 {
-		font-family: nb-architekt;
-		font-weight: 400;
 		/* letter-spacing: 1px; */
 	}
 

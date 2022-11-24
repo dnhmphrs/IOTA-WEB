@@ -15,8 +15,8 @@
 }
 
 :root.light-mode {
-	--background: #f0f0f0;
-	--background-50: #f0f0f080;
+	--background: #efefef;
+	--background-50: #efefef80;
 	--primary: #00958a;
 	--primary-10: #2323231a;
 	--primary-30: #2323234d;
@@ -59,6 +59,19 @@
 @font-face {
 	font-family: untitled-serif;
 	src: url(/fonts/test-untitled-serif-regular.woff2) format('woff2');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: untitled-serif;
+	src: url(/fonts/test-untitled-serif-medium.woff2) format('woff2');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: untitled-serif;
+	src: url(/fonts/test-untitled-serif-bold.woff2) format('woff2');
+	font-weight: 700;
 }
 
 /* CUSTOM SCROLLBAR */
@@ -101,11 +114,12 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: nb-architekt;
+	font-family: untitled-serif;
 	color: var(--primary);
+	text-transform: none;
 }
 h1 {
-	font-size: 120px;
+	font-size: 160px;
 	line-height: 100%;
 }
 
@@ -181,7 +195,6 @@ p.sml.mono {
 p.btn,
 a {
 	letter-spacing: 0.05em;
-	font-weight: 300;
 }
 
 p.btn.lrg,
@@ -215,12 +228,10 @@ a.sml {
 
 	h5 {
 		font-size: 18px;
-		font-weight: 300;
 	}
 
 	h6 {
 		font-size: 16px;
-		font-weight: 300;
 	}
 
 	/* BODY */
