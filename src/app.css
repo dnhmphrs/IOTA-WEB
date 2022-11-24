@@ -15,13 +15,13 @@
 }
 
 :root.light-mode {
-	--background: #e0e0e0;
-	--background-50: #e0e0e080;
+	--background: #dadada;
+	--background-50: #dadada80;
 	--primary: #2b2b2b;
 	--primary-10: #2b2b2b1a;
 	--primary-30: #2b2b2b4d;
 	--primary-50: #2b2b2b80;
-	--accent: #00958a;
+	--accent: #2b2b2b;
 	--error: #be4040;
 	font-weight: 400;
 }

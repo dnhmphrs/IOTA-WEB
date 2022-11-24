@@ -49,7 +49,7 @@
 		flex-flow: column nowrap;
 
 		border-bottom: solid 1px var(--accent);
-		background: var(--background-50);
+		/* background: var(--background-50); */
 
 		display: flex;
 		align-items: center;
@@ -62,8 +62,8 @@
 
 	header h1 {
 		margin-right: 6px;
-		color: var(--background);
-		-webkit-text-stroke: 1px var(--primary);
+		color: var(--accent);
+		/* -webkit-text-stroke: 1px var(--primary); */
 	}
 
 	section {
