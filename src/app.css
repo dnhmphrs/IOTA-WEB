@@ -18,7 +18,7 @@
 :root.dark-mode {
 	--background: #232323;
 	--background-50: #23232380;
-	--background-alt: #ede7d9;
+	--background-alt: #232323;
 	--primary: #ede7d9;
 	--primary-10: #00958a1a;
 	--primary-30: #00958a4d;
@@ -120,7 +120,7 @@ h6 {
 }
 h1 {
 	font-family: untitled-serif;
-	font-size: 160px;
+	font-size: 180px;
 	line-height: 100%;
 }
 
@@ -217,7 +217,7 @@ a.sml {
 @media only screen and (max-width: 768px) {
 	/* HEADING */
 	h1 {
-		font-size: 80px;
+		font-size: 96px;
 	}
 
 	h2 {

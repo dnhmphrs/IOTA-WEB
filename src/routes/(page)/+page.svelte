@@ -10,11 +10,12 @@
 		position: absolute;
 		top: 50%;
 		left: 50%;
+		width: 200px;
 
 		transform: translate(-50%, -50%);
 		background: var(--background-alt);
 
-		/* border: solid 1px var(--accent); */
+		border: solid 1px var(--accent);
 		padding: 20px 40px;
 		border-radius: 10px;
 
