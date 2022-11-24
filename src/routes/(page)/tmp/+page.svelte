@@ -61,7 +61,7 @@
 	}
 
 	header h1 {
-		margin-right: 6px;
+		margin-right: 14px;
 		color: var(--accent);
 		/* -webkit-text-stroke: 1px var(--primary); */
 	}
