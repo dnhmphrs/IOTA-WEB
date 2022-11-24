@@ -31,6 +31,7 @@
 		top: 0;
 		left: 50%;
 		transform: translate(-50%, 0);
+		background: var(--background-50);
 
 		height: 100%;
 		width: 100%;
@@ -49,7 +50,6 @@
 		flex-flow: column nowrap;
 
 		border-bottom: solid 1px var(--accent);
-		background: var(--background-50);
 
 		display: flex;
 		align-items: center;
@@ -72,7 +72,6 @@
 		height: auto;
 
 		padding: 160px 40px;
-		background: var(--background-50);
 		border-bottom: solid 1px var(--accent);
 
 		display: flex;
