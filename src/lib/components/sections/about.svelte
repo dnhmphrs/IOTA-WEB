@@ -1,5 +1,6 @@
 <script>
 	import Button from '$lib/components/common/button.svelte';
+	import { screenType } from '$lib/store/store';
 </script>
 
 <!-- <main>
@@ -24,7 +25,11 @@
 </main> -->
 
 <main>
-	<h5>ABOUT</h5>
+	{#if $screenType == 1}
+		<h5>ABOUT</h5>
+	{:else}
+		<h4>iOTA</h4>
+	{/if}
 	<p class="xl">
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 		labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco

@@ -1,6 +1,5 @@
 <script>
 	import About from '$lib/components/sections/about.svelte';
-	import { screenType } from '$lib/store/store';
 </script>
 
 <main>
@@ -111,7 +110,7 @@
 
 	@media only screen and (max-width: 768px) {
 		header {
-			height: 320px;
+			height: 0;
 
 			background: var(--background);
 			border-bottom: none;
@@ -119,7 +118,7 @@
 		}
 
 		.top {
-			padding-top: 40px;
+			padding-top: 100px;
 		}
 
 		header h6 {
