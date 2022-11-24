@@ -39,7 +39,7 @@
 		max-width: 1000px;
 
 		display: flex;
-		align-items: center;
+		align-items: left;
 		justify-content: center;
 		gap: 80px;
 	}

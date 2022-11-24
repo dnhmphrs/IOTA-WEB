@@ -71,7 +71,7 @@
 		width: 100%;
 		height: auto;
 
-		padding: 160px;
+		padding: 160px 40px;
 		background: var(--background-50);
 		border-bottom: solid 1px var(--accent);
 
