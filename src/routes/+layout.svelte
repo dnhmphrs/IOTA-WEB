@@ -80,7 +80,7 @@
 		height: 100vh;
 		height: calc(var(--vh, 1vh) * 100);
 
-		width: 100vw;
+		width: 100%;
 		background: var(--background);
 		z-index: 1000;
 	}
