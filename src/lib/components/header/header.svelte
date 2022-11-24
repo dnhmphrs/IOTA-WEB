@@ -62,6 +62,7 @@
 		justify-content: space-between;
 		align-items: center;
 		padding: 0 20px;
+		font-weight: 400;
 		height: 60px;
 
 		user-select: none;
