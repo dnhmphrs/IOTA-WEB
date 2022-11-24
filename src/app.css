@@ -219,7 +219,7 @@ a.sml {
 @media only screen and (max-width: 768px) {
 	/* HEADING */
 	h1 {
-		font-size: 96px;
+		font-size: 82px;
 	}
 
 	h2 {
@@ -239,7 +239,7 @@ a.sml {
 	}
 
 	h6 {
-		font-size: 16px;
+		font-size: 14px;
 	}
 
 	/* BODY */
