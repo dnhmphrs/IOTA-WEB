@@ -217,6 +217,9 @@ a.sml {
 
 /* MOBILE SCREENS */
 @media only screen and (max-width: 768px) {
+	body {
+		background: var(--black);
+	}
 	/* HEADING */
 	h1 {
 		font-size: 96px;
