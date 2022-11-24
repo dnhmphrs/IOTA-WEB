@@ -66,7 +66,7 @@
 		height: 60px;
 
 		user-select: none;
-		color: var(--primary);
+		color: var(--accent);
 		/* border-bottom: solid 1px var(--primary); */
 		background: var(--background-50);
 	}

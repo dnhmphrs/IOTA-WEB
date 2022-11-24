@@ -7,7 +7,7 @@
 	// Setting up the scene
 	let scene = new THREE.Scene();
 
-	let green = new THREE.Color(0x9fe2bf);
+	let green = new THREE.Color(0xd9e69f);
 	let black = new THREE.Color(0x232323);
 
 	let height = window.innerHeight;

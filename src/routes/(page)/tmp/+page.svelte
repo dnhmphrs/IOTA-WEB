@@ -60,6 +60,7 @@
 		margin-left: 14px;
 		letter-spacing: 7.5px;
 		font-weight: 400;
+		color: var(--accent);
 	}
 
 	header h1 {
