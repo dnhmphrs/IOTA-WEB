@@ -44,10 +44,10 @@
 		transform: translate(calc(-50% + 6px), -50%);
 		background: var(--background);
 
-		border: solid 1px var(--accent);
+		border: solid 1px var(--primary);
 		padding: 40px;
 		padding-bottom: 48px;
-		color: var(--accent);
+		color: var(--primary);
 	}
 
 	.shadow {
@@ -60,7 +60,7 @@
 		width: 100%;
 		transform: translate(calc(-50% - 13px), calc(-50% - 13px));
 		background: var(--background);
-		border: solid 1px var(--accent);
+		border: solid 1px var(--primary);
 	}
 
 	.shift {
