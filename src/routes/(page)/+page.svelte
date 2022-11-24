@@ -12,9 +12,9 @@
 		left: 50%;
 
 		transform: translate(-50%, -50%);
-		background: var(--background);
+		background: var(--background-alt);
 
-		border: solid 1px var(--primary);
+		/* border: solid 1px var(--accent); */
 		padding: 20px 40px;
 		border-radius: 10px;
 
