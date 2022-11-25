@@ -19,7 +19,7 @@
 </script>
 
 <main>
-	{#if $screenType == 1}
+	{#if $screenType}
 		<section id="iota" class="full">
 			<Hero />
 		</section>

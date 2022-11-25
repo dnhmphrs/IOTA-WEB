@@ -10,7 +10,7 @@
 	</div>
 	<div class="buttonHolder">
 		<a href="#whitepaper"
-			><Button text="START - SITE BUILD IN PROGRESS" fluid={true} style="alt" /></a
+			><Button text="START: SITE BUILD IN PROGRESS" fluid={true} style="alt" /></a
 		>
 	</div>
 </header>
@@ -56,11 +56,14 @@
 
 	@media only screen and (max-width: 768px) {
 		header {
-			height: 0;
-
-			background: var(--background);
-			border-bottom: none;
+			width: 100%;
+			height: 100%;
+			padding: 60px 20px 80px 20px;
 			align-items: center;
+		}
+
+		header h1 {
+			-webkit-text-stroke: 0.5px var(--outline);
 		}
 
 		header h6 {
