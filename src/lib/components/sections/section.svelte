@@ -26,8 +26,8 @@
 	}
 
 	header {
-		width: 40%;
-		min-width: 40%;
+		width: 30%;
+		min-width: 30%;
 	}
 
 	section {
@@ -46,6 +46,14 @@
 	@media only screen and (max-width: 768px) {
 		main {
 			flex-direction: column;
+		}
+
+		header {
+			width: 100%;
+		}
+
+		section {
+			width: 100%;
 		}
 	}
 </style>
