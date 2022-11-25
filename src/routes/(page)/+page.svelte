@@ -95,11 +95,11 @@
 	}
 
 	section.full {
-		min-height: calc(100% + 1px);
+		padding: 160px 40px 200px 40px;
 	}
 
 	.top {
-		padding: 172px;
+		padding: 160px;
 	}
 
 	.opaque.alt {
