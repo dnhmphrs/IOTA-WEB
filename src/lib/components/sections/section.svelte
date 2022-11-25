@@ -2,11 +2,17 @@
 	export let title;
 	export let subtitle;
 	export let body;
+
+	import { screenType } from '$lib/store/store';
 </script>
 
 <main>
 	<header>
-		<h4>{title}</h4>
+		{#if $screenType == 1}
+			<h3>{title}</h3>
+		{:else}
+			<h4>{title}</h4>
+		{/if}
 	</header>
 	<section>
 		<h4>{subtitle}</h4>
