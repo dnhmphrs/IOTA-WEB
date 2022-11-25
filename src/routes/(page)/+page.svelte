@@ -13,17 +13,16 @@
 		width: 200px;
 
 		transform: translate(-50%, -50%);
-		background: var(--black);
+		background: var(--button-alt);
+		color: var(--primary);
 
-		border: solid 1px var(--accent);
+		border: solid 1px var(--primary);
 		padding: 20px 40px;
 		border-radius: 10px;
 
 		display: flex;
 		align-items: center;
 		justify-content: center;
-
-		color: var(--primary);
 	}
 
 	@media only screen and (max-width: 768px) {
