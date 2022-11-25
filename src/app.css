@@ -4,9 +4,9 @@
 /* APP */
 :root {
 	--black: #e7edca;
-	--background: inear-gradient(45deg, #d9e69f, #f4f4f4);
-	--background-50: inear-gradient(45deg, #d9e69f80, #f4f4f480);
-	--background-alt: inear-gradient(45deg, #d9e69f, #f4f4f4);
+	--background: linear-gradient(90deg, #d9e69f, #f4f4f4);
+	--background-50: linear-gradient(90deg, #d9e69f80, #f4f4f480);
+	--background-alt: linear-gradient(45deg, #d9e69f, #f4f4f4);
 	--primary: #232323;
 	--primary-10: #2323231a;
 	--primary-30: #2323234d;
