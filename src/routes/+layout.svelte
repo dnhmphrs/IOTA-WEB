@@ -43,7 +43,7 @@
 </script>
 
 <svelte:head>
-	<title>IOTA</title>
+	<title>iOTA</title>
 
 	<link
 		rel="preload"
