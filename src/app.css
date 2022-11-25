@@ -4,10 +4,11 @@
 /* APP */
 :root {
 	--black: #191919;
-	--background: linear-gradient(90deg, #d9e69f, #f4f4f4);
-	--background-fallback: #e7edca;
-	--background-fallback-50: #e7edca80;
-	--background-50: linear-gradient(90deg, #d9e69f80, #f4f4f480);
+	--outline: #e3e7bc;
+	--background: linear-gradient(90deg, #d9e69f, #ede7d9);
+	--background-fallback: #e3e7bc;
+	--background-fallback-50: #e3e7bc80;
+	--background-50: linear-gradient(90deg, #d9e69f80, #ede7d980);
 	--background-alt: linear-gradient(45deg, #1b1b1b, #171717);
 	--button-alt: linear-gradient(45deg, #d9e69f, #f4f4f4);
 	--primary: #232323;
@@ -22,6 +23,7 @@
 
 :root.dark-mode {
 	--black: #191919;
+	--outline: #ede7d9;
 	--background: linear-gradient(45deg, #1b1b1b, #171717);
 	--background-fallback: #191919;
 	--background-fallback-50: #19191980;

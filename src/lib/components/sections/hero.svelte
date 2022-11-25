@@ -40,8 +40,8 @@
 	}
 
 	header h1 {
-		color: transparent;
-		-webkit-text-stroke: 1px var(--primary);
+		color: var(--black);
+		-webkit-text-stroke: 1px var(--outline);
 	}
 
 	.buttonHolder {
