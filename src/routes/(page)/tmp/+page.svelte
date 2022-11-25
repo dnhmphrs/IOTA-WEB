@@ -1,6 +1,7 @@
 <script>
 	import Header from '$lib/components/sections/header.svelte';
 	import Section from '$lib/components/sections/section.svelte';
+	import { screenType } from '$lib/store/store';
 
 	let loremIpsum =
 		'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut \
@@ -11,9 +12,11 @@
 </script>
 
 <main>
-	<section>
-		<Header />
-	</section>
+	{#if $screenType == 1}
+		<section>
+			<Header />
+		</section>
+	{/if}
 	<!-- <nav>
 		<div class="nav__tab active"><h6>ABOUT</h6></div>
 		<div class="nav__tab"><h6>WHITE PAPER</h6></div>
@@ -97,7 +100,7 @@
 
 	@media only screen and (max-width: 768px) {
 		.top {
-			padding-top: 120px;
+			padding-top: 140px;
 		}
 	}
 </style>
