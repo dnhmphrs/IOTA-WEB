@@ -94,10 +94,6 @@
 		background: var(--background);
 	}
 
-	section.full {
-		padding: 160px 40px 200px 40px;
-	}
-
 	.top {
 		padding: 160px;
 	}
