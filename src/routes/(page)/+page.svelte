@@ -13,7 +13,7 @@
 		width: 200px;
 
 		transform: translate(-50%, -50%);
-		background: var(--button-alt);
+		background: var(--background);
 		color: var(--primary);
 
 		border: solid 1px var(--primary);
