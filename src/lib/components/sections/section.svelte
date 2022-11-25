@@ -60,7 +60,7 @@
 	section {
 		display: flex;
 		flex-flow: column nowrap;
-		gap: 80px;
+		gap: 64px;
 		width: 60%;
 		min-width: 60%;
 	}
