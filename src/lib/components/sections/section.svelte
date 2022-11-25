@@ -53,7 +53,7 @@
 	}
 
 	header p {
-		letter-spacing: 1.13px;
+		letter-spacing: 1.14px;
 	}
 
 	section {
