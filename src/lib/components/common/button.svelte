@@ -45,7 +45,9 @@
 	}
 
 	button:active {
+		background: var(--black);
 		color: var(--accent);
+		border: solid 1px var(--accent);
 	}
 
 	button.fluid {
