@@ -51,7 +51,6 @@
 		flex-direction: column;
 		gap: 20px;
 	}
-
 	header p {
 		letter-spacing: 1.14px;
 	}
