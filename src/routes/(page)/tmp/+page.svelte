@@ -42,10 +42,13 @@
 		</Section>
 	</section>
 	<section class="">
-		<Section title="MILESTONE 2" subtitle="ANALYSIS SYSTEM" body={loremIpsum} />
+		<Section title="MILESTONE 2" subtitle="ANALYSIS TOOL" body={loremIpsum} />
 	</section>
 	<section class="">
-		<Section title="MILESTONE 3" subtitle="ECOSYSTEM + PROTOCOL" body={loremIpsum} />
+		<Section title="MILESTONE 3" subtitle="PUBLIC RELEASE" body={loremIpsum} />
+	</section>
+	<section class="">
+		<Section title="MILESTONE 4" subtitle="ECOSYSTEM + PROTOCOL" body={loremIpsum} />
 	</section>
 
 	<footer class="opaque alt">

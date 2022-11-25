@@ -8,18 +8,21 @@
 			href: ''
 		},
 		{
-			name: 'APP',
+			name: 'RESARCH APP',
 			href: '#app'
 		},
 		{
-			name: 'SYSTEM',
+			name: 'ANALYSIS',
 			href: '#system'
+		},
+		{
+			name: 'RELEASE',
+			href: '#Rrelease'
 		},
 		{
 			name: 'PROTOCOL',
 			href: '#milestones'
 		},
-
 		{
 			name: 'CONTACT',
 			href: '#contact'
