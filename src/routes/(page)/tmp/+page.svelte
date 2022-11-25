@@ -96,7 +96,6 @@
 	}
 
 	section.opaque.alt {
-		box-shadow: 0px -1px 20px #23232320;
 		background: var(--background-alt);
 	}
 
