@@ -56,6 +56,14 @@
 	<link
 		rel="preload"
 		as="font"
+		href="/fonts/test-untitled-sans-regular.woff2"
+		type="font/woff2"
+		crossorigin="anonymous"
+	/>
+
+	<link
+		rel="preload"
+		as="font"
 		href="/fonts/test-untitled-serif-regular.woff2"
 		type="font/woff2"
 		crossorigin="anonymous"
