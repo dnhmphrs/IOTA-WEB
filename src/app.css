@@ -169,7 +169,7 @@ h6 {
 span,
 p {
 	font-size: 16px;
-	line-height: 150%;
+	line-height: 175%;
 }
 
 span.xl,
@@ -260,7 +260,7 @@ a.sml {
 	/* BODY */
 	p {
 		font-size: 14px;
-		line-height: 150%;
+		line-height: 175%;
 	}
 
 	p.lrg {
