@@ -89,7 +89,7 @@
 
 		section {
 			width: 100%;
-			gap: 80px;
+			gap: 60px;
 		}
 	}
 </style>
