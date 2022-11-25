@@ -32,8 +32,8 @@
 			)
 		) {
 			// phone
-			// darkMode.set(false);
-			// document.querySelector(':root').classList.toggle('dark-mode');
+			darkMode.set(false);
+			document.querySelector(':root').classList.toggle('dark-mode');
 			screenType.set(3);
 		} else {
 			//laptop
