@@ -5,7 +5,7 @@
 	const navItems = [
 		{
 			name: 'iOTA',
-			href: ''
+			href: '#iota'
 		},
 		{
 			name: 'WHITEPAPER',
@@ -13,11 +13,11 @@
 		},
 		{
 			name: 'RESARCH',
-			href: '#app'
+			href: '#research'
 		},
 		{
 			name: 'ANALYSIS',
-			href: '#system'
+			href: '#analysis'
 		},
 		{
 			name: 'PUBLIC',

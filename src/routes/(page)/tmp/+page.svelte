@@ -4,7 +4,7 @@
 	import Button from '$lib/components/common/button.svelte';
 	import Footer from '$lib/components/footer/footer.svelte';
 
-	import { screenType } from '$lib/store/store';
+	import { screenType, sectionId } from '$lib/store/store';
 
 	let loremIpsum =
 		'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut \
@@ -15,12 +15,12 @@
 
 	let loremShort =
 		'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut \
-		labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco';
+	// 	labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco';
 </script>
 
 <main>
 	{#if $screenType == 1}
-		<section class="full">
+		<section id="iota" class="full">
 			<Hero />
 		</section>
 	{/if}
@@ -30,28 +30,28 @@
 		<div class="nav__tab"><h6>TIMELINE</h6></div>
 		<div class="nav__tab end"><h6>APP</h6></div>
 	</nav> -->
-	<section class="opaque top full">
+	<section id="whitepaper" class="opaque top full">
 		<Section title="iOTA" subtitle="MENTAL STATE TRACKING" body={loremIpsum}>
 			<Button size="xl" text="READ WHITEPAPER" slot="slot1" />
 		</Section>
 	</section>
 
-	<section class="">
+	<section id="research" class="">
 		<Section title="MILESTONE 1" here={true} subtitle="RESEARCH APP" body={loremIpsum}>
 			<Button size="xl" text="APP PRIVATE BETA" slot="slot1" />
 		</Section>
 	</section>
-	<section class="">
+	<section id="analysis" class="">
 		<Section title="MILESTONE 2" subtitle="ANALYSIS TOOL" body={loremIpsum} />
 	</section>
-	<section class="">
+	<section id="public" class="">
 		<Section title="MILESTONE 3" subtitle="PUBLIC RELEASE" body={loremIpsum} />
 	</section>
-	<section class="">
+	<section id="ecosystem" class="">
 		<Section title="MILESTONE 4" subtitle="ECOSYSTEM + PROTOCOL" body={loremIpsum} />
 	</section>
 
-	<footer class="opaque alt">
+	<footer id="contact" class="opaque alt">
 		<Section title="CONTACT" subtitle="TEAM" body={loremShort}>
 			<Button size="xl" text="EMAIL iOTA TEAM" slot="slot3" />
 			<Button size="xl" text="DAN JOYCE WEBSITE" slot="slot1" />
@@ -67,6 +67,7 @@
 		top: 0;
 		left: 50%;
 		transform: translate(-50%, 0);
+		scroll-behavior: smooth;
 		/* background: var(--background-50); */
 
 		height: 100%;

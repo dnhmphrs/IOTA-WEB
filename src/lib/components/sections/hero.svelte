@@ -9,7 +9,7 @@
 		<h6>MENTAL STATE TRACKING</h6>
 	</div>
 	<div class="buttonHolder">
-		<Button text="START" fluid={true} style="alt" />
+		<a href="#whitepaper"><Button text="START" fluid={true} style="alt" /></a>
 	</div>
 </header>
 
@@ -45,6 +45,10 @@
 	.buttonHolder {
 		display: flex;
 		gap: 16px;
+		width: 100%;
+	}
+
+	.buttonHolder a {
 		width: 100%;
 	}
 
