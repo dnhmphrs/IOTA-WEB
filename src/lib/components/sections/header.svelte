@@ -9,13 +9,10 @@
 <style>
 	header {
 		width: 100%;
-
-		height: 75%;
+		padding: 88px 40px;
 
 		display: flex;
 		flex-flow: column nowrap;
-
-		border-bottom: solid 1px var(--accent);
 
 		display: flex;
 		align-items: center;

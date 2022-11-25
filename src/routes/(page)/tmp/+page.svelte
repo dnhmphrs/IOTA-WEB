@@ -11,14 +11,16 @@
 </script>
 
 <main>
-	<Header />
+	<section>
+		<Header />
+	</section>
 	<!-- <nav>
 		<div class="nav__tab active"><h6>ABOUT</h6></div>
 		<div class="nav__tab"><h6>WHITE PAPER</h6></div>
 		<div class="nav__tab"><h6>TIMELINE</h6></div>
 		<div class="nav__tab end"><h6>APP</h6></div>
 	</nav> -->
-	<section class="opaque alt top">
+	<section class="opaque top">
 		<Section title="iOTA" subtitle="MENTAL STATE TRACKING" body={loremIpsum} />
 	</section>
 
@@ -61,7 +63,7 @@
 		height: auto;
 
 		padding: 160px 40px;
-		border-bottom: solid 1px var(--primary);
+		border-bottom: solid 1px var(--primary-50);
 
 		display: flex;
 		align-items: center;

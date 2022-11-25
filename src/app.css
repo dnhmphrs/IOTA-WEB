@@ -22,9 +22,9 @@
 	--background-50: linear-gradient(45deg, #1b1b1b80, #17171780);
 	--background-alt: linear-gradient(45deg, #1b1b1b, #171717);
 	--primary: #ede7d9;
-	--primary-10: #00958a1a;
-	--primary-30: #00958a4d;
-	--primary-50: #00958a80;
+	--primary-10: #ede7d91a;
+	--primary-30: #ede7d94d;
+	--primary-50: #ede7d980;
 	--accent: #ede7d9;
 	--error: #be4040;
 	font-weight: 300;

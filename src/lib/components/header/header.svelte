@@ -65,7 +65,7 @@
 
 		user-select: none;
 		color: var(--primary);
-		border-bottom: solid 1px var(--primary);
+		border-bottom: solid 1px var(--primary-50);
 		background: var(--background);
 	}
 
