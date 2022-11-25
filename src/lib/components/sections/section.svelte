@@ -28,7 +28,7 @@
 
 		display: flex;
 		justify-content: center;
-		gap: 80px 20px;
+		gap: 160px 20px;
 	}
 
 	header {
