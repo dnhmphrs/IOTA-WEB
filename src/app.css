@@ -10,7 +10,7 @@
 	--background-fallback: #ede7d9;
 	--background-fallback-50: #ede7d980;
 	--background-alt: linear-gradient(45deg, #1b1b1b, #171717);
-	--button-alt: linear-gradient(115deg, #ededed, #ede7d9);
+	--button-alt: linear-gradient(115deg, #ededed, #ede7d9, #ededed);
 	--primary: #232323;
 	--primary-10: #2323231a;
 	--primary-30: #2323234d;
