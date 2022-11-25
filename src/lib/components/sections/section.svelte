@@ -53,8 +53,8 @@
 	}
 
 	header p {
-		letter-spacing: 1.8px;
-		padding-bottom: 40px;
+		letter-spacing: 1.15px;
+		padding-bottom: 8px;
 	}
 
 	section {
@@ -82,6 +82,10 @@
 		section p {
 			text-transform: none;
 			font-size: 18px;
+		}
+
+		header p {
+			letter-spacing: 1.65px;
 		}
 
 		header {
