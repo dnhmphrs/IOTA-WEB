@@ -15,7 +15,7 @@
 
 <nav>
 	{#each navItems as navItem}
-		<a href={navItem.href} class="lrg" class:active={navItem.href === $page.url.pathname}
+		<a href={navItem.href} class="" class:active={navItem.href === $page.url.pathname}
 			>{navItem.name}</a
 		>
 	{/each}

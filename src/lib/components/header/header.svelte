@@ -67,7 +67,7 @@
 		justify-content: space-between;
 		align-items: center;
 		padding: 0 16px;
-		font-weight: 400;
+		font-size: 15px;
 		height: 60px;
 
 		user-select: none;
@@ -96,7 +96,7 @@
 
 	.darkMode p {
 		line-height: 110%;
-
+		font-size: 15px;
 		letter-spacing: 0.05em;
 		padding: 10px;
 		cursor: pointer;
