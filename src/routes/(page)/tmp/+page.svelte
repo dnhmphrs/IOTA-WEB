@@ -39,6 +39,7 @@
 
 <style>
 	main {
+		margin: 0 -2px;
 		position: absolute;
 		top: 0;
 		left: 50%;
@@ -46,7 +47,7 @@
 		/* background: var(--background-50); */
 
 		height: 100%;
-		width: 100%;
+		width: 101%;
 
 		display: flex;
 		flex-flow: row wrap;
@@ -69,7 +70,6 @@
 	}
 
 	section.opaque {
-		margin: 0 -2px;
 		background: var(--background);
 	}
 
