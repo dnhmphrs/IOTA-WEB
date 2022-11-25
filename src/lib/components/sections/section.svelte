@@ -8,7 +8,7 @@
 
 <main>
 	<header>
-		{#if $screenType == 1}
+		{#if $screenType == 3}
 			<h3>{title}</h3>
 		{:else}
 			<h4>{title}</h4>
