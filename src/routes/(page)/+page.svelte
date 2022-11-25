@@ -11,7 +11,7 @@
 		labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco \
 		laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in \
 		voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat \
-		non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
+		non proident..';
 
 	let loremShort =
 		'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut \
@@ -19,20 +19,15 @@
 </script>
 
 <main>
-	{#if $screenType == 1}
+	<!-- {#if $screenType == 1}
 		<section id="iota" class="full">
 			<Hero />
 		</section>
-	{:else}
-		<section id="iota" />
-	{/if}
-	<!-- <nav>
-		<div class="nav__tab active"><h6>ABOUT</h6></div>
-		<div class="nav__tab"><h6>WHITE PAPER</h6></div>
-		<div class="nav__tab"><h6>TIMELINE</h6></div>
-		<div class="nav__tab end"><h6>APP</h6></div>
-	</nav> -->
-	<section id="whitepaper" class="opaque top full">
+	{:else} -->
+	<section id="iota" class="top" />
+	<!-- {/if} -->
+
+	<section id="whitepaper" class="opaque full">
 		<Section title="iOTA" subtitle="MENTAL STATE TRACKING" body={loremIpsum} header={true}>
 			<Button size="xl" text="WHITEPAPER - IN PROGRESS" slot="slot1" disabled={true} />
 			<a href="#research" slot="slot2"><Button size="xl" text="CURRENT MILESTONE" fluid={true} /></a
@@ -104,9 +99,8 @@
 		min-height: calc(100% + 1px);
 	}
 
-	.opaque.top {
-		color: var(--accent);
-		background: var(--background-alt);
+	.top {
+		padding: 140px;
 	}
 
 	.opaque.alt {
