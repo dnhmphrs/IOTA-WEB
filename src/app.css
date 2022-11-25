@@ -24,7 +24,7 @@
 :root.dark-mode {
 	--black: #191919;
 	--outline-text: #ede7d9;
-	--outline-hero: #ede7d980;
+	--outline-hero: #ede7d9;
 	--background: linear-gradient(45deg, #1b1b1b, #171717);
 	--background-fallback: #191919;
 	--background-fallback-50: #19191980;
