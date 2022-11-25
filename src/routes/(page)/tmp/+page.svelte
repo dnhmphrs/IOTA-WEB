@@ -32,7 +32,7 @@
 	</nav> -->
 	<section class="opaque top">
 		<Section title="iOTA" subtitle="MENTAL STATE TRACKING" body={loremIpsum}>
-			<Button size="xl" text="READ WITEPAPER" slot="slot1" />
+			<Button size="xl" text="READ WHITEPAPER" slot="slot1" />
 		</Section>
 	</section>
 
