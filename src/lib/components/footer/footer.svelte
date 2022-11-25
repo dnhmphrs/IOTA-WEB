@@ -34,11 +34,11 @@
 
 	@media only screen and (max-width: 768px) {
 		footer {
-			padding: 16px 24px;
+			padding: 20px 24px;
 		}
 		footer a,
 		footer p {
-			font-size: 11px;
+			font-size: 12px;
 		}
 	}
 </style>
