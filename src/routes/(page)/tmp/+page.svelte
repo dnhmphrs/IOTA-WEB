@@ -55,7 +55,6 @@
 
 	section,
 	footer {
-		margin: -2px;
 		position: relative;
 		width: 100%;
 		height: auto;
@@ -70,6 +69,7 @@
 	}
 
 	section.opaque {
+		margin: -2px;
 		background: var(--background);
 	}
 
