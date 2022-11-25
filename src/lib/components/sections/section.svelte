@@ -76,13 +76,7 @@
 		}
 
 		.header h3 {
-			font-family: untitled-serif;
-
-			font-size: 54px;
-		}
-
-		.header h4 {
-			color: var(--accent);
+			font-size: 40px;
 		}
 
 		h4 {
