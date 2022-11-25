@@ -15,6 +15,7 @@
 		padding: 20px 40px;
 		background: var(--background-alt);
 		border-top: solid 1px var(--accent-50);
+		text-transform: none;
 		color: var(--accent-50);
 
 		display: flex;
