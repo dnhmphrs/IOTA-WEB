@@ -1,5 +1,6 @@
 <script>
 	import '../../app.css';
+	import Header from '$lib/components/header/header.svelte';
 	import { onMount } from 'svelte';
 	let Geometry;
 
@@ -12,6 +13,7 @@
 {#key Geometry}
 	<svelte:component this={Geometry} class="geometry" />
 {/key}
+<Header />
 <main>
 	<slot />
 </main>

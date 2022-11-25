@@ -9,7 +9,9 @@
 		<h6>MENTAL STATE TRACKING</h6>
 	</div>
 	<div class="buttonHolder">
-		<a href="#whitepaper"><Button text="START" fluid={true} style="alt" /></a>
+		<a href="#whitepaper"
+			><Button text="START - SITE BUILD IN PROGRESS" fluid={true} style="alt" /></a
+		>
 	</div>
 </header>
 
