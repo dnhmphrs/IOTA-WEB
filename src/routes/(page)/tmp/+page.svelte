@@ -49,7 +49,8 @@
 	</section>
 
 	<footer class="opaque alt">
-		<Section title="CONTACT" subtitle="TEAM" body={loremShort} body2={loremShort}>
+		<Section title="CONTACT" subtitle="TEAM" body={loremShort}>
+			<Button size="xl" text="EMAIL iOTA TEAM" slot="slot3" />
 			<Button size="xl" text="DAN JOYCE WEBSITE" slot="slot1" />
 			<Button size="xl" text="AUFBAU WEBSITE" slot="slot2" />
 		</Section>

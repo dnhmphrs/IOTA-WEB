@@ -22,7 +22,7 @@
 
 <style>
 	button {
-		text-transform: uppercase;
+		text-transform: none;
 		border: solid 1px var(--accent);
 		background: var(--black);
 		color: var(--accent);

@@ -12,7 +12,7 @@
 		height: 60px;
 		z-index: 10;
 
-		padding: 20px 40px;
+		padding: 0 40px;
 		background: var(--background-alt);
 		border-top: solid 1px var(--accent-50);
 		text-transform: none;

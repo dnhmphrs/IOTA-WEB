@@ -3,7 +3,6 @@
 	export let subtitle;
 	export let body;
 
-	export let subtitle2;
 	export let body2;
 
 	import { screenType } from '$lib/store/store';
@@ -17,8 +16,10 @@
 			<h4>{title}</h4>
 		{/if}
 	</header>
+
 	<section>
 		<h4>{subtitle}</h4>
+		<slot name="slot3" />
 		<p class="xl">{body}</p>
 		<slot name="slot1" />
 		{#if body2}
