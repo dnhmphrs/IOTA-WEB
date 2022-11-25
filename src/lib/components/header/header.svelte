@@ -39,16 +39,16 @@
 <header>
 	{#if $screenType == 1}
 		<Nav {navItems} />
-		<div class="app_link">
+		<!-- <div class="app_link">
 			<p>GO TO APP</p>
-		</div>
+		</div> -->
 	{/if}
 
-	<!-- <div on:click={() => toggleDarkMode()} class="darkMode">
-			<p class:selected={$darkMode == false}>day</p>
-			<p class="selected">/</p>
-			<p class:selected={$darkMode == true}>night</p>
-		</div> -->
+	<div on:click={() => toggleDarkMode()} class="darkMode">
+		<p class:selected={$darkMode == false}>day</p>
+		<p class="selected">/</p>
+		<p class:selected={$darkMode == true}>night</p>
+	</div>
 </header>
 
 <style>

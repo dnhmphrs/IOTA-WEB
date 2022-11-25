@@ -2,24 +2,29 @@
 /* putting custom CSS before `@tailwind utilities;` so utilities can override it */
 
 /* APP */
-/* :root {
-	--background: linear-gradient(90deg, rgba(217, 230, 159, 1) 0%, rgba(244, 244, 244, 1) 100%);
-	--background-50: #ede7d980;
-	--background-alt: linear-gradient(90deg, #232323, #171717);
-	--primary: #ede7d9;
+:root {
+	--black: #f4f4f4;
+	--background: linear-gradient(45deg, rgba(217, 230, 159, 1) 0%, rgba(244, 244, 244, 1) 100%);
+	--background-50: linear-gradient(
+		45deg,
+		rgba(217, 230, 159, 0.5) 0%,
+		rgba(244, 244, 244, 0.5) 100%
+	);
+	--background-alt: linear-gradient(45deg, rgba(217, 230, 159, 1) 0%, rgba(244, 244, 244, 1) 100%);
+	--primary: #232323;
 	--primary-10: #2323231a;
 	--primary-30: #2323234d;
 	--primary-50: #23232380;
 	--accent: #232323;
 	--error: #be4040;
 	font-weight: 300;
-} */
+}
 
 :root.dark-mode {
 	--black: #191919;
-	--background: linear-gradient(90deg, #1b1b1b, #171717);
-	--background-50: linear-gradient(90deg, #1b1b1b80, #17171780);
-	--background-alt: linear-gradient(90deg, #1b1b1b, #171717);
+	--background: linear-gradient(45deg, #1b1b1b, #171717);
+	--background-50: linear-gradient(45deg, #1b1b1b80, #17171780);
+	--background-alt: linear-gradient(45deg, #1b1b1b, #171717);
 	--primary: #ede7d9;
 	--primary-10: #00958a1a;
 	--primary-30: #00958a4d;
