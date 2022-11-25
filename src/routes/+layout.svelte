@@ -1,7 +1,7 @@
 <script>
 	import '../app.css';
 	import { onMount } from 'svelte';
-	import { screenType } from '$lib/store/store';
+	import { screenType, darkMode } from '$lib/store/store';
 
 	onMount(async () => {
 		// ---------------------------------------------------------------------------
@@ -32,6 +32,8 @@
 			)
 		) {
 			// phone
+			darkMode.set(false);
+			document.querySelector(':root').classList.toggle('dark-mode');
 			screenType.set(3);
 		} else {
 			//laptop

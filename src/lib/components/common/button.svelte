@@ -16,8 +16,8 @@
 	}
 </script>
 
-<button>
-	<p class={classString}>{text}</p>
+<button class={classString}>
+	<p>{text}</p>
 </button>
 
 <style>
@@ -46,5 +46,6 @@
 		opacity: 0.2;
 		cursor: default;
 		color: var(--primary);
+		background: var(--black);
 	}
 </style>
