@@ -28,7 +28,7 @@
 
 		display: flex;
 		justify-content: center;
-		gap: 160px 20px;
+		gap: 20px 20px;
 	}
 
 	header {
@@ -39,7 +39,7 @@
 	section {
 		display: flex;
 		flex-flow: column nowrap;
-		gap: 40px;
+		gap: 80px;
 		width: 60%;
 		min-width: 60%;
 	}

@@ -23,10 +23,21 @@
 <style>
 	button {
 		text-transform: uppercase;
+		border: solid 1px var(--primary);
+		background: var(--primary);
+		color: var(--accent);
+		padding: 20px;
+		border-radius: 10px;
 	}
 
 	button:hover,
 	.active {
+		color: var(--primary);
+		background: none;
+		border: solid 1px var(--primary);
+	}
+
+	button:active {
 		color: var(--accent);
 	}
 

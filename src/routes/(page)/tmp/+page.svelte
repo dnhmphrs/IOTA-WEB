@@ -1,6 +1,7 @@
 <script>
 	import Header from '$lib/components/sections/header.svelte';
 	import Section from '$lib/components/sections/section.svelte';
+	import Button from '$lib/components/common/button.svelte';
 	import { screenType } from '$lib/store/store';
 
 	let loremIpsum =
@@ -24,7 +25,9 @@
 		<div class="nav__tab end"><h6>APP</h6></div>
 	</nav> -->
 	<section class="opaque top">
-		<Section title="iOTA" subtitle="MENTAL STATE TRACKING" body={loremIpsum} />
+		<Section title="iOTA" subtitle="MENTAL STATE TRACKING" body={loremIpsum}>
+			<Button size="xl" text="READ WITEPAPER" />
+		</Section>
 	</section>
 
 	<section class="">
