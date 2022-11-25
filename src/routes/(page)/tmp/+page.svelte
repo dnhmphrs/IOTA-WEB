@@ -119,7 +119,7 @@
 		}
 
 		.top {
-			padding-top: 140px;
+			padding-top: 120px;
 		}
 
 		header h6 {
