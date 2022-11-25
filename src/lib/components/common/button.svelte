@@ -34,7 +34,7 @@
 		background: var(--black);
 		color: var(--accent);
 		padding: 20px;
-		border-radius: 10px;
+		border-radius: 30px;
 	}
 
 	button:hover,

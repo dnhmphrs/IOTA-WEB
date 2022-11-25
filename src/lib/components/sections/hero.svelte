@@ -24,7 +24,7 @@
 		display: flex;
 		flex-flow: column nowrap;
 		background: var(--background-fallback);
-		border-radius: 10px;
+		border-radius: 80px;
 		border: solid 1px var(--primary-50);
 
 		display: flex;
