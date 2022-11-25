@@ -54,7 +54,6 @@
 
 	header p {
 		letter-spacing: 1.15px;
-		padding-bottom: 8px;
 	}
 
 	section {
