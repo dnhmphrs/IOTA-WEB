@@ -37,7 +37,9 @@
 	</section>
 
 	<section class="">
-		<Section title="MILESTONE 1" subtitle="RESEARCH APP" body={loremIpsum} />
+		<Section title="MILESTONE 1" subtitle="RESEARCH APP" body={loremIpsum}>
+			<Button size="xl" text="APP PRIVATE BETA" slot="slot1" />
+		</Section>
 	</section>
 	<section class="">
 		<Section title="MILESTONE 2" subtitle="ANALYSIS SYSTEM" body={loremIpsum} />
