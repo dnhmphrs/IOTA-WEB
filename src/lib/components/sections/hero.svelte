@@ -25,7 +25,7 @@
 		flex-flow: column nowrap;
 		background: var(--background-fallback);
 		border-radius: 80px;
-		border: solid 1px var(--primary-50);
+		border: solid 1px var(--outline-hero);
 
 		display: flex;
 		align-items: center;
@@ -41,7 +41,7 @@
 
 	header h1 {
 		color: var(--black);
-		-webkit-text-stroke: 1px var(--outline);
+		-webkit-text-stroke: 1px var(--outline-text);
 	}
 
 	.buttonHolder {
