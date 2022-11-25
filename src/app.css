@@ -5,11 +5,11 @@
 :root {
 	--black: #191919;
 	--outline: #e3e7bc;
-	--background: linear-gradient(115deg, #d9e69f, #ede7d9, #ede7d9);
-	--background-fallback: #ede7d9;
-	--background-fallback-50: #ede7d980;
+	--background: linear-gradient(115deg, #ededed, #ede7d9);
+	--background-fallback: #edeae3;
+	--background-fallback-50: #edeae380;
 	--background-alt: linear-gradient(45deg, #1b1b1b, #171717);
-	--button-alt: linear-gradient(115deg, #d9e69f, #ede7d9 60%, #ede7d9);
+	--button-alt: linear-gradient(115deg, #ededed, #ede7d9);
 	--primary: #232323;
 	--primary-10: #2323231a;
 	--primary-30: #2323234d;
