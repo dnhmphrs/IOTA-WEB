@@ -23,6 +23,8 @@
 		<section id="iota" class="full">
 			<Hero />
 		</section>
+	{:else}
+		<section id="iota" />
 	{/if}
 	<!-- <nav>
 		<div class="nav__tab active"><h6>ABOUT</h6></div>

@@ -25,10 +25,10 @@
 	<section>
 		<h4>{subtitle}</h4>
 		<slot name="slot3" />
-		<p class="xl">{body}</p>
+		<p class="lrg">{body}</p>
 		<slot name="slot1" />
 		{#if body2}
-			<p class="xl">{body2}</p>
+			<p class="lrg">{body2}</p>
 		{/if}
 		<slot name="slot2" />
 	</section>
@@ -76,11 +76,12 @@
 		}
 
 		.header h3 {
-			font-size: 40px;
+			font-size: 28px;
 		}
 
-		h4 {
-			color: var(--toggle);
+		section p {
+			text-transform: none;
+			font-size: 18px;
 		}
 
 		header {
@@ -89,7 +90,7 @@
 
 		section {
 			width: 100%;
-			gap: 60px;
+			gap: 48px;
 		}
 	}
 </style>
