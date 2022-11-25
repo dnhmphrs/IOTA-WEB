@@ -33,6 +33,9 @@
 	}
 
 	@media only screen and (max-width: 768px) {
+		footer {
+			padding: 10px 20px;
+		}
 		footer a,
 		footer p {
 			font-size: 14px;
