@@ -59,8 +59,8 @@
 	}
 
 	button.alt:hover {
-		background: var(--black);
-		color: var(--accent);
+		background: var(--primary);
+		color: var(--background-fallback);
 	}
 
 	button.alt:active {
