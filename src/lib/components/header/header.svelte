@@ -8,7 +8,7 @@
 			href: ''
 		},
 		{
-			name: 'RESARCH APP',
+			name: 'RESARCH',
 			href: '#app'
 		},
 		{
@@ -16,8 +16,8 @@
 			href: '#system'
 		},
 		{
-			name: 'RELEASE',
-			href: '#Rrelease'
+			name: 'PUBLIC',
+			href: '#public'
 		},
 		{
 			name: 'ECOSYSTEM',
