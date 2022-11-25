@@ -28,7 +28,7 @@
 	<section id="whitepaper" class="opaque full">
 		<Section title="iOTA" subtitle="MENTAL STATE TRACKING" body={loremIpsum} header={true}>
 			<Button size="xl" text="WHITEPAPER - IN PROGRESS" slot="slot1" disabled={true} />
-			<a click:prevent href="/#research" slot="slot2"
+			<a click:prevent href="iota.health/#research" slot="slot2"
 				><Button size="xl" text="CURRENT MILESTONE" fluid={true} /></a
 			>
 		</Section>
