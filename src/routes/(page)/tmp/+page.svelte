@@ -55,6 +55,7 @@
 
 	section,
 	footer {
+		margin: -2px;
 		position: relative;
 		width: 100%;
 		height: auto;
