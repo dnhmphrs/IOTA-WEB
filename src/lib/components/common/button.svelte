@@ -1,17 +1,24 @@
 <script>
 	export let text = 'Button';
 	export let size = '';
-	export let active;
-	export let disabled;
+	export let active = false;
+	export let disabled = false;
+	export let fluid = false;
+	export let alt = false;
+	export let style = '';
 
-	let classString = 'btn';
+	let classString = 'btn ' + size + ' ' + style;
+	if (fluid) {
+		classString = classString.concat(' ', 'fluid');
+	}
+	if (alt) {
+		classString = classString.concat(' ', 'alt');
+	}
 	if (disabled) {
-		classString = size.concat(' ', 'btn disabled');
+		classString = classString.concat(' ', 'disabled');
 	} else {
 		if (active) {
-			classString = size.concat(' ', 'btn active');
-		} else {
-			classString = 'btn ' + size;
+			classString = classString.concat(' ', 'active');
 		}
 	}
 </script>
@@ -41,11 +48,32 @@
 		color: var(--accent);
 	}
 
+	button.fluid {
+		width: 100%;
+	}
+
+	button.alt {
+		background: var(--background-fallback);
+		color: var(--primary);
+		border: solid 1px var(--primary);
+	}
+
+	button.alt:hover {
+		background: var(--black);
+		color: var(--accent);
+	}
+
+	button.alt:active {
+		color: var(--primary);
+		background: none;
+	}
+
 	.disabled,
 	.disabled:hover {
 		opacity: 0.2;
 		cursor: default;
-		color: var(--primary);
+		color: var(--accent);
 		background: var(--black);
+		border: solid 1px var(--accent);
 	}
 </style>

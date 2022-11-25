@@ -3,9 +3,6 @@
 	import { onMount } from 'svelte';
 	import { screenType, darkMode } from '$lib/store/store';
 
-	// darkMode.set(false);
-	// document.querySelector(':root').classList.toggle('dark-mode');
-
 	onMount(async () => {
 		// ---------------------------------------------------------------------------
 		// HEIGHT
@@ -35,6 +32,8 @@
 			)
 		) {
 			// phone
+			darkMode.set(false);
+			document.querySelector(':root').classList.toggle('dark-mode');
 			screenType.set(3);
 		} else {
 			//laptop

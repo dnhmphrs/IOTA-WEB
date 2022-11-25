@@ -6,6 +6,7 @@
 	--black: #191919;
 	--background: linear-gradient(90deg, #d9e69f, #f4f4f4);
 	--background-fallback: #e7edca;
+	--background-fallback-50: #e7edca80;
 	--background-50: linear-gradient(90deg, #d9e69f80, #f4f4f480);
 	--background-alt: linear-gradient(45deg, #1b1b1b, #171717);
 	--button-alt: linear-gradient(45deg, #d9e69f, #f4f4f4);
@@ -23,6 +24,7 @@
 	--black: #191919;
 	--background: linear-gradient(45deg, #1b1b1b, #171717);
 	--background-fallback: #191919;
+	--background-fallback-50: #19191980;
 	--background-50: linear-gradient(45deg, #1b1b1b80, #17171780);
 	--background-alt: linear-gradient(45deg, #1b1b1b, #171717);
 	--button-alt: #ede7d9;
@@ -108,7 +110,6 @@
 body,
 html {
 	background: var(--background-fallback);
-	margin: -2px;
 }
 
 body {
@@ -224,6 +225,11 @@ a.sml {
 
 /* MOBILE SCREENS */
 @media only screen and (max-width: 768px) {
+	body,
+	html {
+		margin: -2px 0;
+	}
+
 	/* HEADING */
 	h1 {
 		font-size: 82px;

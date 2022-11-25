@@ -1,5 +1,5 @@
 <script>
-	import Header from '$lib/components/sections/header.svelte';
+	import Hero from '$lib/components/sections/hero.svelte';
 	import Section from '$lib/components/sections/section.svelte';
 	import Button from '$lib/components/common/button.svelte';
 	import Footer from '$lib/components/footer/footer.svelte';
@@ -20,8 +20,8 @@
 
 <main>
 	{#if $screenType == 1}
-		<section>
-			<Header />
+		<section class="full">
+			<Hero />
 		</section>
 	{/if}
 	<!-- <nav>
@@ -30,7 +30,7 @@
 		<div class="nav__tab"><h6>TIMELINE</h6></div>
 		<div class="nav__tab end"><h6>APP</h6></div>
 	</nav> -->
-	<section class="opaque top">
+	<section class="opaque top full">
 		<Section title="iOTA" subtitle="MENTAL STATE TRACKING" body={loremIpsum}>
 			<Button size="xl" text="READ WHITEPAPER" slot="slot1" />
 		</Section>
@@ -63,7 +63,6 @@
 
 <style>
 	main {
-		margin: 0 -2px;
 		position: absolute;
 		top: 0;
 		left: 50%;
@@ -71,7 +70,7 @@
 		/* background: var(--background-50); */
 
 		height: 100%;
-		width: 101%;
+		width: 100%;
 
 		display: flex;
 		flex-flow: row wrap;
@@ -97,12 +96,18 @@
 		background: var(--background);
 	}
 
-	section.gap {
-		height: 60%;
+	section.full {
+		min-height: calc(100% + 1px);
+	}
+
+	.opaque.top {
+		color: var(--accent);
+		background: var(--background-alt);
 	}
 
 	.opaque.alt {
-		box-shadow: 0px -1px 20px #23232310;
+		/* box-shadow: 0px -1px 8px #23232340, 0px 1px 8px #23232340; */
+		z-index: 20;
 		color: var(--accent);
 		background: var(--background-alt);
 	}
@@ -119,8 +124,14 @@
 	}
 
 	@media only screen and (max-width: 768px) {
-		.top {
+		main {
+			margin: 0 -2px;
+			width: 101%;
+		}
+		.opaque.top {
 			padding-top: 120px;
+			color: var(--primary);
+			background: var(--background);
 		}
 	}
 </style>

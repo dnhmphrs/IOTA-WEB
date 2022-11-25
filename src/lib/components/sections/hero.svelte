@@ -1,0 +1,65 @@
+<script>
+	import Button from '$lib/components/common/button.svelte';
+</script>
+
+<header>
+	<!-- <div /> -->
+	<div class="title">
+		<h1>iOTA</h1>
+		<h6>MENTAL STATE TRACKING</h6>
+	</div>
+	<div class="buttonHolder">
+		<Button text="START" fluid={true} style="alt" />
+	</div>
+</header>
+
+<style>
+	header {
+		width: auto;
+		padding: 60px 40px 80px 40px;
+		margin-top: 30px;
+
+		display: flex;
+		flex-flow: column nowrap;
+		background: var(--background-fallback);
+		border-radius: 10px;
+		border: solid 1px var(--primary-50);
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 40px;
+	}
+
+	header h6 {
+		letter-spacing: 7px;
+		font-weight: 400;
+		color: var(--primary);
+	}
+
+	header h1 {
+		color: transparent;
+		-webkit-text-stroke: 1px var(--primary);
+	}
+
+	.buttonHolder {
+		display: flex;
+		gap: 16px;
+		width: 100%;
+	}
+
+	@media only screen and (max-width: 768px) {
+		header {
+			height: 0;
+
+			background: var(--background);
+			border-bottom: none;
+			align-items: center;
+		}
+
+		header h6 {
+			letter-spacing: 0.3px;
+			font-weight: 300;
+		}
+	}
+</style>
