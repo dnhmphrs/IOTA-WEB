@@ -100,7 +100,7 @@
 
 	@media only screen and (max-width: 768px) {
 		.top {
-			padding-top: 110px;
+			padding-top: 120px;
 		}
 	}
 </style>
