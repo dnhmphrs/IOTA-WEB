@@ -132,6 +132,10 @@
 			padding: 120px 32px;
 		}
 
+		section.top {
+			padding: 100px 0;
+		}
+
 		footer {
 			padding-bottom: 64px;
 		}
