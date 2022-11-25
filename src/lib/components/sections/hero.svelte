@@ -18,7 +18,7 @@
 <style>
 	header {
 		width: auto;
-		padding: 60px 40px 80px 40px;
+		padding: 60px 80px 80px 80px;
 		margin-top: 30px;
 
 		display: flex;
