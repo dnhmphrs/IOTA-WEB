@@ -20,8 +20,8 @@
 			href: '#Rrelease'
 		},
 		{
-			name: 'PROTOCOL',
-			href: '#milestones'
+			name: 'ECOSYSTEM',
+			href: '#ecosystem'
 		},
 		{
 			name: 'CONTACT',
