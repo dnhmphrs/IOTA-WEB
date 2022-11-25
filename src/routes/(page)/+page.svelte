@@ -138,6 +138,10 @@
 			padding: 120px 32px;
 		}
 
+		footer {
+			padding-bottom: 64px;
+		}
+
 		.opaque.top {
 			padding-top: 120px;
 			color: var(--primary);
