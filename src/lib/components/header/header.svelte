@@ -63,7 +63,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding: 0 32px;
+		padding: 0 20px;
 		font-weight: 400;
 		height: 60px;
 
@@ -105,5 +105,8 @@
 	}
 
 	@media only screen and (max-width: 768px) {
+		header {
+			padding: 0 32px;
+		}
 	}
 </style>
