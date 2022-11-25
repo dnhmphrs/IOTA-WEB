@@ -73,7 +73,7 @@
 		user-select: none;
 		color: var(--primary);
 		border-bottom: solid 1px var(--primary-50);
-		background: var(--background-header);
+		background: var(--background);
 		box-shadow: 0px -1px 8px #23232320;
 	}
 
