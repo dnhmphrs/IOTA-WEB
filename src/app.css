@@ -3,15 +3,18 @@
 
 /* APP */
 :root {
-	--black: #e7edca;
+	--black: #191919;
 	--background: linear-gradient(90deg, #d9e69f, #f4f4f4);
+	--background-fallback: #e7edca;
 	--background-50: linear-gradient(90deg, #d9e69f80, #f4f4f480);
 	--background-alt: linear-gradient(45deg, #1b1b1b, #171717);
+	--button-alt: linear-gradient(45deg, #d9e69f, #f4f4f4);
 	--primary: #232323;
 	--primary-10: #2323231a;
 	--primary-30: #2323234d;
 	--primary-50: #23232380;
 	--accent: #ede7d9;
+	--accent-50: #ede7d980;
 	--error: #be4040;
 	font-weight: 300;
 }
@@ -19,13 +22,16 @@
 :root.dark-mode {
 	--black: #191919;
 	--background: linear-gradient(45deg, #1b1b1b, #171717);
+	--background-fallback: #191919;
 	--background-50: linear-gradient(45deg, #1b1b1b80, #17171780);
 	--background-alt: linear-gradient(45deg, #1b1b1b, #171717);
+	--button-alt: #ede7d9;
 	--primary: #ede7d9;
 	--primary-10: #ede7d91a;
 	--primary-30: #ede7d94d;
 	--primary-50: #ede7d980;
 	--accent: #ede7d9;
+	--accent-50: #ede7d980;
 	--error: #be4040;
 	font-weight: 300;
 }
@@ -101,7 +107,7 @@
 
 body,
 html {
-	background: var(--black);
+	background: var(--background-fallback);
 	margin: -2px;
 }
 

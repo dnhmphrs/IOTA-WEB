@@ -23,8 +23,8 @@
 <style>
 	button {
 		text-transform: uppercase;
-		border: solid 1px var(--primary);
-		background: var(--primary);
+		border: solid 1px var(--accent);
+		background: var(--black);
 		color: var(--accent);
 		padding: 20px;
 		border-radius: 10px;
@@ -32,8 +32,8 @@
 
 	button:hover,
 	.active {
-		color: var(--primary);
-		background: none;
+		color: var(--black);
+		background: var(--button-alt);
 		border: solid 1px var(--primary);
 	}
 

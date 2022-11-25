@@ -2,33 +2,23 @@
 </script>
 
 <footer>
-	<section>
-		<div class="base">
-			<p class="">silicon fm</p>
-			<a class="sml" href="https://aufbau.io">ein aufbau ding</a>
-		</div>
-	</section>
+	<p class="xl">iOTA</p>
+	<p class="">COPYRIGHT 2022</p>
 </footer>
 
 <style>
 	footer {
-		position: absolute;
-		bottom: 0;
-		width: 100vw;
-		padding: 0 20px;
-		background: #00958abb;
-		border-bottom: solid 1px var(--primary-50);
-		color: var(--primary);
-	}
+		width: 100%;
+		height: 60px;
+		z-index: 10;
 
-	.base {
+		padding: 20px 40px;
+		background: var(--background-alt);
+		border-top: solid 1px var(--accent-50);
+		color: var(--accent);
+
 		display: flex;
-		justify-content: space-between;
 		align-items: center;
-		height: 42px;
-	}
-
-	.semi {
-		color: var(--primary-20);
+		justify-content: space-between;
 	}
 </style>

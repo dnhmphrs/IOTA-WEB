@@ -2,6 +2,8 @@
 	import Header from '$lib/components/sections/header.svelte';
 	import Section from '$lib/components/sections/section.svelte';
 	import Button from '$lib/components/common/button.svelte';
+	import Footer from '$lib/components/footer/footer.svelte';
+
 	import { screenType } from '$lib/store/store';
 
 	let loremIpsum =
@@ -10,6 +12,10 @@
 		laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in \
 		voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat \
 		non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
+
+	let loremShort =
+		'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut \
+		labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco';
 </script>
 
 <main>
@@ -26,7 +32,7 @@
 	</nav> -->
 	<section class="opaque top">
 		<Section title="iOTA" subtitle="MENTAL STATE TRACKING" body={loremIpsum}>
-			<Button size="xl" text="READ WITEPAPER" />
+			<Button size="xl" text="READ WITEPAPER" slot="slot1" />
 		</Section>
 	</section>
 
@@ -41,8 +47,12 @@
 	</section>
 
 	<footer class="opaque alt">
-		<Section title="TEAM" subtitle="CONTACT" body={loremIpsum} />
+		<Section title="CONTACT" subtitle="TEAM" body={loremShort} body2={loremShort}>
+			<Button size="xl" text="DAN JOYCE WEBSITE" slot="slot1" />
+			<Button size="xl" text="AUFBAU WEBSITE" slot="slot2" />
+		</Section>
 	</footer>
+	<Footer />
 </main>
 
 <style>
@@ -95,6 +105,7 @@
 		min-height: 100%;
 		background: var(--background-alt);
 		border-bottom: none;
+		padding-bottom: 80px;
 	}
 
 	h5 {
