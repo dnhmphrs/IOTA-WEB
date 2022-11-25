@@ -6,12 +6,12 @@
 	--black: #e7edca;
 	--background: linear-gradient(90deg, #d9e69f, #f4f4f4);
 	--background-50: linear-gradient(90deg, #d9e69f80, #f4f4f480);
-	--background-alt: linear-gradient(45deg, #d9e69f, #f4f4f4);
+	--background-alt: linear-gradient(45deg, #1b1b1b, #171717);
 	--primary: #232323;
 	--primary-10: #2323231a;
 	--primary-30: #2323234d;
 	--primary-50: #23232380;
-	--accent: #232323;
+	--accent: #ede7d9;
 	--error: #be4040;
 	font-weight: 300;
 }
@@ -232,7 +232,7 @@ a.sml {
 	}
 
 	h4 {
-		font-size: 24px;
+		font-size: 22px;
 	}
 
 	h5 {

@@ -1,12 +1,17 @@
 <script>
-	import About from '$lib/components/sections/about.svelte';
+	import Header from '$lib/components/sections/header.svelte';
+	import Section from '$lib/components/sections/section.svelte';
+
+	let loremIpsum =
+		'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut \
+		labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco \
+		laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in \
+		voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat \
+		non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
 </script>
 
 <main>
-	<header>
-		<h1>iOTA</h1>
-		<h6>MENTAL STATE TRACKING</h6>
-	</header>
+	<Header />
 	<!-- <nav>
 		<div class="nav__tab active"><h6>ABOUT</h6></div>
 		<div class="nav__tab"><h6>WHITE PAPER</h6></div>
@@ -14,15 +19,22 @@
 		<div class="nav__tab end"><h6>APP</h6></div>
 	</nav> -->
 	<section class="opaque alt top">
-		<About />
+		<Section title="iOTA" subtitle="MENTAL STATE TRACKING" body={loremIpsum} />
 	</section>
 
-	<section class="opaque eighty" />
-	<section class="eighty" />
+	<section class="">
+		<Section title="MILESTONE 1" subtitle="RESEARCH APP" body={loremIpsum} />
+	</section>
+	<section class="">
+		<Section title="MILESTONE 2" subtitle="ANALYSIS SYSTEM" body={loremIpsum} />
+	</section>
+	<section class="">
+		<Section title="MILESTONE 3" subtitle="ECOSYSTEM + PROTOCOL" body={loremIpsum} />
+	</section>
 
-	<section class="opaque eighty" />
-	<section class="eighty" />
-	<footer />
+	<footer class="opaque alt">
+		<Section title="TEAM" subtitle="CONTACT" body={loremIpsum} />
+	</footer>
 </main>
 
 <style>
@@ -41,33 +53,6 @@
 		overflow: auto;
 	}
 
-	header {
-		width: 100%;
-
-		height: 76%;
-
-		display: flex;
-		flex-flow: column nowrap;
-
-		border-bottom: solid 1px var(--accent);
-
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
-	header h6 {
-		margin-left: 8px;
-		letter-spacing: 7px;
-		font-weight: 400;
-		color: var(--accent);
-	}
-
-	header h1 {
-		color: var(--accent);
-		/* -webkit-text-stroke: 1px var(--primary); */
-	}
-
 	section,
 	footer {
 		position: relative;
@@ -75,7 +60,7 @@
 		height: auto;
 
 		padding: 160px 40px;
-		border-bottom: solid 1px var(--accent);
+		border-bottom: solid 1px var(--primary);
 
 		display: flex;
 		align-items: center;
@@ -87,21 +72,19 @@
 		background: var(--background);
 	}
 
-	section.eighty {
-		height: 80%;
+	section.gap {
+		height: 60%;
 	}
 
-	section.end {
-		height: 50%;
-	}
-
-	section.opaque.alt {
+	.opaque.alt {
 		box-shadow: 0px -1px 20px #23232310;
+		color: var(--accent);
 		background: var(--background-alt);
 	}
 
 	footer {
-		background: var(--background);
+		height: calc(100% - 60px);
+		background: var(--background-alt);
 		border-bottom: none;
 	}
 
@@ -110,22 +93,8 @@
 	}
 
 	@media only screen and (max-width: 768px) {
-		header {
-			height: 0;
-
-			background: var(--background);
-			border-bottom: none;
-			align-items: center;
-		}
-
 		.top {
 			padding-top: 120px;
-		}
-
-		header h6 {
-			letter-spacing: 0.3px;
-			font-weight: 300;
-			margin-left: 0;
 		}
 	}
 </style>

@@ -8,10 +8,6 @@
 			href: ''
 		},
 		{
-			name: 'WHITEPAPER',
-			href: '#whitepaper'
-		},
-		{
 			name: 'APP',
 			href: '#app'
 		},
@@ -20,7 +16,7 @@
 			href: '#system'
 		},
 		{
-			name: 'MILESTONES',
+			name: 'PROTOCOL',
 			href: '#milestones'
 		},
 
@@ -63,12 +59,12 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding: 0 20px;
+		padding: 0 16px;
 		font-weight: 400;
 		height: 60px;
 
 		user-select: none;
-		color: var(--accent);
+		color: var(--primary);
 		/* border-bottom: solid 1px var(--primary); */
 		background: var(--background-50);
 	}
