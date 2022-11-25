@@ -19,7 +19,7 @@
 	header {
 		width: auto;
 		padding: 100px 120px 120px 120px;
-		margin-top: 30px;
+		margin-top: 60px;
 
 		display: flex;
 		flex-flow: column nowrap;
