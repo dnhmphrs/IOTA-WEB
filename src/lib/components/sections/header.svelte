@@ -10,12 +10,12 @@
 	header {
 		width: 100%;
 
-		height: 67%;
+		height: 75%;
 
 		display: flex;
 		flex-flow: column nowrap;
 
-		border-bottom: solid 1px var(--primary);
+		border-bottom: solid 1px var(--accent);
 
 		display: flex;
 		align-items: center;

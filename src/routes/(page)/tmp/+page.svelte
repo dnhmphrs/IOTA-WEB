@@ -69,7 +69,7 @@
 	}
 
 	section.opaque {
-		margin: -2px;
+		margin: 0 -2px;
 		background: var(--background);
 	}
 

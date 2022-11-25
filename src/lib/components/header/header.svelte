@@ -65,8 +65,8 @@
 
 		user-select: none;
 		color: var(--primary);
-		/* border-bottom: solid 1px var(--primary); */
-		background: var(--background-50);
+		border-bottom: solid 1px var(--primary);
+		background: var(--background);
 	}
 
 	.darkMode {
