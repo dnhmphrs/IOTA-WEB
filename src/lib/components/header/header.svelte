@@ -71,7 +71,7 @@
 		height: 60px;
 
 		user-select: none;
-		color: var(--outline-hero);
+		color: var(--toggle);
 		border-bottom: solid 1px var(--primary-50);
 		background: var(--background);
 		box-shadow: 0px -1px 8px #23232320;
