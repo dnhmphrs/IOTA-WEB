@@ -84,7 +84,7 @@
 	}
 
 	footer {
-		min-height: calc(100% - 60px);
+		min-height: 100%;
 		background: var(--background-alt);
 		border-bottom: none;
 	}
