@@ -32,7 +32,7 @@
 	</nav> -->
 	<section id="whitepaper" class="opaque top full">
 		<Section title="iOTA" subtitle="MENTAL STATE TRACKING" body={loremIpsum}>
-			<Button size="xl" text="READ WHITEPAPER" slot="slot1" />
+			<Button size="xl" text="WHITEPAPER - IN PROGRESS" slot="slot1" disabled={true} />
 			<a href="#research" slot="slot2"><Button size="xl" text="CURRENT MILESTONE" fluid={true} /></a
 			>
 		</Section>
