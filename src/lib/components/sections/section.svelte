@@ -2,6 +2,7 @@
 	export let title;
 	export let subtitle;
 	export let body;
+	export let here = false;
 
 	export let body2;
 
@@ -14,6 +15,9 @@
 			<h3>{title}</h3>
 		{:else}
 			<h4>{title}</h4>
+		{/if}
+		{#if here}
+			<p>[ CURRENT MILESTONE ]</p>
 		{/if}
 	</header>
 
@@ -42,6 +46,14 @@
 	header {
 		width: 30%;
 		min-width: 30%;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	header p {
+		letter-spacing: 1.8px;
+		padding-bottom: 40px;
 	}
 
 	section {
@@ -52,7 +64,7 @@
 		min-width: 60%;
 	}
 
-	p {
+	section p {
 		text-transform: none;
 		font-size: 22px;
 	}
