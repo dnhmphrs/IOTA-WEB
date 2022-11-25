@@ -8,6 +8,10 @@
 			href: ''
 		},
 		{
+			name: 'WHITEPAPER',
+			href: '#whitepaper'
+		},
+		{
 			name: 'RESARCH',
 			href: '#app'
 		},
