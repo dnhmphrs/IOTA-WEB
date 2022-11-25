@@ -110,7 +110,7 @@
 
 	@media only screen and (max-width: 768px) {
 		header {
-			padding: 0 24px;
+			padding: 0 18px;
 		}
 	}
 </style>

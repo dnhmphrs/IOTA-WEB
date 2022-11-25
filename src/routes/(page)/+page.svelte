@@ -131,6 +131,11 @@
 			margin: 0 -2px;
 			width: 101%;
 		}
+
+		section,
+		footer {
+			padding: 160px 32px;
+		}
 		.opaque.top {
 			padding-top: 120px;
 			color: var(--primary);

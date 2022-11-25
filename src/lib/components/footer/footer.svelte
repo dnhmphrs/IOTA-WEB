@@ -34,7 +34,7 @@
 
 	@media only screen and (max-width: 768px) {
 		footer {
-			padding: 10px 20px;
+			padding: 10px 24px;
 		}
 		footer a,
 		footer p {
