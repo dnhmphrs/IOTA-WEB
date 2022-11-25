@@ -3,14 +3,10 @@
 
 /* APP */
 :root {
-	--black: #f4f4f4;
-	--background: linear-gradient(45deg, rgba(217, 230, 159, 1) 0%, rgba(244, 244, 244, 1) 100%);
-	--background-50: linear-gradient(
-		45deg,
-		rgba(217, 230, 159, 0.5) 0%,
-		rgba(244, 244, 244, 0.5) 100%
-	);
-	--background-alt: linear-gradient(45deg, rgba(217, 230, 159, 1) 0%, rgba(244, 244, 244, 1) 100%);
+	--black: #e7edca;
+	--background: inear-gradient(45deg, #d9e69f, #f4f4f4);
+	--background-50: inear-gradient(45deg, #d9e69f80, #f4f4f480);
+	--background-alt: inear-gradient(45deg, #d9e69f, #f4f4f4);
 	--primary: #232323;
 	--primary-10: #2323231a;
 	--primary-30: #2323234d;
