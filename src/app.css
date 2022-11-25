@@ -4,7 +4,6 @@
 /* APP */
 :root {
 	--black: #191919;
-	--outline-text: #e3e7bc;
 	--outline-hero: #232323;
 	--background: linear-gradient(115deg, #ededed, #ede7d9, #ededed);
 	--background-fallback: #ede7d9;
@@ -23,8 +22,7 @@
 
 :root.dark-mode {
 	--black: #191919;
-	--outline-text: #ede7d9;
-	--outline-hero: #ede7d9;
+	--outline-hero: #ede7d980;
 	--background: linear-gradient(45deg, #1b1b1b, #171717);
 	--background-fallback: #191919;
 	--background-fallback-50: #19191980;
