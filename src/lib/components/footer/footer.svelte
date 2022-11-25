@@ -3,6 +3,7 @@
 
 <footer>
 	<p class="xl">iOTA</p>
+	<a href="https://www.websitecarbon.com/website/iota-health/">0.04g CO2 / VISIT</a>
 	<p class="">COPYRIGHT 2022</p>
 </footer>
 
