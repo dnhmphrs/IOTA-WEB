@@ -14,7 +14,7 @@
 		z-index: 10;
 		gap: 10px;
 
-		padding: 10px 40px;
+		padding: 10px 32px;
 		background: var(--background-alt);
 		border-top: solid 1px var(--accent-50);
 		text-transform: none;
@@ -28,17 +28,17 @@
 
 	footer a,
 	footer p {
-		font-size: 14px;
+		font-size: 13px;
 		font-weight: 300;
 	}
 
 	@media only screen and (max-width: 768px) {
 		footer {
-			padding: 10px 24px;
+			padding: 16px 24px;
 		}
 		footer a,
 		footer p {
-			font-size: 14px;
+			font-size: 11px;
 		}
 	}
 </style>
