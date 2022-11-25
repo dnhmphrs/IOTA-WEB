@@ -111,6 +111,7 @@
 	@media only screen and (max-width: 768px) {
 		header {
 			padding: 0 18px;
+			justify-content: flex-end;
 		}
 	}
 </style>

@@ -3,6 +3,7 @@
 	export let subtitle;
 	export let body;
 	export let here = false;
+	export let header = false;
 
 	export let body2;
 
@@ -10,7 +11,7 @@
 </script>
 
 <main>
-	<header>
+	<header class:header>
 		{#if $screenType == 3}
 			<h3>{title}</h3>
 		{:else}
@@ -74,12 +75,27 @@
 			flex-direction: column;
 		}
 
+		.header h3 {
+			font-family: untitled-serif;
+
+			font-size: 54px;
+		}
+
+		.header h4 {
+			color: var(--accent);
+		}
+
+		h4 {
+			color: var(--toggle);
+		}
+
 		header {
 			width: 100%;
 		}
 
 		section {
 			width: 100%;
+			gap: 60px;
 		}
 	}
 </style>

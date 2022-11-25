@@ -31,7 +31,7 @@
 		<div class="nav__tab end"><h6>APP</h6></div>
 	</nav> -->
 	<section id="whitepaper" class="opaque top full">
-		<Section title="iOTA" subtitle="MENTAL STATE TRACKING" body={loremIpsum}>
+		<Section title="iOTA" subtitle="MENTAL STATE TRACKING" body={loremIpsum} header={true}>
 			<Button size="xl" text="WHITEPAPER - IN PROGRESS" slot="slot1" disabled={true} />
 			<a href="#research" slot="slot2"><Button size="xl" text="CURRENT MILESTONE" fluid={true} /></a
 			>
@@ -82,7 +82,6 @@
 
 	section,
 	footer {
-		position: relative;
 		width: 100%;
 		height: auto;
 
