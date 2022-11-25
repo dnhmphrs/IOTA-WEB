@@ -4,7 +4,7 @@
 <footer>
 	<a href="https://aufbau.io" class="">EIN AUFBAU DING</a>
 	<a href="https://www.websitecarbon.com/website/iota-health/">0.04G CO2 / VISIT</a>
-	<p class="">COPYRIGHT 2022</p>
+	<!-- <p class="">COPYRIGHT 2022</p> -->
 </footer>
 
 <style>
