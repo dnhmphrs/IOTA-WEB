@@ -22,7 +22,7 @@
 		{/if}
 	</header>
 
-	<section>
+	<section class:header>
 		<h4>{subtitle}</h4>
 		<slot name="slot3" />
 		<p class="lrg">{body}</p>
@@ -99,6 +99,20 @@
 
 		header {
 			width: 100%;
+		}
+
+		.header h4 {
+			font-size: 20px;
+			letter-spacing: 0.12em;
+		}
+
+		.header h3 {
+			font-size: 36px;
+		}
+
+		h3 {
+			font-size: 23.5px;
+			letter-spacing: 0.12em;
 		}
 
 		section {
