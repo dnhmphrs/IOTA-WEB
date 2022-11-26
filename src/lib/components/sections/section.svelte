@@ -54,7 +54,7 @@
 	}
 
 	header p {
-		letter-spacing: 6.8px;
+		letter-spacing: 6.9px;
 	}
 
 	h4,
