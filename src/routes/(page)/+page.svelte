@@ -159,10 +159,11 @@
 	}
 
 	footer {
-		min-height: 100%;
+		min-height: calc(100% - 60px);
 		background: var(--background-alt);
 		border-bottom: none;
-		padding-bottom: 80px;
+		padding-top: 120px;
+		padding-bottom: 60px;
 	}
 
 	h5 {
