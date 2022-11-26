@@ -66,7 +66,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding: 0 16px;
+		padding: 0 16px 0 8px;
 		font-size: 15px;
 		height: 60px;
 		font-family: nb-architekt;
