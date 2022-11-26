@@ -26,7 +26,7 @@
 
 	<section id="whitepaper" class="opaque full">
 		<Section title="iOTA" subtitle="MENTAL STATE TRACKING" body={loremIpsum} header={true}>
-			<Button size="xl" text="WHITEPAPER - IN PROGRESS" slot="slot1" disabled={true} />
+			<Button size="xl" text="WHITEPAPER - IN PROGRESS" slot="slot1" />
 			<!-- <a click:prevent href="#research" slot="slot2"
 				><Button size="xl" text="CURRENT MILESTONE" fluid={true} /></a
 			> -->
@@ -35,7 +35,7 @@
 
 	<section id="research" class="">
 		<Section title="MILESTONE 1" here={true} subtitle="RESEARCH APP" body={loremIpsum}>
-			<Button size="xl" text="APP PRIVATE BETA" slot="slot1" disabled={true} />
+			<Button size="xl" text="APP PRIVATE BETA - IN PROGRESS" slot="slot1" />
 		</Section>
 	</section>
 	<section id="analysis" class="">

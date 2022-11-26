@@ -58,7 +58,7 @@
 	section {
 		display: flex;
 		flex-flow: column nowrap;
-		gap: 64px;
+		gap: 54px;
 		width: 60%;
 		min-width: 60%;
 	}
