@@ -73,13 +73,17 @@
 			flex-direction: column;
 		}
 
+		h3 {
+			font-size: 28px;
+		}
+
 		section p {
 			text-transform: none;
 			font-size: 18px;
 		}
 
 		header p {
-			letter-spacing: 1.65px;
+			letter-spacing: 0.5px;
 		}
 
 		header {
