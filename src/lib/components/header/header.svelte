@@ -20,12 +20,12 @@
 			href: '#analysis'
 		},
 		{
-			name: 'PUBLIC',
-			href: '#public'
-		},
-		{
 			name: 'ECOSYSTEM',
 			href: '#ecosystem'
+		},
+		{
+			name: 'PUBLIC',
+			href: '#public'
 		},
 		{
 			name: 'CONTACT',

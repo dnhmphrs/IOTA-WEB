@@ -13,7 +13,48 @@
 		'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut \
 		labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco';
 
-	let heroText = ' \
+	let heroText =
+		' IOTA is a research-oriented, mental-state tracking system. Our focus is empowering \
+		 computational psychiatry research on individuals with schizophrenia, bipolar disorder, \
+		 and related illnesses. Our goal is to improve understanding, and bring advanced healthcare to the public. \
+		Read our whitepaper below, and scroll down to view future milestones. \
+	';
+
+	let researchText =
+		"Current psychiatry research relies on 'Mental State Examinations' (MSEs) permformed  \
+	at intervals of up to 6 weeks. Meanwhile, individuals living with these  disorders face  \
+	the reality of every day being a completely different struggle. Our first goal is to bridge this \
+	gap, creating a interval-based, mental-state tracking tool that can empower the next generation of psychiatry research. \
+	This app is currently in development, and will be available as a private beta soon. \
+	";
+
+	let analysisText =
+		"Once we have sufficient data from the private beta of the research application, the hard (fun) work of data analysis, \
+	and integration with existing models of mental disorder begins. In doing so, we will build a web-based analysis tool \
+	for computational psychiatrists working in our research area. The focus of the tool will be studying mental-state trajectories \
+	(how an individual's mental-state changes day-by-day) and clinical outcomes (how a course of treatment improves an individual's mental health). \
+	Publication of findings will then follow. \
+	";
+
+	let ecosystemText =
+		"Science doesn't exist in a vacuum, nor should we as initiatives or researchers aim to. Related research tools are being \
+	developed in psychiatry labs around the world, and a major focus of ours is to build a collaborative and connected ecosystem \
+	of empowered psychiatry research. To acheive this, we will collaborate with our international colleagues to develop \
+	standards and protocols that best enable the sharing and integration of mental-state data in a privacy-focussed manner. By following \
+	an ethics-first, not-for-profit model, we can bring advanced healthcare to the public without sacrificing on values.";
+
+	let puclicText =
+		'Once we have reached a sufficient maturity in our findings, we aim to bring the benefits of advanced \
+	healthcare to the public for free. We believe free healthcare is a universal human right, and \
+	while hospitals and medication are a necessary feature of mental health treatment, more can be done to ensure \
+	no-one is barred from accessing the support they need. We will work with medical and regulatory bodies to ensure as many people \
+	as possible around the world can take their mental health into their own hands. No one should pay to feel human. \
+	';
+
+	let contactText =
+		'IOTA is the joint-initiative of two UK-based individuals. The brains of the project is Dan Joyce,\
+		Consultant Psychiatrist (NHS) and Senior Clinical Research Fellow (University of Oxford). \
+		The design and development (easy) side is handled by Dan H. at aufbau web studio. \
 	';
 </script>
 
@@ -27,7 +68,7 @@
 	<!-- {/if} -->
 
 	<section id="whitepaper" class="opaque">
-		<Section title="IOTA" subtitle="MENTAL STATE TRACKING" body={loremIpsum} header={true}>
+		<Section title="IOTA" subtitle="MENTAL STATE TRACKING" body={heroText} header={true}>
 			<Button size="xl" text="WHITEPAPER - IN PROGRESS" slot="slot1" />
 			<!-- <a click:prevent href="#research" slot="slot2"
 				><Button size="xl" text="CURRENT MILESTONE" fluid={true} /></a
@@ -36,22 +77,23 @@
 	</section>
 
 	<section id="research" class="">
-		<Section title="MILESTONE 1" here={true} subtitle="RESEARCH APP" body={loremIpsum}>
+		<Section title="MILESTONE 1" here={true} subtitle="RESEARCH APP" body={researchText}>
 			<Button size="xl" text="APP PRIVATE BETA - IN PROGRESS" slot="slot1" />
 		</Section>
 	</section>
 	<section id="analysis" class="">
-		<Section title="MILESTONE 2" subtitle="ANALYSIS TOOL" body={loremIpsum} />
+		<Section title="MILESTONE 2" subtitle="ANALYSIS + TOOL" body={analysisText} />
+	</section>
+
+	<section id="ecosystem" class="">
+		<Section title="MILESTONE 3" subtitle="ECOSYSTEM + PROTOCOL" body={ecosystemText} />
 	</section>
 	<section id="public" class="">
-		<Section title="MILESTONE 3" subtitle="PUBLIC RELEASE" body={loremIpsum} />
-	</section>
-	<section id="ecosystem" class="">
-		<Section title="MILESTONE 4" subtitle="ECOSYSTEM + PROTOCOL" body={loremIpsum} />
+		<Section title="MILESTONE 4" subtitle="PUBLIC RELEASE" body={puclicText} />
 	</section>
 
 	<footer id="contact" class="opaque alt">
-		<Section title="CONTACT" subtitle="IOTA TEAM" body={loremShort}>
+		<Section title="CONTACT" subtitle="IOTA TEAM" body={contactText}>
 			<Button size="xl" text="EMAIL iOTA TEAM" slot="slot3" />
 			<Button size="xl" text="DAN JOYCE WEBSITE" slot="slot1" />
 			<Button size="xl" text="AUFBAU WEBSITE" slot="slot2" />
