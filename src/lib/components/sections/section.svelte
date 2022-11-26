@@ -54,7 +54,7 @@
 	}
 
 	header p {
-		letter-spacing: 7.5px;
+		letter-spacing: 6.7px;
 	}
 
 	h4,
@@ -87,6 +87,10 @@
 			padding-bottom: 0;
 		}
 
+		header p {
+			letter-spacing: 8px;
+		}
+
 		section p {
 			text-transform: none;
 			font-size: 18px;
@@ -102,7 +106,7 @@
 		}
 
 		.header h4 {
-			font-size: 21px;
+			font-size: 21.4px;
 			letter-spacing: 0.12em;
 		}
 
