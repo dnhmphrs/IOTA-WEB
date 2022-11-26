@@ -102,7 +102,7 @@
 		}
 
 		.header h4 {
-			font-size: 20px;
+			font-size: 22px;
 			letter-spacing: 0.12em;
 		}
 
