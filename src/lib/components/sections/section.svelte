@@ -52,8 +52,13 @@
 		gap: 20px;
 		padding-bottom: 40px;
 	}
+
 	header p {
 		letter-spacing: 6.2px;
+	}
+
+	header .header {
+		padding-bottom: 0;
 	}
 
 	section {
