@@ -100,7 +100,7 @@
 	.darkMode p {
 		line-height: 110%;
 		font-size: 15px;
-		letter-spacing: 0.05em;
+		letter-spacing: 0.1em;
 		padding: 10px;
 		cursor: pointer;
 		opacity: 0.4;
