@@ -73,10 +73,6 @@
 			flex-direction: column;
 		}
 
-		.header h3 {
-			font-size: 28px;
-		}
-
 		section p {
 			text-transform: none;
 			font-size: 18px;
