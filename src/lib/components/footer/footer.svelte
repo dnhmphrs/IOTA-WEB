@@ -31,7 +31,7 @@
 		font-size: 13px;
 		font-weight: 300;
 
-		letter-spacing: 0.2em;
+		letter-spacing: 0.15em;
 		font-family: nb-architekt;
 	}
 
