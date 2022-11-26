@@ -57,10 +57,6 @@
 		letter-spacing: 6.2px;
 	}
 
-	header .header {
-		padding-bottom: 0;
-	}
-
 	section {
 		display: flex;
 		flex-flow: column nowrap;
@@ -81,6 +77,10 @@
 
 		h3 {
 			font-size: 28px;
+		}
+
+		header.header {
+			padding-bottom: 0;
 		}
 
 		section p {
