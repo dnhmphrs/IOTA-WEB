@@ -5,7 +5,7 @@
 	export let here = false;
 	export let header = false;
 
-	export let body2;
+	export let body2 = '';
 
 	import { screenType } from '$lib/store/store';
 </script>

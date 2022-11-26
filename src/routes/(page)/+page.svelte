@@ -1,5 +1,4 @@
 <script>
-	import Hero from '$lib/components/sections/hero.svelte';
 	import Section from '$lib/components/sections/section.svelte';
 	import Button from '$lib/components/common/button.svelte';
 	import Footer from '$lib/components/footer/footer.svelte';
@@ -13,6 +12,9 @@
 	let loremShort =
 		'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut \
 		labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco';
+
+	let heroText = ' \
+	';
 </script>
 
 <main>

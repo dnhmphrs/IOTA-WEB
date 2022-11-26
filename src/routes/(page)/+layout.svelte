@@ -11,7 +11,7 @@
 </script>
 
 {#key Geometry}
-	<svelte:component this={Geometry} class="geometry" />
+	<svelte:component this={Geometry} />
 {/key}
 <Header />
 <main>
@@ -25,12 +25,5 @@
 
 		display: flex;
 		justify-content: center;
-	}
-
-	.geometry {
-		position: absolute;
-		top: 0;
-		left: 0;
-		z-index: -10;
 	}
 </style>
