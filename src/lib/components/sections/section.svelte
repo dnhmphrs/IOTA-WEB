@@ -80,7 +80,7 @@
 		}
 
 		header.header {
-			padding-bottom: 0;
+			padding-bottom: 20px;
 		}
 
 		section p {
