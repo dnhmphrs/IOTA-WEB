@@ -30,6 +30,9 @@
 	footer p {
 		font-size: 13px;
 		font-weight: 300;
+
+		letter-spacing: 0.2em;
+		font-family: nb-architekt;
 	}
 
 	@media only screen and (max-width: 768px) {

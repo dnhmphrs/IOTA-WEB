@@ -57,6 +57,14 @@
 		letter-spacing: 6.2px;
 	}
 
+	h4,
+	h3 {
+		font-family: nb-architekt;
+		font-weight: 500;
+		font-size: 36px;
+		letter-spacing: 0.12em;
+	}
+
 	section {
 		display: flex;
 		flex-flow: column nowrap;
@@ -75,12 +83,8 @@
 			flex-direction: column;
 		}
 
-		h3 {
-			font-size: 28px;
-		}
-
 		header.header {
-			padding-bottom: 20px;
+			padding-bottom: 0;
 		}
 
 		section p {

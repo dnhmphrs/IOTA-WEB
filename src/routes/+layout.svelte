@@ -48,6 +48,22 @@
 	<link
 		rel="preload"
 		as="font"
+		href="/fonts/NB-Architekt-Pro-Light.woff"
+		type="font/woff"
+		crossorigin="anonymous"
+	/>
+
+	<link
+		rel="preload"
+		as="font"
+		href="/fonts/NB-Architekt-Pro-Regular.woff"
+		type="font/woff"
+		crossorigin="anonymous"
+	/>
+
+	<link
+		rel="preload"
+		as="font"
 		href="/fonts/test-untitled-sans-light.woff2"
 		type="font/woff2"
 		crossorigin="anonymous"

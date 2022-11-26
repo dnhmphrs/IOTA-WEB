@@ -69,6 +69,8 @@
 		padding: 0 16px;
 		font-size: 15px;
 		height: 60px;
+		font-family: nb-architekt;
+		font-weight: 500;
 
 		user-select: none;
 		color: var(--primary);

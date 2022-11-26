@@ -35,6 +35,8 @@
 		color: var(--accent);
 		padding: 20px;
 		border-radius: 24px;
+		font-family: nb-architekt;
+		letter-spacing: 0.2em;
 	}
 
 	button:hover,

@@ -33,7 +33,7 @@
 	nav p {
 		line-height: 110%;
 		text-transform: none;
-		letter-spacing: 0.05em;
+		letter-spacing: 0.1em;
 		padding: 16px;
 		cursor: pointer;
 	}
