@@ -54,7 +54,7 @@
 	let contactText =
 		'IOTA is the joint-initiative of two UK-based individuals. The brains of the project is Dan Joyce,\
 		Consultant Psychiatrist (NHS) and Senior Clinical Research Fellow (University of Oxford). \
-		The design and development (easy) side is handled by Dan H. at aufbau web studio. \
+		The design and development (easy) side is handled by Dan H (Aufbau Web Studio). \
 	';
 </script>
 
@@ -94,13 +94,13 @@
 
 	<footer id="contact" class="opaque alt">
 		<Section title="CONTACT" subtitle="IOTA TEAM" body={contactText}>
-			<a href="mailto: dan@aufbau.io" slot="slot3">
+			<a href="mailto: dan@aufbau.io" target="_blank" slot="slot3">
 				<Button size="xl" text="EMAIL iOTA TEAM" />
 			</a>
-			<a href="https://www.danwjoyce.com" slot="slot1">
+			<a href="https://www.danwjoyce.com" target="_blank" slot="slot1">
 				<Button size="xl" text="DAN JOYCE WEBSITE" />
 			</a>
-			<a href="https://aufbau.io" slot="slot2">
+			<a href="https://aufbau.io" target="_blank" slot="slot2">
 				<Button size="xl" text="AUFBAU WEBSITE" />
 			</a>
 		</Section>
