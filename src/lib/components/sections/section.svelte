@@ -84,7 +84,7 @@
 		}
 
 		header p {
-			letter-spacing: 3.5px;
+			letter-spacing: 3.6px;
 			font-size: 16px;
 		}
 
