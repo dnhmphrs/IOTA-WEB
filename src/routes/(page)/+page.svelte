@@ -25,7 +25,7 @@
 	<!-- {/if} -->
 
 	<section id="whitepaper" class="opaque">
-		<Section title="iOTA" subtitle="MENTAL STATE TRACKING" body={loremIpsum} header={true}>
+		<Section title="IOTA" subtitle="MENTAL STATE TRACKING" body={loremIpsum} header={true}>
 			<Button size="xl" text="WHITEPAPER - IN PROGRESS" slot="slot1" />
 			<!-- <a click:prevent href="#research" slot="slot2"
 				><Button size="xl" text="CURRENT MILESTONE" fluid={true} /></a
@@ -49,7 +49,7 @@
 	</section>
 
 	<footer id="contact" class="opaque alt">
-		<Section title="CONTACT" subtitle="TEAM" body={loremShort}>
+		<Section title="CONTACT" subtitle="IOTA TEAM" body={loremShort}>
 			<Button size="xl" text="EMAIL iOTA TEAM" slot="slot3" />
 			<Button size="xl" text="DAN JOYCE WEBSITE" slot="slot1" />
 			<Button size="xl" text="AUFBAU WEBSITE" slot="slot2" />
