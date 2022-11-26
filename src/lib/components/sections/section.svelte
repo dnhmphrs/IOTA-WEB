@@ -18,7 +18,7 @@
 			<h4>{title}</h4>
 		{/if}
 		{#if here}
-			<p>[ CURRENT MILESTONE ]</p>
+			<p>[ WE ARE HERE ]</p>
 		{/if}
 	</header>
 
@@ -50,9 +50,10 @@
 		display: flex;
 		flex-direction: column;
 		gap: 20px;
+		padding-bottom: 40px;
 	}
 	header p {
-		letter-spacing: 1.14px;
+		letter-spacing: 6.2px;
 	}
 
 	section {
@@ -83,7 +84,8 @@
 		}
 
 		header p {
-			letter-spacing: 0.5px;
+			letter-spacing: 3.5px;
+			font-size: 16px;
 		}
 
 		header {

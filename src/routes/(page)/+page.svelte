@@ -24,7 +24,7 @@
 	<section id="iota" class="top" />
 	<!-- {/if} -->
 
-	<section id="whitepaper" class="opaque full">
+	<section id="whitepaper" class="opaque">
 		<Section title="iOTA" subtitle="MENTAL STATE TRACKING" body={loremIpsum} header={true}>
 			<Button size="xl" text="WHITEPAPER - IN PROGRESS" slot="slot1" />
 			<!-- <a click:prevent href="#research" slot="slot2"
