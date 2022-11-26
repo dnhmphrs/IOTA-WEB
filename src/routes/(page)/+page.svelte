@@ -94,9 +94,15 @@
 
 	<footer id="contact" class="opaque alt">
 		<Section title="CONTACT" subtitle="IOTA TEAM" body={contactText}>
-			<Button size="xl" text="EMAIL iOTA TEAM" slot="slot3" />
-			<Button size="xl" text="DAN JOYCE WEBSITE" slot="slot1" />
-			<Button size="xl" text="AUFBAU WEBSITE" slot="slot2" />
+			<a href="mailto: dan@aufbau.io" slot="slot3">
+				<Button size="xl" text="EMAIL iOTA TEAM" />
+			</a>
+			<a href="https://www.danwjoyce.com" slot="slot1">
+				<Button size="xl" text="DAN JOYCE WEBSITE" />
+			</a>
+			<a href="https://aufbau.io" slot="slot2">
+				<Button size="xl" text="AUFBAU WEBSITE" />
+			</a>
 		</Section>
 	</footer>
 	<Footer />
