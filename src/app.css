@@ -46,11 +46,12 @@
 	font-weight: 500;
 }
 
+/* 
 @font-face {
 	font-family: nb-architekt;
 	src: url(/fonts/NB-Architekt-Pro-Bold.woff) format('woff');
 	font-weight: 700;
-}
+} */
 
 @font-face {
 	font-family: nb-architekt;
@@ -68,36 +69,6 @@
 	font-family: untitled-sans;
 	src: url(/fonts/test-untitled-sans-regular.woff2) format('woff2');
 	font-weight: 400;
-}
-
-@font-face {
-	font-family: untitled-serif;
-	src: url(/fonts/test-untitled-serif-regular.woff2) format('woff2');
-	font-weight: 400;
-}
-
-@font-face {
-	font-family: untitled-serif;
-	src: url(/fonts/test-untitled-serif-medium.woff2) format('woff2');
-	font-weight: 500;
-}
-
-@font-face {
-	font-family: untitled-serif;
-	src: url(/fonts/test-untitled-serif-bold.woff2) format('woff2');
-	font-weight: 700;
-}
-
-@font-face {
-	font-family: dahlia;
-	src: url(/fonts/dahlia-regular.woff) format('woff');
-	font-weight: 400;
-}
-
-@font-face {
-	font-family: dahlia;
-	src: url(/fonts/dahlia-medium.woff) format('woff');
-	font-weight: 500;
 }
 
 /* CUSTOM SCROLLBAR */
@@ -127,7 +98,7 @@ html {
 }
 
 body {
-	font-family: untitled-sans;
+	font-family: untitled-sans, sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
 	color: var(--primary);
