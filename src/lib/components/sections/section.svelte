@@ -93,7 +93,7 @@
 
 		section p {
 			text-transform: none;
-			font-size: 18px;
+			font-size: 20px;
 		}
 
 		header p {

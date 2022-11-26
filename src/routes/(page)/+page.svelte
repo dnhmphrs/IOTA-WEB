@@ -29,7 +29,7 @@
 	";
 
 	let analysisText =
-		"Once we have sufficient data from the private beta of the research application, the hard (fun) work of data analysis, \
+		"Once we have sufficient data from the private beta of the research application, the hard (fun) work of data analysis \
 	and integration with existing models of mental disorder begins. In doing so, we will build a web-based analysis tool \
 	for computational psychiatrists working in our research area. The focus of the tool will be studying mental-state trajectories \
 	(how an individual's mental-state changes day-by-day) and clinical outcomes (how a course of treatment improves an individual's mental health). \
