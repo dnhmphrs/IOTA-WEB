@@ -95,13 +95,13 @@
 	<footer id="contact" class="opaque alt">
 		<Section title="CONTACT" subtitle="IOTA TEAM" body={contactText}>
 			<a href="mailto: dan@aufbau.io" target="_blank" slot="slot3">
-				<Button size="xl" text="EMAIL iOTA TEAM" />
+				<Button size="xl" text="EMAIL iOTA TEAM" fluid={true} />
 			</a>
 			<a href="https://www.danwjoyce.com" target="_blank" slot="slot1">
-				<Button size="xl" text="DAN JOYCE WEBSITE" />
+				<Button size="xl" text="DAN JOYCE WEBSITE" fluid={true} />
 			</a>
 			<a href="https://aufbau.io" target="_blank" slot="slot2">
-				<Button size="xl" text="AUFBAU WEBSITE" />
+				<Button size="xl" text="AUFBAU WEBSITE" fluid={true} />
 			</a>
 		</Section>
 	</footer>
@@ -137,6 +137,10 @@
 		align-items: center;
 		justify-content: center;
 		color: var(--primary);
+	}
+
+	footer a {
+		width: 100%;
 	}
 
 	section.opaque {
