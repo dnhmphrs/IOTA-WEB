@@ -19,9 +19,9 @@
 	";
 
 	let analysisText =
-		"Once we have sufficient data from the private beta of the research application, the hard (fun) work of data analysis \
-	and integration with existing models of mental disorder begins. In doing so, we will build a web-based analysis tool \
-	for computational psychiatrists working in our research area. The focus of the tool will be studying mental-state trajectories \
+		"Once we have sufficient data from the private beta of the research app, the hard (fun) work of analysis \
+	and integration with existing models of mental disorder begins. While doing so, we will build a web-based analysis tool \
+	for clinical and computational psychiatrists working in our research area. The focus of the tool will be studying mental-state trajectories \
 	(how an individual's mental-state changes day-by-day) and clinical outcomes (how a course of treatment improves an individual's mental health). \
 	Publication of findings will then follow. \
 	";
@@ -29,7 +29,7 @@
 	let ecosystemText =
 		"Science doesn't exist in a vacuum, nor should we as initiatives or researchers aim to. Related research tools are being \
 	developed in psychiatry labs around the world, and a major focus of ours is to build a collaborative and connected ecosystem \
-	of advanced psychiatry research. To acheive this, we will collaborate with our international colleagues to develop \
+	of modernised psychiatry research. To acheive this, we will collaborate with our international colleagues to develop \
 	standards and protocols that best enable the sharing and integration of mental-state data in a privacy-focussed manner. By following \
 	an ethics-first, not-for-profit model, we can bring advanced healthcare to the public without sacrificing on values.";
 
