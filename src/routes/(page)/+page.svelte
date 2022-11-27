@@ -44,7 +44,7 @@
 	let contactText =
 		'IOTA is the joint-initiative of two UK-based individuals. The brains of the project is Dan Joyce,\
 		Consultant Psychiatrist (NHS) and Senior Clinical Research Fellow (University of Oxford). \
-		The easier stuff (design and development) is handled by Dan Humphries (Aufbau). \
+		The easier stuff - design and development - is handled by Dan Humphries (Aufbau). \
 	';
 </script>
 
