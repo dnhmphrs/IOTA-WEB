@@ -3,19 +3,9 @@
 	import Button from '$lib/components/common/button.svelte';
 	import Footer from '$lib/components/footer/footer.svelte';
 
-	let loremIpsum =
-		'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut \
-		labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco \
-		laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in \
-		voluptate velit esse cillum dolore eu fugiat nulla pariatur..';
-
-	let loremShort =
-		'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut \
-		labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco';
-
 	let heroText =
-		' IOTA is a research-oriented, mental-state tracking system. Our focus is empowering \
-		 computational psychiatry research on individuals with schizophrenia, bipolar disorder, \
+		' IOTA is a research-oriented, mental-state tracking system. Our focus is advancing \
+		  the nature of psychiatry research on individuals with schizophrenia, bipolar disorder, \
 		 and related illnesses. Our goal is to improve understanding, and bring advanced healthcare to the public. \
 		Read our whitepaper below, and scroll down to view future milestones. \
 	';
@@ -39,7 +29,7 @@
 	let ecosystemText =
 		"Science doesn't exist in a vacuum, nor should we as initiatives or researchers aim to. Related research tools are being \
 	developed in psychiatry labs around the world, and a major focus of ours is to build a collaborative and connected ecosystem \
-	of empowered psychiatry research. To acheive this, we will collaborate with our international colleagues to develop \
+	of advanced psychiatry research. To acheive this, we will collaborate with our international colleagues to develop \
 	standards and protocols that best enable the sharing and integration of mental-state data in a privacy-focussed manner. By following \
 	an ethics-first, not-for-profit model, we can bring advanced healthcare to the public without sacrificing on values.";
 
