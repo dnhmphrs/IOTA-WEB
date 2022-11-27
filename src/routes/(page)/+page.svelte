@@ -20,8 +20,8 @@
 
 	let analysisText =
 		"Once we have sufficient data from the private beta of the research app, the hard (fun) work of analysis \
-	and integration with existing models of mental disorder begins. While doing so, we will build a web-based analysis tool \
-	for clinical and computational psychiatrists working in our research area. The focus of the tool will be studying mental-state trajectories \
+	and integration with existing models of mental disorder begins. In doing so, we will build a web-based analysis tool \
+	for clinical and computational psychiatrists working in our research area. The focus of the tool will be analysing mental-state trajectories \
 	(how an individual's mental-state changes day-by-day) and clinical outcomes (how a course of treatment improves an individual's mental health). \
 	Publication of findings will then follow. \
 	";
