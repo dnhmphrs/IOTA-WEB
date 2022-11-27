@@ -35,7 +35,7 @@
 
 	let puclicText =
 		'Once we have reached a sufficient maturity in our findings, we aim to bring the benefits of advanced \
-	healthcare to the public for free. We believe free healthcare is a universal human right, and \
+	healthcare to the public - for free. We believe free healthcare is a universal human right, and \
 	while hospitals and medication are a necessary feature of mental health treatment, more can be done to ensure \
 	no-one is barred from accessing the support they need. We will work with medical and regulatory bodies to ensure as many people \
 	as possible around the world can take their mental health into their own hands. No one should pay to feel human. \
