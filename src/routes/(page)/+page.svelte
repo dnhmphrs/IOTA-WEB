@@ -131,7 +131,7 @@
 		color: var(--primary);
 	}
 
-	footer a {
+	a {
 		width: 100%;
 	}
 
