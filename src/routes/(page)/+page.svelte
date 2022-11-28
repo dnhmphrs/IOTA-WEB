@@ -68,7 +68,9 @@
 
 	<section id="research" class="">
 		<Section title="MILESTONE 1" here={true} subtitle="RESEARCH APP" body={researchText}>
-			<Button size="xl" text="APP PRIVATE BETA - IN PROGRESS" slot="slot1" />
+			<a href="https://app.iota.health" target="_blank" slot="slot1">
+				<Button size="xl" text="APP PRIVATE BETA" />
+			</a>
 		</Section>
 	</section>
 	<section id="analysis" class="">
