@@ -23,7 +23,12 @@
 		// SCREEN
 		// ---------------------------------------------------------------------------
 		const ua = navigator.userAgent;
-		if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+		if (window.location !== window.parent.location) {
+			// The page is in an iframe
+			// default to phone on iframe
+			screenType.set(3);
+		} else if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+			// The page is not in an iframe
 			// tablet
 			screenType.set(2);
 		} else if (
