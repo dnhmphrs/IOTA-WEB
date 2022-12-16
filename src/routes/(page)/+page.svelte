@@ -29,7 +29,7 @@
 	let ecosystemText =
 		"Science doesn't exist in a vacuum, nor should we as initiatives or researchers aim to. Related research tools are being \
 	developed in psychiatry labs around the world, and a major focus of ours is to build a collaborative and connected ecosystem \
-	of modernised psychiatry. To acheive this, we will collaborate with our international colleagues to develop \
+	of modernised psychiatry. To achieve this, we will collaborate with our international colleagues to develop \
 	standards and protocols that best enable the secure integration of mental-state data across systems. By following \
 	an ethics-first, not-for-profit model, we can bring advanced healthcare to the public without sacrificing on our values or the privacy of your data.";
 
