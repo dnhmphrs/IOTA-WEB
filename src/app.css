@@ -32,8 +32,8 @@
 	--outline-hero: #ede7d980;
 	--background: linear-gradient(45deg, #0b0b0b, #232323);
 	--background-50: linear-gradient(45deg, #0b0b0baa, #232323aa);
-	--background-fallback: #232323;
-	--background-fallback-50: #23232380;
+	--background-fallback: #171717;
+	--background-fallback-50: #17171780;
 	--background-alt: linear-gradient(45deg, #0b0b0b, #232323);
 	--button-alt: #d0d0d0;
 	--primary: #d0d0d0;
