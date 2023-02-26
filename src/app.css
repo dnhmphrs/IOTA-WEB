@@ -3,13 +3,13 @@
 
 /* APP */
 :root {
-	--black: #191919;
+	--black: #232323;
 	--toggle: #232323;
 	--outline-hero: #232323;
 	--background: linear-gradient(115deg, #d4d4d4, #f0f0f0);
 	--background-fallback: #e0e0e0;
 	--background-fallback-50: #e0e0e080;
-	--background-alt: linear-gradient(115deg, #d4d4d4, #f0f0f0);
+	--background-alt: #232323;
 	--button-alt: linear-gradient(115deg, #d4d4d4, #f0f0f0);
 	--primary: #232323;
 	--primary-10: #2323231a;
@@ -22,13 +22,13 @@
 }
 
 :root.dark-mode {
-	--black: #191919;
+	--black: #232323;
 	--toggle: #d9e69f;
 	--outline-hero: #ede7d980;
-	--background: linear-gradient(45deg, #1b1b1b, #171717);
-	--background-fallback: #191919;
-	--background-fallback-50: #19191980;
-	--background-alt: linear-gradient(45deg, #1b1b1b, #171717);
+	--background: linear-gradient(45deg, #1b1b1b, #232323);
+	--background-fallback: #232323;
+	--background-fallback-50: #23232380;
+	--background-alt: linear-gradient(45deg, #1b1b1b, #232323);
 	--button-alt: #ede7d9;
 	--primary: #ede7d9;
 	--primary-10: #ede7d91a;
