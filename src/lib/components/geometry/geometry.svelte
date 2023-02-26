@@ -8,6 +8,7 @@
 	let scene = new THREE.Scene();
 
 	let green = new THREE.Color(0xd9e69f);
+	let white = new THREE.Color(0xd0d0d0);
 	let black = new THREE.Color(0x232323);
 
 	let height = window.innerHeight;
@@ -45,7 +46,7 @@
 	// Generating a cloud of point
 	let pcMat = new THREE.PointsMaterial();
 
-	$: pcMat.color = $darkMode ? green : black;
+	$: pcMat.color = $darkMode ? white : black;
 
 	pcMat.transparent = true;
 	pcMat.size = 0.02;

@@ -27,8 +27,8 @@
 			// The page is in an iframe
 			// default to phone on iframe
 			isIframe.set(true);
-			darkMode.set(!$darkMode);
-			document.querySelector(':root').classList.toggle('dark-mode');
+			// darkMode.set(!$darkMode);
+			// document.querySelector(':root').classList.toggle('dark-mode');
 		}
 
 		if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {

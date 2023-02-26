@@ -9,7 +9,7 @@
 	--toggle: #232323;
 	--outline-hero: #232323;
 	--background: linear-gradient(115deg, #d4d4d4, #f0f0f0);
-	--background-50: linear-gradient(115deg, #d4d4d480, #f0f0f080);
+	--background-50: linear-gradient(115deg, #d4d4d4aa, #f0f0f0aa);
 	--background-fallback: #e0e0e0;
 	--background-fallback-50: #e0e0e080;
 	--background-alt: #232323;
@@ -31,7 +31,7 @@
 	--toggle: #d9e69f;
 	--outline-hero: #ede7d980;
 	--background: linear-gradient(45deg, #0b0b0b, #232323);
-	--background-50: linear-gradient(45deg, #0b0b0b80, #23232380);
+	--background-50: linear-gradient(45deg, #0b0b0baa, #232323aa);
 	--background-fallback: #232323;
 	--background-fallback-50: #23232380;
 	--background-alt: linear-gradient(45deg, #0b0b0b, #232323);
