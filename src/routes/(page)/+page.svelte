@@ -67,21 +67,20 @@
 	</section>
 
 	<section id="research" class="">
-		<Section title="MILESTONE 1" here={true} subtitle="RESEARCH APP" body={researchText}>
+		<Section title="MILESTONE 1" here={true} subtitle="RESEARCH + Development" body={researchText}>
 			<a href="https://app.iota.health" target="_blank" slot="slot1">
 				<Button size="xl" text="APP PRIVATE BETA" fluid={true} />
 			</a>
 		</Section>
 	</section>
 	<section id="analysis" class="">
-		<Section title="MILESTONE 2" subtitle="ANALYSIS + TOOL" body={analysisText} />
+		<Section title="MILESTONE 2" subtitle="DATA ANALYSIS" body={analysisText} />
 	</section>
-
+	<section id="app" class="">
+		<Section title="MILESTONE 3" subtitle="APP RELEASE" body={puclicText} />
+	</section>
 	<section id="ecosystem" class="">
-		<Section title="MILESTONE 3" subtitle="ECOSYSTEM + PROTOCOL" body={ecosystemText} />
-	</section>
-	<section id="public" class="">
-		<Section title="MILESTONE 4" subtitle="PUBLIC RELEASE" body={puclicText} />
+		<Section title="MILESTONE 4" subtitle="ECOSYSTEM + PROTOCOL" body={ecosystemText} />
 	</section>
 
 	<footer id="contact" class="opaque alt">

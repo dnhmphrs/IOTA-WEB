@@ -1,6 +1,6 @@
 <script>
 	import Nav from './nav.svelte';
-	import { darkMode, screenType } from '$lib/store/store';
+	import { darkMode, screenType, isIframe } from '$lib/store/store';
 	// stub data out
 	const navItems = [
 		{
@@ -20,12 +20,12 @@
 			href: '#analysis'
 		},
 		{
-			name: 'ECOSYSTEM',
-			href: '#ecosystem'
+			name: 'APP',
+			href: '#app'
 		},
 		{
-			name: 'PUBLIC',
-			href: '#public'
+			name: 'ECOSYSTEM',
+			href: '#ecosystem'
 		},
 		{
 			name: 'CONTACT',
@@ -40,7 +40,7 @@
 </script>
 
 <header>
-	{#if $screenType == 1}
+	{#if $screenType == 1 && !$isIframe}
 		<Nav {navItems} />
 		<!-- <div class="app_link">
 			<p>GO TO APP</p>
