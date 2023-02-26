@@ -6,11 +6,11 @@
 	--black: #191919;
 	--toggle: #232323;
 	--outline-hero: #232323;
-	--background: linear-gradient(115deg, #ededed, #ede7d9, #ededed);
+	--background: linear-gradient(115deg, #d4d4d4, #f0f0f0);
 	--background-fallback: #edeae3;
 	--background-fallback-50: #edeae380;
-	--background-alt: linear-gradient(45deg, #1b1b1b, #171717);
-	--button-alt: linear-gradient(115deg, #ededed, #ede7d9, #ededed);
+	--background-alt: linear-gradient(115deg, #d4d4d4, #f0f0f0);
+	--button-alt: linear-gradient(115deg, #d4d4d4, #f0f0f0);
 	--primary: #232323;
 	--primary-10: #2323231a;
 	--primary-30: #2323234d;
