@@ -27,7 +27,6 @@
 	nav {
 		display: flex;
 		flex-flow: comumn nowrap;
-		color: var(--primary);
 	}
 	nav a,
 	nav p {

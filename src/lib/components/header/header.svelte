@@ -73,9 +73,9 @@
 		font-weight: 500;
 
 		user-select: none;
-		color: var(--primary);
-		border-bottom: solid 1px var(--primary-50);
-		background: var(--background);
+		color: var(--white);
+		border-bottom: solid 1px var(--white-50);
+		background: var(--accent);
 		box-shadow: 0px -1px 8px #23232320;
 	}
 

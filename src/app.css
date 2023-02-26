@@ -4,9 +4,12 @@
 /* APP */
 :root {
 	--black: #232323;
+	--white: #d0d0d0;
+	--white-50: #d0d0d080;
 	--toggle: #232323;
 	--outline-hero: #232323;
 	--background: linear-gradient(115deg, #d4d4d4, #f0f0f0);
+	--background-50: linear-gradient(115deg, #d4d4d480, #f0f0f080);
 	--background-fallback: #e0e0e0;
 	--background-fallback-50: #e0e0e080;
 	--background-alt: #232323;
@@ -15,27 +18,30 @@
 	--primary-10: #2323231a;
 	--primary-30: #2323234d;
 	--primary-50: #23232380;
-	--accent: #ede7d9;
-	--accent-50: #ede7d980;
+	--accent: #232323;
+	--accent-50: #23232380;
 	--error: #be4040;
 	font-weight: 300;
 }
 
 :root.dark-mode {
 	--black: #171717;
+	--white: #d0d0d0;
+	--white-50: #d0d0d080;
 	--toggle: #d9e69f;
 	--outline-hero: #ede7d980;
 	--background: linear-gradient(45deg, #0b0b0b, #232323);
+	--background-50: linear-gradient(45deg, #0b0b0b80, #23232380);
 	--background-fallback: #232323;
 	--background-fallback-50: #23232380;
-	--background-alt: linear-gradient(45deg, #1b1b1b, #232323);
+	--background-alt: linear-gradient(45deg, #0b0b0b, #232323);
 	--button-alt: #d0d0d0;
-	--primary: #ede7d9;
-	--primary-10: #ede7d91a;
-	--primary-30: #ede7d94d;
-	--primary-50: #ede7d980;
-	--accent: #ede7d9;
-	--accent-50: #ede7d980;
+	--primary: #d0d0d0;
+	--primary-10: #d0d0d01a;
+	--primary-30: #d0d0d04d;
+	--primary-50: #d0d0d080;
+	--accent: #171717;
+	--accent-50: #17171780;
 	--error: #be4040;
 	font-weight: 300;
 }

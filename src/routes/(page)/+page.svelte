@@ -57,7 +57,7 @@
 	<section id="iota" class="top" />
 	<!-- {/if} -->
 
-	<section id="whitepaper" class="opaque">
+	<section id="whitepaper" class="semi-opaque">
 		<Section title="IOTA" subtitle="MENTAL STATE TRACKING" body={heroText} header={true}>
 			<Button size="xl" text="WHITEPAPER - IN PROGRESS" fluid={true} slot="slot1" />
 			<!-- <a click:prevent href="#research" slot="slot2"
@@ -140,6 +140,10 @@
 		background: var(--background);
 	}
 
+	section.semi-opaque {
+		background: var(--background-50);
+	}
+
 	.top {
 		padding: 160px;
 	}
@@ -147,7 +151,7 @@
 	.opaque.alt {
 		/* box-shadow: 0px -1px 8px #23232340, 0px 1px 8px #23232340; */
 		z-index: 20;
-		color: var(--accent);
+		color: var(--white);
 		background: var(--background-alt);
 	}
 
@@ -182,7 +186,8 @@
 			padding-bottom: 64px;
 		}
 
-		.opaque.top {
+		.opaque.top,
+		.semi-opaque.top {
 			padding-top: 120px;
 			color: var(--primary);
 			background: var(--background);

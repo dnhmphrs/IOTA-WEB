@@ -1,7 +1,7 @@
 <script>
 	import '../app.css';
 	import { onMount } from 'svelte';
-	import { screenType, darkMode } from '$lib/store/store';
+	import { screenType, isIframe, darkMode } from '$lib/store/store';
 
 	onMount(async () => {
 		// ---------------------------------------------------------------------------
@@ -26,8 +26,12 @@
 		if (window.location !== window.parent.location) {
 			// The page is in an iframe
 			// default to phone on iframe
-			screenType.set(3);
-		} else if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+			isIframe.set(true);
+			darkMode.set(!$darkMode);
+			document.querySelector(':root').classList.toggle('dark-mode');
+		}
+
+		if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
 			// The page is not in an iframe
 			// tablet
 			screenType.set(2);

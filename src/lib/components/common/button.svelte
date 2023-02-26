@@ -30,9 +30,9 @@
 <style>
 	button {
 		text-transform: none;
-		border: solid 1px var(--accent);
+		border: solid 1px var(--white);
 		background: var(--black);
-		color: var(--accent);
+		color: var(--white);
 		padding: 20px;
 		border-radius: 24px;
 		font-family: nb-architekt;
@@ -48,8 +48,8 @@
 
 	button:active {
 		background: var(--black);
-		color: var(--accent);
-		border: solid 1px var(--accent);
+		color: var(--white);
+		border: solid 1px var(--white);
 	}
 
 	button.fluid {
@@ -57,14 +57,14 @@
 	}
 
 	button.alt {
-		background: var(--background-fallback);
+		background: var(--white);
 		color: var(--primary);
 		border: solid 1px var(--primary);
 	}
 
 	button.alt:hover {
 		background: var(--primary);
-		color: var(--background-fallback);
+		color: var(--white);
 	}
 
 	button.alt:active {
@@ -76,8 +76,8 @@
 	.disabled:hover {
 		opacity: 0.2;
 		cursor: default;
-		color: var(--accent);
+		color: var(--white);
 		background: var(--black);
-		border: solid 1px var(--accent);
+		border: solid 1px var(--white);
 	}
 </style>
