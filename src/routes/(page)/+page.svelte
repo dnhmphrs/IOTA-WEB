@@ -4,27 +4,31 @@
 	import Footer from '$lib/components/footer/footer.svelte';
 
 	let heroText =
-		' IOTA is a research-oriented, mental-state tracking system. Our focus is advancing \
-		  the nature of psychiatry research on individuals with schizophrenia, bipolar disorder, \
-		 and related illnesses. Our goal is to improve understanding, and bring advanced healthcare to the public. \
-		Read our whitepaper below, and scroll down to view future milestones. \
+		' IOTA is a research-oriented, mental-state tracking app run by two UK academics. Our focus is advancing \
+		  the nature of psychiatry research on individuals with schizophrenia, bipolar, \
+		 and related illnesses. Read our whitepaper below, and scroll down to view our plans + milestones. \
 	';
 
 	let researchText =
 		"Current psychiatry research relies on 'Mental State Examinations' (MSEs) permformed  \
 	at intervals of up to 6 weeks. Meanwhile, individuals living with these  disorders face  \
-	the reality of every day being a completely different struggle. Our first goal is to bridge this \
-	gap, creating a interval-based, mental-state tracking tool that can empower the next generation of psychiatry research. \
-	This app is currently in development, and will be available as a private beta soon. \
+	the reality of every day being a unique challenge. Our first goal is to bridge this \
+	gap, creating a interval-based, mental-state tracking tool to collect research data. \
+	This app is currently in development. A beta release is coming soon. \
 	";
 
 	let analysisText =
-		"Once we have sufficient data from the private beta of the research app, the hard (fun) work of analysis \
-	and integration with existing models of mental disorder begins. In doing so, we will build a web-based analysis tool \
-	for clinical and computational psychiatrists working in our research area. The focus of the tool will be analysing mental-state trajectories \
+		"Once we have sufficient data from the app private beta, we will run our analysis and compare against existing models of mental disorder. \
+	The focus of this work will be analysing mental-state trajectories \
 	(how an individual's mental-state changes day-by-day) and clinical outcomes (how a course of treatment improves an individual's mental health). \
-	Publication of findings will then follow. \
+	Publication of initial findings will then follow. \
 	";
+
+	let puclicText =
+		'Once we have reached a sufficient maturity in our findings, we will release the app to the wider public. \
+		We believe free healthcare is a universal human right, so using the app will be free for anyone who needs it.\
+	While hospitals and medication are a necessary feature of mental health treatment, more can be done to ensure \
+	no-one is barred from accessing the support they need.';
 
 	let ecosystemText =
 		"Science doesn't exist in a vacuum, nor should we as initiatives or researchers aim to. Related research tools are being \
@@ -32,14 +36,6 @@
 	of modernised psychiatry. To achieve this, we will collaborate with our international colleagues to develop \
 	standards and protocols that best enable the secure integration of mental-state data across systems. By following \
 	an ethics-first, not-for-profit model, we can bring advanced healthcare to the public without sacrificing on our values or the privacy of your data.";
-
-	let puclicText =
-		'Once we have reached a sufficient maturity in our findings, we aim to bring the benefits of advanced \
-	healthcare to the public - for free. We believe free healthcare is a universal human right, and \
-	while hospitals and medication are a necessary feature of mental health treatment, more can be done to ensure \
-	no-one is barred from accessing the support they need. We will work with medical and regulatory bodies to ensure as many people \
-	as possible around the world can take their mental health into their own hands. No one should pay to feel human. \
-	';
 
 	let contactText =
 		'IOTA is the joint-initiative of two UK-based individuals. The brains of the project is Dan Joyce,\
