@@ -43,13 +43,13 @@
 	.active {
 		color: var(--black);
 		background: var(--button-alt);
-		border: solid 1px var(--primary);
+		border: solid 1px var(--black);
 	}
 
 	button:active {
-		background: var(--black);
-		color: var(--white);
-		border: solid 1px var(--white);
+		background: #d9e69f;
+		color: var(--black);
+		border: solid 1px #d9e69f;
 	}
 
 	button.fluid {
@@ -59,7 +59,7 @@
 	button.alt {
 		background: var(--white);
 		color: var(--primary);
-		border: solid 1px var(--primary);
+		/* border: solid 1px var(--primary); */
 	}
 
 	button.alt:hover {

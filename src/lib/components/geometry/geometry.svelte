@@ -46,7 +46,7 @@
 	// Generating a cloud of point
 	let pcMat = new THREE.PointsMaterial();
 
-	$: pcMat.color = $darkMode ? white : black;
+	$: pcMat.color = $darkMode ? green : black;
 
 	pcMat.transparent = true;
 	pcMat.size = 0.02;
