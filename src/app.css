@@ -8,8 +8,8 @@
 	--white-50: #d0d0d080;
 	--toggle: #232323;
 	--outline-hero: #232323;
-	--background: linear-gradient(115deg, #d4d4d4, #f0f0f0);
-	--background-50: linear-gradient(115deg, #d4d4d4aa, #f0f0f0aa);
+	--background: #d9e69f;
+	--background-50: #d9e69faa;
 	--background-fallback: #e0e0e0;
 	--background-fallback-50: #e0e0e080;
 	--background-alt: #232323;
