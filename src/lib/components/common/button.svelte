@@ -41,15 +41,15 @@
 
 	button:hover,
 	.active {
-		color: var(--black);
-		background: var(--button-alt);
-		border: solid 1px var(--black);
+		color: #d9e69f;
+		/* background: var(--button-alt); */
+		border: solid 1px #d9e69f;
 	}
 
 	button:active {
 		background: #d9e69f;
 		color: var(--black);
-		border: solid 1px #d9e69f;
+		border: solid 1px var(--black);
 	}
 
 	button.fluid {
