@@ -4,8 +4,8 @@
 	import Footer from '$lib/components/footer/footer.svelte';
 
 	let heroText =
-		' IOTA is a research-oriented, mental-state tracking app run by two UK academics. Our focus is advancing \
-		  the nature of psychiatry research on individuals with schizophrenia, bipolar, \
+		' IOTA is a research-oriented, mental-state tracking application. Our focus is improving \
+		  the quality of research data available for studying schizophrenia, mood disorders, \
 		 and related illnesses. Read our whitepaper below, and scroll down to view our plans + milestones. \
 	';
 
@@ -13,8 +13,8 @@
 		"Current psychiatry research relies on 'Mental State Examinations' (MSEs) permformed  \
 	at intervals of up to 6 weeks. Meanwhile, individuals living with these  disorders face  \
 	the reality of every day being a unique challenge. Our first goal is to bridge this \
-	gap, creating a interval-based, mental-state tracking tool to collect research data. \
-	This app is currently in development. A beta release is coming soon. \
+	gap, creating a interval-based, mental-state tracking tool. \
+	This app is currently in development, but email dan@aufbau.io if you'd like to get access. \
 	";
 
 	let analysisText =
@@ -26,7 +26,7 @@
 
 	let puclicText =
 		'Once we have reached a sufficient maturity in our findings, we will release the app to the wider public. \
-		We believe free healthcare is a universal human right, so using the app will be free for anyone who needs it.\
+		We believe free healthcare is a universal human right. As such, using the app will be free for anyone who needs it.\
 	While hospitals and medication are a necessary feature of mental health treatment, more can be done to ensure \
 	no-one is barred from accessing the support they need.';
 
@@ -40,7 +40,7 @@
 	let contactText =
 		'IOTA is the joint-initiative of two UK-based individuals. The brains of the project is Dan Joyce,\
 		Consultant Psychiatrist (NHS) and Professor of Connected Mental Health (University of Liverpool). \
-		The design and development is handled by Dan Humphries (UCL Research Assistant). \
+		The design and development is handled by Dan Humphries (Aufbau Digital, UCL RA). \
 	';
 </script>
 
