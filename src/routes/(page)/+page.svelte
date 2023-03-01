@@ -26,9 +26,8 @@
 
 	let puclicText =
 		'Once we have reached a sufficient maturity in our findings, we will release the app to the wider public. \
-		We believe free healthcare is a universal human right. As such, using the app will be free for anyone who needs it.\
-	While hospitals and medication are a necessary feature of mental health treatment, more can be done to ensure \
-	no-one is barred from accessing the support they need.';
+	Our aim is to provide a smart feedback system that helps users manage their own symptoms, on their own terms. \
+	We believe free healthcare is a universal human right. As such, using the app will be free for anyone who needs it.';
 
 	let ecosystemText =
 		"Science doesn't exist in a vacuum, nor should we as initiatives or researchers aim to. Related research tools are being \
