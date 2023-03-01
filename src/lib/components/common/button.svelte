@@ -57,19 +57,7 @@
 	}
 
 	button.alt {
-		background: var(--white);
-		color: var(--primary);
-		/* border: solid 1px var(--primary); */
-	}
-
-	button.alt:hover {
-		background: var(--primary);
-		color: var(--white);
-	}
-
-	button.alt:active {
-		color: var(--primary);
-		background: none;
+		border-color: var(--primary);
 	}
 
 	.disabled,

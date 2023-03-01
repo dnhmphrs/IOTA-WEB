@@ -55,7 +55,7 @@
 
 	<section id="whitepaper" class="opaque">
 		<Section title="IOTA" subtitle="MENTAL STATE TRACKING" body={heroText} header={true}>
-			<Button size="xl" text="WHITEPAPER - IN PROGRESS" fluid={true} slot="slot1" />
+			<Button size="xl" text="WHITEPAPER - IN PROGRESS" fluid={true} alt={true} slot="slot1" />
 			<!-- <a click:prevent href="#research" slot="slot2"
 				><Button size="xl" text="CURRENT MILESTONE" fluid={true} /></a
 			> -->
@@ -65,7 +65,7 @@
 	<section id="research" class="">
 		<Section title="MILESTONE 1" here={true} subtitle="RESEARCH + Development" body={researchText}>
 			<a href="https://app.iota.health" target="_blank" slot="slot1">
-				<Button size="xl" text="APP PRIVATE BETA" fluid={true} />
+				<Button size="xl" text="APP PRIVATE BETA" fluid={true} alt={true} />
 			</a>
 		</Section>
 	</section>
@@ -118,6 +118,7 @@
 		height: auto;
 
 		padding: 160px 40px;
+		background: var(--background-50);
 		border-bottom: solid 1px var(--primary-50);
 
 		display: flex;
