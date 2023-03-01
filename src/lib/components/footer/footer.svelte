@@ -16,9 +16,9 @@
 
 		padding: 20px 32px;
 		background: var(--background-alt);
-		border-top: solid 1px var(--accent-50);
+		border-top: solid 1px var(--white-50);
 		text-transform: none;
-		color: var(--accent);
+		color: var(--white);
 
 		display: flex;
 		flex-flow: row nowrap;
