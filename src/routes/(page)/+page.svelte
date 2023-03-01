@@ -61,20 +61,20 @@
 		</Section>
 	</section>
 
-	<section id="research" class="">
+	<section id="research" class="semi-opaque">
 		<Section title="MILESTONE 1" here={true} subtitle="RESEARCH + Development" body={researchText}>
 			<a href="https://app.iota.health" target="_blank" slot="slot1">
 				<Button size="xl" text="APP PRIVATE BETA" fluid={true} alt={true} />
 			</a>
 		</Section>
 	</section>
-	<section id="analysis" class="">
+	<section id="analysis" class="semi-opaque">
 		<Section title="MILESTONE 2" subtitle="DATA ANALYSIS" body={analysisText} />
 	</section>
-	<section id="app" class="">
+	<section id="app" class="semi-opaque">
 		<Section title="MILESTONE 3" subtitle="APP RELEASE" body={puclicText} />
 	</section>
-	<section id="ecosystem" class="">
+	<section id="ecosystem" class="semi-opaque">
 		<Section title="MILESTONE 4" subtitle="ECOSYSTEM + PROTOCOL" body={ecosystemText} />
 	</section>
 
@@ -117,7 +117,6 @@
 		height: auto;
 
 		padding: 160px 40px;
-		background: var(--background-50);
 		border-bottom: solid 1px var(--primary-50);
 
 		display: flex;
