@@ -1,0 +1,60 @@
+<script>
+</script>
+
+<section>
+	<div class="main">
+		<h1>IOTA HEALTH<br>-</h1>
+	</div>
+	
+</section>
+
+<style>
+	section {
+		padding: 0 20%;
+		height: 100%;
+		width: 100%;
+
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: center;
+
+		align-items: center;
+		text-align: center;
+
+		/* background: var(--primary-50); */
+		overflow: auto;
+	}
+
+	.main {
+		max-width: 800px;
+
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: center;
+		gap: 10px;
+
+		background: var(--background);
+		color: var(--primary);
+		border: var(--border);
+		padding:  40px 48px;
+	}
+
+	.icons {
+		display: flex;
+		flex-flow: row;
+		padding-bottom: 16px;
+	}
+
+	.icon {
+		height: 60px;
+		width: 100%;
+	}
+
+
+	@media only screen and (max-width: 768px) {
+		.main {
+			width: 80vw;
+			gap: 16px;
+		}
+	}
+</style>
