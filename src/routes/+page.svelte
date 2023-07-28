@@ -5,7 +5,7 @@
 <section>
 	<div class="main">
 		<div class="icons">
-			<img src={www} alt="team" class="icon" />
+			<img src={www} alt="www" class="icon" />
 		</div>
 		<h1>IOTA</h1>
 		<h4>Mental Health, Updated.<br/>-</h4>

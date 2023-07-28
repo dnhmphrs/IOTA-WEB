@@ -5,11 +5,6 @@
 	// import { page } from '$app/stores';
 	// import { goto } from '$app/navigation';
 
-	
-	import mail from '$lib/images/icons/mail.svg';
-	import insta from '$lib/images/icons/insta.svg';
-	import www from '$lib/images/icons/www.svg';
-
 	// stub data out
 	const navItems = [
 		{
