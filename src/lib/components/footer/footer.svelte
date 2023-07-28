@@ -28,7 +28,7 @@
 	}
 
 	p, a {
-		font-weight: 600;
+		font-weight: 400;
 	}
 
 	footer a,

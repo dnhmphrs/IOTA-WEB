@@ -53,7 +53,26 @@
 
 <svelte:head>
 	<title>IOTA // HEALTH</title>
-	<meta name="description" content="Neuroscientist" />
+	<meta
+		name="description"
+		content="Mental Health, Updated."
+	/>
+
+	<link
+		rel="preload"
+		as="font"
+		href="/fonts/NB-Architekt-Pro-Regular.woff"
+		type="font/woff"
+		crossorigin="anonymous"
+	/>
+
+	<link
+		rel="preload"
+		as="font"
+		href="/fonts/test-untitled-sans-light.woff2"
+		type="font/woff2"
+		cross
+		/>
 </svelte:head>
 
 <svelte:component this={Geometry} />
