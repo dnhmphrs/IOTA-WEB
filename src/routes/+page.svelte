@@ -10,7 +10,7 @@
 		<h1>IOTA</h1>
 		<h4>Mental Health, Updated.<br/>-</h4>
 		<p>Discover the future of mental health with IOTA.</p>
-		<p>Our premier mental health tracking tools aims to revolutionizing the way we understand and approach mental well-being.</p>
+		<p>Through out premier mental health tracking tool, we aim to revolutionise the way we understand and approach mental well-being.</p>
 		<p>Together, we can break the barriers of stigma and build a brighter, healthier world.</p>
 	</div>
 	
