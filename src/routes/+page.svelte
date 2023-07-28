@@ -1,13 +1,17 @@
 <script>
+		import www from '$lib/images/icons/www.svg';
 </script>
 
 <section>
 	<div class="main">
+		<div class="icons">
+			<img src={www} alt="team" class="icon" />
+		</div>
 		<h1>IOTA</h1>
 		<h4>Mental Health, Updated.<br/>-</h4>
-		<p>We are building the industry's premium mental health tracking tool.</p>
-		<p>Our mission is to bridge the gap between research and the market, providing data-driven solutions to destigmatize complex mental health issues.</p>
-		<p>Join us in this transformative journey towards a brighter future.</p>
+		<p>Discover the future of mental health with IOTA.</p>
+		<p>Our premier mental health tracking tools aims to revolutionizing the way we understand and approach mental well-being.</p>
+		<p>Together, we can break the barriers of stigma and build a brighter, healthier world.</p>
 	</div>
 	
 </section>

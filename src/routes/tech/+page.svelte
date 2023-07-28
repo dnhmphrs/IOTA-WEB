@@ -1,8 +1,12 @@
 <script>
+	import phone from '$lib/images/icons/phone.svg';
 </script>
 
 <section>
 <div class="main">
+<div class="icons">
+	<img src={phone} alt="phone" class="icon" />
+</div>
   <h1>OUR TECH</h1>
 	<h4>Innovative Mental Health Solutions for Today's High-Tech World<br>-</h4>
 	<p>1. IOTA Clinical Research Tool: A free application for researchers and professionals to advance psychiatric studies.</p>
@@ -26,6 +30,7 @@ section {
 
   overflow: auto;
 }
+
 .main {
 	max-width: 1000px;
 
@@ -38,6 +43,17 @@ section {
 		color: var(--primary);
 		border: var(--border);
 		padding:  40px 48px;
+	}
+
+	.icons {
+		display: flex;
+		flex-flow: row;
+		padding-bottom: 10px;
+	}
+
+	.icon {
+		height: 60px;
+		width: 100%;
 	}
 
 	@media only screen and (max-width: 768px) {

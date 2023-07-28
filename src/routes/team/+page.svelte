@@ -1,8 +1,12 @@
 <script>
+	import team from '$lib/images/icons/team.svg';
 </script>
 
 <section>
 <div class="main">
+<div class="icons">
+	<img src={team} alt="team" class="icon" />
+</div>
   <h1>OUR TEAM</h1>
 	<h4>Meet the Researchers Behind IOTA<br>-</h4>
 	<p>1. Triin Ojakaar, CEO / MedTech Expert</p>
@@ -26,8 +30,9 @@ section {
 
   overflow: auto;
 }
+
 .main {
-	max-width: 1000px;
+		max-width: 1000px;
 
 		display: flex;
 		flex-flow: column nowrap;
@@ -38,6 +43,17 @@ section {
 		color: var(--primary);
 		border: var(--border);
 		padding:  40px 48px;
+	}
+
+	.icons {
+		display: flex;
+		flex-flow: row;
+		padding-bottom: 10px;
+	}
+
+	.icon {
+		height: 60px;
+		width: 100%;
 	}
 
 	@media only screen and (max-width: 768px) {

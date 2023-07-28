@@ -1,8 +1,12 @@
 <script>
+		import mission from '$lib/images/icons/mission.svg';
 </script>
 
 <section>
 <div class="main">
+	<div class="icons">
+		<img src={mission} alt="mission" class="icon" />
+	</div>
   <h1>OUR MISSION</h1>
 	<h4>Unleashing the Power of Data for Mental Well-being<br>-</h4>
 	<p>1. Provide the industry's leading mental health tracking tool.</p>
@@ -27,6 +31,7 @@ section {
 
   overflow: auto;
 }
+
 .main {
 		max-width: 1000px;
 
@@ -39,6 +44,17 @@ section {
 		color: var(--primary);
 		border: var(--border);
 		padding:  40px 48px;
+	}
+
+	.icons {
+		display: flex;
+		flex-flow: row;
+		padding-bottom: 10px;
+	}
+
+	.icon {
+		height: 60px;
+		width: 100%;
 	}
 
 	@media only screen and (max-width: 768px) {
