@@ -28,6 +28,7 @@
 		align-self: baseline;
 		display: flex;
 		flex-flow: row wrap;
+		justify-content: center;
 		background: var(--background);
 		color: var(--primary);
 		border: var(--border);
