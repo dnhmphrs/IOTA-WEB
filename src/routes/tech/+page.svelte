@@ -3,9 +3,11 @@
 
 <section>
 <div class="main">
-  <h1>OUR TECH<br>-</h1>
-	<p>thing 1</p>
-	<p>thing 2</p>
+  <h1>OUR TECH</h1>
+	<h4>Innovative Mental Health Solutions for Today's High-Tech World<br>-</h4>
+	<p>1. IOTA Clinical Research Tool: A free application for researchers and professionals to advance psychiatric studies.</p>
+	<p>2. IOTA Personal Health Tool: A high-tech mental health app designed for individuals seeking optimized well-being.</p>
+	<p>3. Cutting-edge technology integrated with devices like Oura Ring and Whoop for seamless data tracking.</p>
 </div>
 </section>
 
@@ -25,7 +27,7 @@ section {
   overflow: auto;
 }
 .main {
-		max-width: 800px;
+	max-width: 1000px;
 
 		display: flex;
 		flex-flow: column nowrap;
@@ -42,6 +44,7 @@ section {
 		.main {
 			width: 80vw;
 			gap: 16px;
+			padding:  16px;
 		}
 	}
 </style>

@@ -3,9 +3,11 @@
 
 <section>
 <div class="main">
-  <h1>OUR TEAM<br>-</h1>
-	<p>thing 1</p>
-	<p>thing 2</p>
+  <h1>OUR TEAM</h1>
+	<h4>Meet the Researchers Behind IOTA<br>-</h4>
+	<p>1. Triin Ojakaar, CEO / MedTech Expert</p>
+	<p>2. Prof. Dan Joyce, Research Collaborator</p>
+	<p>3. Niels Humphries, CTO / Lead Engineer</p>
 </div>
 </section>
 
@@ -25,7 +27,7 @@ section {
   overflow: auto;
 }
 .main {
-		max-width: 800px;
+	max-width: 1000px;
 
 		display: flex;
 		flex-flow: column nowrap;
@@ -42,6 +44,7 @@ section {
 		.main {
 			width: 80vw;
 			gap: 16px;
+			padding:  16px;
 		}
 	}
 </style>

@@ -45,7 +45,7 @@
 	}
 
 	nav a.active {
-		font-weight: 700;
+		font-weight: 500;
 	}
 
 	.active,
@@ -55,7 +55,7 @@
 
 	@media only screen and (max-width: 768px) {
 		nav {
-			flex-flow: column wrap;
+			width: 80vw;
 		}
 	}
 </style>

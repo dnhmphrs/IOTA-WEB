@@ -3,9 +3,12 @@
 
 <section>
 <div class="main">
-  <h1>OUR MISSION<br>-</h1>
-	<p>thing 1</p>
-	<p>thing 2</p>
+  <h1>OUR MISSION</h1>
+	<h4>Unleashing the Power of Data for Mental Well-being<br>-</h4>
+	<p>1. Provide the industry's leading mental health tracking tool.</p>
+	<p>2. Empower individuals to understand and optimize their mental well-being.</p>
+	<p>3. Revolutionize mental health care through groundbreaking research collaborations.</p>
+	<p>4. Create a stigma-free environment by promoting awareness and acceptance of daily mental health challenges.</p>
 </div>
 </section>
 
@@ -25,7 +28,7 @@ section {
   overflow: auto;
 }
 .main {
-		max-width: 800px;
+		max-width: 1000px;
 
 		display: flex;
 		flex-flow: column nowrap;
@@ -42,6 +45,7 @@ section {
 		.main {
 			width: 80vw;
 			gap: 16px;
+			padding:  16px;
 		}
 	}
 </style>

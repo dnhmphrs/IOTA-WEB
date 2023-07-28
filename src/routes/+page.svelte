@@ -3,7 +3,11 @@
 
 <section>
 	<div class="main">
-		<h1>IOTA HEALTH<br>-</h1>
+		<h1>IOTA</h1>
+		<h4>Mental Health, Updated.<br/>-</h4>
+		<p>We are a research-oriented mental health tracking tool.</p>
+		<p>Our mission is to bridge the gap between research and the market, providing data-driven solutions to destigmatize complex mental health issues.</p>
+		<p>Join us in this transformative journey towards a brighter future.</p>
 	</div>
 	
 </section>
@@ -55,6 +59,7 @@
 		.main {
 			width: 80vw;
 			gap: 16px;
+			padding:  16px;
 		}
 	}
 </style>
