@@ -3,35 +3,35 @@
 </script>
 
 <section>
-<div class="main">
-<div class="icons">
-	<img src={team} alt="team" class="icon" />
-</div>
-  <h1>OUR TEAM</h1>
-	<h4>Meet the Researchers Behind IOTA<br>-</h4>
-	<p>1. Triin Ojakaar, CEO / MedTech Expert</p>
-	<p>2. Prof. Dan Joyce, Research Collaborator</p>
-	<p>3. Niels Humphries, CTO / Lead Engineer</p>
-</div>
+	<div class="main">
+		<div class="icons">
+			<img src={team} alt="team" class="icon" />
+		</div>
+		<h1>OUR TEAM</h1>
+		<h4>Meet the Researchers Behind IOTA<br />-</h4>
+		<p>1. Triin Ojakaar, CEO / MedTech Expert</p>
+		<p>2. Prof. Dan Joyce, Research Collaborator</p>
+		<p>3. Daniel Humphries, CTO / Lead Engineer</p>
+	</div>
 </section>
 
 <style>
-section {
-  padding: 0 20%;
-  height: 100%;
-  width: 100%;
+	section {
+		padding: 0 20%;
+		height: 100%;
+		width: 100%;
 
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: center;
 
-  align-items: center;
-  text-align: center;
+		align-items: center;
+		text-align: center;
 
-  overflow: auto;
-}
+		overflow: auto;
+	}
 
-.main {
+	.main {
 		max-width: 1000px;
 
 		display: flex;
@@ -42,7 +42,7 @@ section {
 		background: var(--background);
 		color: var(--primary);
 		border: var(--border);
-		padding:  40px 48px;
+		padding: 40px 48px;
 	}
 
 	.icons {
@@ -60,7 +60,7 @@ section {
 		.main {
 			width: 80vw;
 			gap: 16px;
-			padding:  16px;
+			padding: 16px;
 		}
 	}
 </style>
